@@ -1,11 +1,11 @@
 # Alchemy Factory Data
 
-The data tables of [Alchemy Factory](https://store.steampowered.com/app/3669570/) as JSON. Most data is stored under `data/DataTables/`.
+The data tables of [Alchemy Factory](https://store.steampowered.com/app/3669570/) as JSON. Most data is stored under `data/DataTables/`, and `readable_data/` has the main parts of it (items, recipes, machines, research and so on) in an easier form.
 
 
-`data/` is from Steam build 25991404 (Windows, Unreal Engine 5.7.4), read with mappings dumped by UE4SS 1181 (`raw/25991404.usmap`).
+`data/` and `readable_data/` are from Steam build 25991404 (Windows, Unreal Engine 5.7.4), read with mappings dumped by UE4SS 1181 (`raw/25991404.usmap`).
 
-## Updating `data/` After a Game Update
+## Updating the Data After a Game Update
 
 You need the game installed through Steam, [UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) in it (the Alchemy Factory Vortex extension automatically installs it), Python 3.9 or later, and [retoc](https://github.com/trumank/retoc) and [repak](https://github.com/trumank/repak) on the PATH.
 
@@ -17,8 +17,13 @@ You need the game installed through Steam, [UE4SS](https://github.com/UE4SS-RE/R
    ```
 
    It takes a few seconds. It reads the game from its usual Steam folder (`--game` for another) and runs `retoc` and `repak` from the PATH (`--retoc` and `--repak` for elsewhere). It rewrites `data/`, and prints the game's Steam build.
+3. **Make the readable data:**
 
-The script checks the mappings two ways. The `.usmap` doesn't record which version of the game it's from, so one older than the game's files (where the layouts are) is refused. And each table must decode to exactly its end, so a table whose layout doesn't match the mappings is skipped with a warning; if any are, dump the mappings again.
+   ```
+   python scripts/make_readable_data.py
+   ```
+
+   It reads `data/` and rewrites `readable_data/`, then lists any names one file uses that another doesn't have (one is expected: the game's hidden `Sulfur_Alt` recipe makes an item called `Sulfur_Alt` that doesn't exist).
 
 ### What's in `data/`
 
@@ -28,6 +33,14 @@ The script checks the mappings two ways. The `.usmap` doesn't record which versi
 Enums are written as their names, references to other objects as full object paths (`/Game/Arts/UI/Ingredients/T_UI_PortalSigil.T_UI_PortalSigil`), and texts in English. A property a row doesn't store has the default from the game's code, which the mappings don't include, so it's `null`.
 
 The script finds the tables by name first (paths containing `DT_`, `ST_`, `DataTable`, `Curve` or `CV_`), then keeps those whose class is a DataTable, curve or string table. A table named otherwise would be missed.
+
+### What's in `readable_data/`
+
+One file per kind of thing, each keyed by the game's internal name: `Items`, `Recipes`, `Machines`, `Buildings` (the buildings that aren't machines), `Research`, `Upgrades`, `WorkbenchUnlocks`, `WorkbenchEquipment`, `Recognition`, `World` (the global attributes), `MainQuests`, `CarpenterRequests`, `PurchaseContracts`, `DailyQuests`, `Loans` and `Customers`. Some values are added by the script and do not come from game files, eg: `Role` and `MachineType`.
+
+Prices are in copper coins (1 silver is 1000 copper, 1 gold 100 silver). Unit items, such as a log holding 200 plank units, are counted as whole items. A recipe's outputs include its fail products and side product, each with its probability.
+
+Some of it isn't in the tables and is written into `scripts/make_readable_data.py` by hand: which machines run each craft type (in each building's Blueprint or code, matched by name), the heat sources, and the rules for daily quests and customers' shopping, which were reverse-engineered from the game's code. A property a row doesn't store is taken as zero, the default for nearly all of these.
 
 ## Dumping the Other Data
 

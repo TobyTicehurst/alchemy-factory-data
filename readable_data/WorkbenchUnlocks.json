@@ -1,0 +1,832 @@
+{
+ "WoodBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "TableSaw"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "WoodBlock"
+  ]
+ },
+ "TriangularWoodBlock": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "WoodBlock"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "TriangularWoodBlock"
+  ]
+ },
+ "WorkBench": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "TableSaw"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "WorkBench"
+  ]
+ },
+ "CheckoutTable": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "TableSaw"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "CheckoutTable"
+  ]
+ },
+ "BeltSlopeUp": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Belt"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "BeltSlopeUp"
+  ]
+ },
+ "BeltInclinedUp": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "BeltSlopeUp"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "BeltInclinedUp"
+  ]
+ },
+ "MediumStand": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "TableSaw"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "MediumStand"
+  ]
+ },
+ "LargeStand": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "MediumStand"
+  ],
+  "PrerequisiteTechnologies": [
+   "TableSaw"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "LargeStand"
+  ]
+ },
+ "Candle": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Grinder"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Candle"
+  ]
+ },
+ "StoneBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "StoneCrusher"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "StoneBlock"
+  ]
+ },
+ "WoodContainer": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "WoodGear"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "WoodContainer"
+  ]
+ },
+ "Catapult": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "LinenRope"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Catapult"
+  ]
+ },
+ "Hopper": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Hopper"
+  ]
+ },
+ "IronBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "IronSmelter"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "IronBlock"
+  ]
+ },
+ "FrameSingle": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "FrameSingle"
+  ]
+ },
+ "IronStand": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "FrameSingle"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "IronStand"
+  ]
+ },
+ "PotionStand": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "HealingPotion"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "PotionStand"
+  ]
+ },
+ "MetalContainer": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "IronSmelter"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "MetalContainer"
+  ]
+ },
+ "ConveyorTunnel": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ConveyorTunnel"
+  ]
+ },
+ "Chandelier": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "Candle"
+  ],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Chandelier"
+  ]
+ },
+ "NoticeBoard": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "NoticeBoard"
+  ]
+ },
+ "Platform_Wood": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Platform_Wood"
+  ]
+ },
+ "Stairs_Wood": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Nails"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Stairs_Wood"
+  ]
+ },
+ "CrossTunnel": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ConveyorTunnel"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "CrossTunnel"
+  ]
+ },
+ "Portal_AlchGuild": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level4"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Portal_AlchGuild"
+  ]
+ },
+ "JunkBarrel": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level4"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "JunkBarrel"
+  ]
+ },
+ "Portal_Bank": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "Portal_AlchGuild"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "Portal_Bank"
+  ]
+ },
+ "CharcoalBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Crucible"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "CharcoalBlock"
+  ]
+ },
+ "Railroad": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Railroad",
+   "RailroadTurn",
+   "RailroadTwist"
+  ]
+ },
+ "RailroadRamp": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "Railroad"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "RailroadRamp",
+   "RailroadInclientUp",
+   "RailroadInclientDown"
+  ]
+ },
+ "TrackMerger": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "Railroad"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "TrackMerger"
+  ]
+ },
+ "TrackFilter": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "Railroad"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "TrackFilter"
+  ]
+ },
+ "TrackStart": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TrackStart"
+  ]
+ },
+ "TrackEnd": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TrackEnd"
+  ]
+ },
+ "TrackUploader": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TrackUploader"
+  ]
+ },
+ "TrackDownloader": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TrackDownloader"
+  ]
+ },
+ "TrackTransfer": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Cart"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TrackTransfer"
+  ]
+ },
+ "DrawBridge": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "WoodPulley"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "DrawBridge"
+  ]
+ },
+ "ExpandableDrawBridge": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "DrawBridge"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "ExpandableDrawBridge"
+  ]
+ },
+ "BrickBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Brick"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "BrickBlock"
+  ]
+ },
+ "ConicalFlask": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Glass"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ConicalFlask"
+  ]
+ },
+ "SphereFlask": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ConicalFlask"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "SphereFlask"
+  ]
+ },
+ "GrandPortal": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level5"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "GrandPortal"
+  ]
+ },
+ "BounceShroom": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level5"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "BounceShroom"
+  ]
+ },
+ "Filter_Vert": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level5"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Filter_Vert"
+  ]
+ },
+ "Merger_Vert": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level5"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Merger_Vert"
+  ]
+ },
+ "Splitter_Vert": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level5"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Splitter_Vert"
+  ]
+ },
+ "JewelryStand": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Turquoise"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "JewelryStand"
+  ]
+ },
+ "RelicStandSmall": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Jupiter"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "RelicStandSmall"
+  ]
+ },
+ "KnowledgeAltar": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Jupiter"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "KnowledgeAltar"
+  ]
+ },
+ "MetalStand": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SteelIngot"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "MetalStand"
+  ]
+ },
+ "ExpandableBeam": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SteelIngot"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ExpandableBeam"
+  ]
+ },
+ "FreightElevatorFrame_Bottom": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SteelIngot"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "FreightElevatorFrame_Bottom"
+  ]
+ },
+ "LiftUploader": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "FreightElevatorFrame_Bottom"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "LiftUploader",
+   "LiftWagonUploader"
+  ]
+ },
+ "LiftDownloader": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "FreightElevatorFrame_Bottom"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "LiftDownloader",
+   "LiftWagonDownloader"
+  ]
+ },
+ "Cannon": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SteelGear"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "Cannon"
+  ]
+ },
+ "ExpandableConveyorTunnel": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ExpandableBeam"
+  ],
+  "PrerequisiteTechnologies": [
+   "SteelGear"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ExpandableConveyorTunnel"
+  ]
+ },
+ "EnhancedGrinder": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SteelGear"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "EnhancedGrinder"
+  ]
+ },
+ "ShrinkMachine": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "ManaPotion"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ShrinkMachine"
+  ]
+ },
+ "MiniRailing": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "MiniRailing"
+  ]
+ },
+ "MiniShroom": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "MiniShroom"
+  ]
+ },
+ "MiniShop": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "MiniShop"
+  ]
+ },
+ "MiniHouse": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "MiniHouse"
+  ]
+ },
+ "MiniCityWall": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "MiniCityWall"
+  ]
+ },
+ "MiniWorldTree": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "ShrinkMachine"
+  ],
+  "PrerequisiteTechnologies": [
+   "Level9"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "MiniWorldTree"
+  ]
+ },
+ "SmartCannon": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "CopperBearing"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "SmartCannon"
+  ]
+ },
+ "SmartHopper": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "CopperBearing"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "SmartHopper"
+  ]
+ },
+ "BronzeBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "CopperPowder2"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "BronzeBlock"
+  ]
+ },
+ "CopperBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "CopperPowder2"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "CopperBlock"
+  ]
+ },
+ "StackableCrucible": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "BronzeRivet"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "StackableCrucible"
+  ]
+ },
+ "SmallPlatform": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "BronzeRivet"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "SmallPlatform"
+  ]
+ },
+ "FlowerVase1": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Level7"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "FlowerVase1"
+  ]
+ },
+ "FlowerPot1": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "FlowerVase1"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "FlowerPot1"
+  ]
+ },
+ "FlowerBed1": {
+  "PrerequisiteWorkbenchUnlocks": [
+   "FlowerPot1"
+  ],
+  "PrerequisiteTechnologies": [],
+  "Cost": [],
+  "Unlocks": [
+   "FlowerBed1"
+  ]
+ },
+ "ThermalExtractor": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Alembic"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "ThermalExtractor"
+  ]
+ },
+ "MarbleBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Obsidian"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "MarbleBlock"
+  ]
+ },
+ "LicenseShowcase": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Obsidian"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "LicenseShowcase"
+  ]
+ },
+ "SilverBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "SilverPowder3"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "SilverBlock"
+  ]
+ },
+ "LeafBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "WorldTreeNursery"
+  ],
+  "Cost": [
+   {
+    "Name": "WorldTreeCore",
+    "Amount": 1
+   }
+  ],
+  "Unlocks": [
+   "LeafBlock",
+   "CoreBlock"
+  ]
+ },
+ "GoldBlock": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "GoldDust3"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "GoldBlock"
+  ]
+ },
+ "TreasureChest": {
+  "PrerequisiteWorkbenchUnlocks": [],
+  "PrerequisiteTechnologies": [
+   "Crown"
+  ],
+  "Cost": [],
+  "Unlocks": [
+   "TreasureChest"
+  ]
+ }
+}

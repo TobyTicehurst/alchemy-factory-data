@@ -1,0 +1,172 @@
+{
+ "InventoryCapacity": {
+  "DisplayName": "Inventory Capacity",
+  "BaseValue": 24,
+  "Unit": null
+ },
+ "SprintSpeed": {
+  "DisplayName": "Sprinting Speed",
+  "BaseValue": 700,
+  "Unit": "%"
+ },
+ "StoreReputation": {
+  "DisplayName": "Shop Reputation",
+  "BaseValue": 0,
+  "Unit": null
+ },
+ "ConveyerSpeed": {
+  "DisplayName": "Conveyor Belt Speed",
+  "BaseValue": 60,
+  "Unit": "/min"
+ },
+ "FuelEfficiency": {
+  "DisplayName": "Fuel Heat Value",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "ResearchPoints": {
+  "DisplayName": "Research Speed",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "FactorySpeed": {
+  "DisplayName": "Device Production Speed",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "RestockSpeed": {
+  "DisplayName": "Restocking Speed",
+  "BaseValue": 5,
+  "Unit": "/s"
+ },
+ "ConveyerLiftSpeed": {
+  "DisplayName": "Conveyor Lifter Speed",
+  "BaseValue": 60,
+  "Unit": "/min"
+ },
+ "CheckoutSpeed": {
+  "DisplayName": "Checkout Speed",
+  "BaseValue": 1,
+  "Unit": "/s"
+ },
+ "SleepTime": {
+  "DisplayName": "Sleep Time",
+  "BaseValue": 8,
+  "Unit": "hr"
+ },
+ "FertilizerEfficiency": {
+  "DisplayName": "Fertilizer Nutrient Value",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "GarbageSellPrice": {
+  "DisplayName": "Trash Recycling Price",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "AthanorSkill": {
+  "DisplayName": "Athanor Failure Rate",
+  "BaseValue": 0,
+  "Unit": "%"
+ },
+ "UnlockBlueprintTool": {
+  "DisplayName": "Save Blueprint",
+  "BaseValue": 0,
+  "Unit": null
+ },
+ "BlueprintCostMoney": {
+  "DisplayName": "Blueprints for Money",
+  "BaseValue": 0,
+  "Unit": null
+ },
+ "ExtractorSkill": {
+  "DisplayName": "Extractor Output",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "AlembicSkill": {
+  "DisplayName": "Alembic Output",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "StoreProfit": {
+  "DisplayName": "Shop Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "CatapultSpeed": {
+  "DisplayName": "Catapult Fire Rate",
+  "BaseValue": 60,
+  "Unit": "/min"
+ },
+ "CannonSpeed": {
+  "DisplayName": "Cannon Fire Rate",
+  "BaseValue": 120,
+  "Unit": "/min"
+ },
+ "QuestProfit": {
+  "DisplayName": "Quest Rewards",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "AltarEfficiency": {
+  "DisplayName": "Relic Withdrawal Bonus",
+  "BaseValue": 0,
+  "Unit": "%"
+ },
+ "ContractNum": {
+  "DisplayName": "Purchase Contract Amount Bonus",
+  "BaseValue": 0,
+  "Unit": "%"
+ },
+ "ExtraQuest": {
+  "DisplayName": "Daily Random Quest",
+  "BaseValue": 1,
+  "Unit": null
+ },
+ "CustomerBuyNum": {
+  "DisplayName": "Customer Purchase Increase",
+  "BaseValue": 0,
+  "Unit": "%"
+ },
+ "FactoryConsumeSpeed": {
+  "DisplayName": "Heat Consuming Speed",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "GeneralGoodsProfit": {
+  "DisplayName": "Sundries Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "PotionProfit": {
+  "DisplayName": "Potion Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "LiquidProfit": {
+  "DisplayName": "Beverage Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "JewelProfit": {
+  "DisplayName": "Jewelry Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "RelicProfit": {
+  "DisplayName": "Relic Profit",
+  "BaseValue": 100,
+  "Unit": "%"
+ },
+ "ContractProfit": {
+  "DisplayName": "Purchase Contract Reward Bonus",
+  "BaseValue": 0,
+  "Unit": "%"
+ },
+ "PortalTrafficRate": {
+  "DisplayName": "Grand Portal Traffic Rate",
+  "BaseValue": 100,
+  "Unit": "%"
+ }
+}

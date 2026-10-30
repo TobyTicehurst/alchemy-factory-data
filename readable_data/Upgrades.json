@@ -1,0 +1,1857 @@
+{
+ "Conveyer1": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer2": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "Conveyer1"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer3": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "Conveyer2"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer4": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "Conveyer3"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer5": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "Conveyer4"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer6": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "Conveyer5"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer7": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "Conveyer6"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer8": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "Conveyer7"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer9": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "Conveyer8"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer10": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "Conveyer9"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer11": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "Conveyer10"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer12": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "Conveyer11"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 15,
+   "ConveyerLiftSpeed": 15
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "Conveyer13": {
+  "DisplayName": "Logistics Efficiency",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "Conveyer12"
+  ],
+  "WorldModifiers": {
+   "ConveyerSpeed": 3,
+   "ConveyerLiftSpeed": 3
+  },
+  "Repeatable": true,
+  "MaxLevel": 80,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency1": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency2": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "ThrowingEfficiency1"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency3": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "ThrowingEfficiency2"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency4": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "ThrowingEfficiency3"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency5": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "ThrowingEfficiency4"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency6": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "ThrowingEfficiency5"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency7": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "ThrowingEfficiency6"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency8": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "ThrowingEfficiency7"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency9": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "ThrowingEfficiency8"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency10": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "ThrowingEfficiency9"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency11": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "ThrowingEfficiency10"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency12": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "ThrowingEfficiency11"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 15,
+   "CannonSpeed": 30
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "ThrowingEfficiency13": {
+  "DisplayName": "Throwing Efficiency",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "ThrowingEfficiency12"
+  ],
+  "WorldModifiers": {
+   "CatapultSpeed": 3,
+   "CannonSpeed": 6
+  },
+  "Repeatable": true,
+  "MaxLevel": 80,
+  "Deprecated": false
+ },
+ "FactorySpeed1": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed2": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "FactorySpeed1"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed3": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "FactorySpeed2"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed4": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "FactorySpeed3"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed5": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "FactorySpeed4"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed6": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "FactorySpeed5"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed7": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "FactorySpeed6"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed8": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "FactorySpeed7"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed9": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "FactorySpeed8"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed10": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "FactorySpeed9"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed11": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "FactorySpeed10"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed12": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "FactorySpeed11"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 25,
+   "FactoryConsumeSpeed": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FactorySpeed13": {
+  "DisplayName": "Factory Efficiency",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "FactorySpeed12"
+  ],
+  "WorldModifiers": {
+   "FactorySpeed": 5,
+   "FactoryConsumeSpeed": 5
+  },
+  "Repeatable": true,
+  "MaxLevel": 80,
+  "Deprecated": false
+ },
+ "AlchemySkill1": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "AlembicSkill": 6,
+   "ExtractorSkill": 6
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill2": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "AlchemySkill1"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 6,
+   "ExtractorSkill": 6
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill3": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "AlchemySkill2"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill4": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "AlchemySkill3"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill5": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "AlchemySkill4"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill6": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "AlchemySkill5"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill7": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "AlchemySkill6"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill8": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "AlchemySkill7"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 8,
+   "ExtractorSkill": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill9": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "AlchemySkill8"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 10,
+   "ExtractorSkill": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill10": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "AlchemySkill9"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 10,
+   "ExtractorSkill": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill11": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "AlchemySkill10"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 10,
+   "ExtractorSkill": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill12": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "AlchemySkill11"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 10,
+   "ExtractorSkill": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AlchemySkill13": {
+  "DisplayName": "Alchemy Skill",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "AlchemySkill12"
+  ],
+  "WorldModifiers": {
+   "AlembicSkill": 10,
+   "ExtractorSkill": 10
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ },
+ "FuelEfficiency1": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency2": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "FuelEfficiency1"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency3": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "FuelEfficiency2"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency4": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "FuelEfficiency3"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency5": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "FuelEfficiency4"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency6": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "FuelEfficiency5"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency7": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "FuelEfficiency6"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency8": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "FuelEfficiency7"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency9": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "FuelEfficiency8"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency10": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "FuelEfficiency9"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency11": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "FuelEfficiency10"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency12": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "FuelEfficiency11"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FuelEfficiency13": {
+  "DisplayName": "Fuel Efficiency",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "FuelEfficiency12"
+  ],
+  "WorldModifiers": {
+   "FuelEfficiency": 10
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency1": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency2": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "FertilizeEfficiency1"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency3": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "FertilizeEfficiency2"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency4": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "FertilizeEfficiency3"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency5": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "FertilizeEfficiency4"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency6": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "FertilizeEfficiency5"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency7": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "FertilizeEfficiency6"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency8": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "FertilizeEfficiency7"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency9": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "FertilizeEfficiency8"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency10": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "FertilizeEfficiency9"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency11": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "FertilizeEfficiency10"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency12": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "FertilizeEfficiency11"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "FertilizeEfficiency13": {
+  "DisplayName": "Fertilizer Efficiency",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "FertilizeEfficiency12"
+  ],
+  "WorldModifiers": {
+   "FertilizerEfficiency": 10
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ },
+ "BargainingSkill1": {
+  "DisplayName": "Sales Ability",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill2": {
+  "DisplayName": "Sales Ability",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "BargainingSkill1"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill3": {
+  "DisplayName": "Sales Ability",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "BargainingSkill2"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill4": {
+  "DisplayName": "Sales Ability",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "BargainingSkill3"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill5": {
+  "DisplayName": "Sales Ability",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "BargainingSkill4"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill6": {
+  "DisplayName": "Sales Ability",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "BargainingSkill5"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill7": {
+  "DisplayName": "Sales Ability",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "BargainingSkill6"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill8": {
+  "DisplayName": "Sales Ability",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "BargainingSkill7"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill9": {
+  "DisplayName": "Sales Ability",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "BargainingSkill8"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill10": {
+  "DisplayName": "Sales Ability",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "BargainingSkill9"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill11": {
+  "DisplayName": "Sales Ability",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "BargainingSkill10"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill12": {
+  "DisplayName": "Sales Ability",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "BargainingSkill11"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "BargainingSkill13": {
+  "DisplayName": "Sales Ability",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "BargainingSkill12"
+  ],
+  "WorldModifiers": {
+   "CustomerBuyNum": 10
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ },
+ "NegotiationSkill1": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill2": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "NegotiationSkill1"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill3": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "NegotiationSkill2"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill4": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "NegotiationSkill3"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill5": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "NegotiationSkill4"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill6": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "NegotiationSkill5"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill7": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "NegotiationSkill6"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill8": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "NegotiationSkill7"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill9": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "NegotiationSkill8"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill10": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "NegotiationSkill9"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill11": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "NegotiationSkill10"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill12": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "NegotiationSkill11"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": true
+ },
+ "NegotiationSkill13": {
+  "DisplayName": "Negotiation Skill",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "NegotiationSkill12"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 25
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": true
+ },
+ "QuestSkill1": {
+  "DisplayName": "Customer Management",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "QuestProfit": 6
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill2": {
+  "DisplayName": "Customer Management",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "QuestSkill1"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 6
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill3": {
+  "DisplayName": "Customer Management",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "QuestSkill2"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 8
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill4": {
+  "DisplayName": "Customer Management",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "QuestSkill3"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 8,
+   "ExtraQuest": 1
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill5": {
+  "DisplayName": "Customer Management",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "QuestSkill4"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill6": {
+  "DisplayName": "Customer Management",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "QuestSkill5"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill7": {
+  "DisplayName": "Customer Management",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "QuestSkill6"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 12
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill8": {
+  "DisplayName": "Customer Management",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "QuestSkill7"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 12,
+   "ExtraQuest": 1
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill9": {
+  "DisplayName": "Customer Management",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "QuestSkill8"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 14
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill10": {
+  "DisplayName": "Customer Management",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "QuestSkill9"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 14
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill11": {
+  "DisplayName": "Customer Management",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "QuestSkill10"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 20
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill12": {
+  "DisplayName": "Customer Management",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "QuestSkill11"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 20,
+   "ExtraQuest": 1
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "QuestSkill13": {
+  "DisplayName": "Customer Management",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "QuestSkill12"
+  ],
+  "WorldModifiers": {
+   "QuestProfit": 20
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ },
+ "AltarEfficiency1": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 1,
+  "Cost": 60,
+  "Prerequisites": [],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency2": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 2,
+  "Cost": 240,
+  "Prerequisites": [
+   "AltarEfficiency1"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency3": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 3,
+  "Cost": 540,
+  "Prerequisites": [
+   "AltarEfficiency2"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency4": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 4,
+  "Cost": 960,
+  "Prerequisites": [
+   "AltarEfficiency3"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency5": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 5,
+  "Cost": 1500,
+  "Prerequisites": [
+   "AltarEfficiency4"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency6": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 6,
+  "Cost": 2160,
+  "Prerequisites": [
+   "AltarEfficiency5"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency7": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 7,
+  "Cost": 2940,
+  "Prerequisites": [
+   "AltarEfficiency6"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency8": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 8,
+  "Cost": 3840,
+  "Prerequisites": [
+   "AltarEfficiency7"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency9": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 9,
+  "Cost": 4860,
+  "Prerequisites": [
+   "AltarEfficiency8"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency10": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 10,
+  "Cost": 6000,
+  "Prerequisites": [
+   "AltarEfficiency9"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency11": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 11,
+  "Cost": 7260,
+  "Prerequisites": [
+   "AltarEfficiency10"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency12": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 12,
+  "Cost": 8640,
+  "Prerequisites": [
+   "AltarEfficiency11"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": false,
+  "MaxLevel": null,
+  "Deprecated": false
+ },
+ "AltarEfficiency13": {
+  "DisplayName": "Relic Knowledge",
+  "Tier": 13,
+  "Cost": 10140,
+  "Prerequisites": [
+   "AltarEfficiency12"
+  ],
+  "WorldModifiers": {
+   "AltarEfficiency": 10
+  },
+  "Repeatable": true,
+  "MaxLevel": 0,
+  "Deprecated": false
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "Loan1": {
+  "UnlockLevel": 1,
+  "Amount": 6000,
+  "Days": 7
+ },
+ "Loan2": {
+  "UnlockLevel": 2,
+  "Amount": 10000,
+  "Days": 14
+ },
+ "Loan3": {
+  "UnlockLevel": 3,
+  "Amount": 25000,
+  "Days": 20
+ },
+ "Loan4": {
+  "UnlockLevel": 4,
+  "Amount": 40000,
+  "Days": 28
+ },
+ "Loan5": {
+  "UnlockLevel": 5,
+  "Amount": 100000,
+  "Days": 28
+ },
+ "Loan6": {
+  "UnlockLevel": 6,
+  "Amount": 500000,
+  "Days": 28
+ },
+ "Loan7": {
+  "UnlockLevel": 7,
+  "Amount": 2000000,
+  "Days": 28
+ },
+ "Loan8": {
+  "UnlockLevel": 8,
+  "Amount": 10000000,
+  "Days": 28
+ }
+}

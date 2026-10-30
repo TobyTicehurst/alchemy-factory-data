@@ -1,0 +1,3872 @@
+{
+ "Flax": {
+  "Inputs": [
+   {
+    "Name": "FlaxSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Flax",
+    "Amount": 200,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 400,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sage": {
+  "Inputs": [
+   {
+    "Name": "SageSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sage",
+    "Amount": 180,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 540,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Redcurrant": {
+  "Inputs": [
+   {
+    "Name": "RedcurrantSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Redcurrant",
+    "Amount": 150,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 720,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Lavender": {
+  "Inputs": [
+   {
+    "Name": "LavenderSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Lavender",
+    "Amount": 120,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 1440,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Chamomile": {
+  "Inputs": [
+   {
+    "Name": "ChamomileSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Chamomile",
+    "Amount": 140,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 1120,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Gentian": {
+  "Inputs": [
+   {
+    "Name": "GentianSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Gentian",
+    "Amount": 80,
+    "Probability": 1
+   },
+   {
+    "Name": "GentianNectar",
+    "Amount": 80,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 2160,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "WoodBoard": {
+  "Inputs": [
+   {
+    "Name": "Wood",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 200,
+    "Probability": 1
+   }
+  ],
+  "Machine": "TableSaw",
+  "CraftType": "TableSaw",
+  "Time": 400,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LargeWoodGear": {
+  "Inputs": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Stone": {
+  "Inputs": [
+   {
+    "Name": "Limestone",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Stone",
+    "Amount": 150,
+    "Probability": 1
+   }
+  ],
+  "Machine": "StoneCrusher",
+  "CraftType": "StoneCrusher",
+  "Time": 450,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand": {
+  "Inputs": [
+   {
+    "Name": "Stone",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Mortar": {
+  "Inputs": [
+   {
+    "Name": "Stone",
+    "Amount": 5
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Mortar",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 20,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "FlaxFiber": {
+  "Inputs": [
+   {
+    "Name": "Flax",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "FlaxFiber",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LinenThread": {
+  "Inputs": [
+   {
+    "Name": "FlaxFiber",
+    "Amount": 3
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LinenThread",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LinenRope": {
+  "Inputs": [
+   {
+    "Name": "LinenThread",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LinenRope",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "WoodGear": {
+  "Inputs": [
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "WoodGear",
+    "Amount": 3,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "IronIngot": {
+  "Inputs": [
+   {
+    "Name": "IronOre",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 100,
+    "Probability": 1
+   }
+  ],
+  "Machine": "IronSmelter",
+  "CraftType": "Smelter",
+  "Time": 600,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Nails": {
+  "Inputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Nails",
+    "Amount": 3,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "IronSand": {
+  "Inputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "IronSand",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 30,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "PlantAsh": {
+  "Inputs": [
+   {
+    "Name": "Sage",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PlantAsh",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SagePowder": {
+  "Inputs": [
+   {
+    "Name": "Sage",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SagePowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "HealingPotion": {
+  "Inputs": [
+   {
+    "Name": "SagePowder",
+    "Amount": 6
+   },
+   {
+    "Name": "FlaxFiber",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "HealingPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Linen": {
+  "Inputs": [
+   {
+    "Name": "LinenThread",
+    "Amount": 10
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Linen",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 5,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Bandage": {
+  "Inputs": [
+   {
+    "Name": "Linen",
+    "Amount": 1
+   },
+   {
+    "Name": "HealingPotion",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Bandage",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Quicklime": {
+  "Inputs": [
+   {
+    "Name": "Stone",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Quicklime",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 9,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "QuicklimePowder": {
+  "Inputs": [
+   {
+    "Name": "Quicklime",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "QuicklimePowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 9,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Charcoal": {
+  "Inputs": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Charcoal",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "CharcoalPowder": {
+  "Inputs": [
+   {
+    "Name": "Charcoal",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CharcoalPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "WoodPulley": {
+  "Inputs": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 2
+   },
+   {
+    "Name": "LinenRope",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "WoodPulley",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Clay": {
+  "Inputs": [
+   {
+    "Name": "CharcoalPowder",
+    "Amount": 2
+   },
+   {
+    "Name": "Sand",
+    "Amount": 4
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Clay",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "ClayPowder": {
+  "Inputs": [
+   {
+    "Name": "Clay",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "ClayPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Brick": {
+  "Inputs": [
+   {
+    "Name": "Clay",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Brick",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Kiln",
+  "CraftType": "Fire",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LinseedOil": {
+  "Inputs": [
+   {
+    "Name": "Flax",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LinseedOil",
+    "Amount": 20,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Extractor",
+  "CraftType": "Extract",
+  "Time": 2,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "FruitWine": {
+  "Inputs": [
+   {
+    "Name": "Redcurrant",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "FruitWine",
+    "Amount": 10,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Extractor",
+  "CraftType": "Extract",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Limewater": {
+  "Inputs": [
+   {
+    "Name": "QuicklimePowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Limewater",
+    "Amount": 30,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Extractor",
+  "CraftType": "Extract",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Glass": {
+  "Inputs": [
+   {
+    "Name": "Sand",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Glass",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Kiln",
+  "CraftType": "Fire",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Soap": {
+  "Inputs": [
+   {
+    "Name": "PlantAsh",
+    "Amount": 3
+   },
+   {
+    "Name": "LinseedOil",
+    "Amount": 80
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Soap",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SoapPowder": {
+  "Inputs": [
+   {
+    "Name": "Soap",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SoapPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "VitalityPotion": {
+  "Inputs": [
+   {
+    "Name": "QuicklimePowder",
+    "Amount": 4
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 80
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "VitalityPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "BasicFertilizer": {
+  "Inputs": [
+   {
+    "Name": "PlantAsh",
+    "Amount": 1
+   },
+   {
+    "Name": "QuicklimePowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "BasicFertilizer",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "WhisperingFields": {
+  "Inputs": [
+   {
+    "Name": "LinseedOil",
+    "Amount": 40
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 80
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "WhisperingFields",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "BrewBarrel",
+  "CraftType": "LiquidTap",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Turquoise": {
+  "Inputs": [
+   {
+    "Name": "HealingPotion",
+    "Amount": 2
+   },
+   {
+    "Name": "Sand",
+    "Amount": 12
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Turquoise",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Jupiter": {
+  "Inputs": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 1200
+   },
+   {
+    "Name": "WoodGear",
+    "Amount": 1800
+   },
+   {
+    "Name": "WoodPulley",
+    "Amount": 600
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Jupiter",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Shaper",
+  "CraftType": "Shaper",
+  "Time": 600,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Coke": {
+  "Inputs": [
+   {
+    "Name": "CharcoalPowder",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Coke",
+    "Amount": 1,
+    "Probability": 0.5
+   },
+   {
+    "Name": "Charcoal",
+    "Amount": 2,
+    "Probability": 0.5
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 1,
+  "ProductSequence": [
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   0,
+   0,
+   0
+  ]
+ },
+ "CokePowder": {
+  "Inputs": [
+   {
+    "Name": "Coke",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CokePowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SteelIngot": {
+  "Inputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 1
+   },
+   {
+    "Name": "CokePowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 1,
+    "Probability": 0.25
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 1,
+    "Probability": 0.75
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 4,
+  "ProductSequence": [
+   1,
+   1,
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   0
+  ]
+ },
+ "SteelGear": {
+  "Inputs": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SteelGear",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 16,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "YeastPowder": {
+  "Inputs": [
+   {
+    "Name": "SoapPowder",
+    "Amount": 2
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 40
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "YeastPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "ManaPotion": {
+  "Inputs": [
+   {
+    "Name": "CokePowder",
+    "Amount": 2
+   },
+   {
+    "Name": "GloomSpores",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "ManaPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GloomFungus": {
+  "Inputs": [
+   {
+    "Name": "RottenLog",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GloomFungus",
+    "Amount": 40,
+    "Probability": 1
+   },
+   {
+    "Name": "WoodBoard",
+    "Amount": 160,
+    "Probability": 1
+   }
+  ],
+  "Machine": "TableSaw",
+  "CraftType": "TableSaw",
+  "Time": 400,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GloomSpores": {
+  "Inputs": [
+   {
+    "Name": "GloomFungus",
+    "Amount": 2
+   },
+   {
+    "Name": "YeastPowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GloomSpores",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "AdvancedFertilizer": {
+  "Inputs": [
+   {
+    "Name": "BasicFertilizer",
+    "Amount": 1
+   },
+   {
+    "Name": "GloomFungus",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "AdvancedFertilizer",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "ChamomilePowder": {
+  "Inputs": [
+   {
+    "Name": "Chamomile",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sulfur": {
+  "Inputs": [
+   {
+    "Name": "Pyrite",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sulfur",
+    "Amount": 40,
+    "Probability": 1
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 120,
+    "Probability": 1
+   }
+  ],
+  "Machine": "IronSmelter",
+  "CraftType": "Smelter",
+  "Time": 960,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SulfurPowder": {
+  "Inputs": [
+   {
+    "Name": "Sulfur",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SulfurPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Coal": {
+  "Inputs": [
+   {
+    "Name": "CoalOre",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Coal",
+    "Amount": 120,
+    "Probability": 1
+   }
+  ],
+  "Machine": "StoneCrusher",
+  "CraftType": "StoneCrusher",
+  "Time": 360,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Salt": {
+  "Inputs": [
+   {
+    "Name": "CharcoalPowder",
+    "Amount": 2
+   },
+   {
+    "Name": "QuicklimePowder",
+    "Amount": 4
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Salt",
+    "Amount": 1,
+    "Probability": 0.333333
+   },
+   {
+    "Name": "Sand",
+    "Amount": 6,
+    "Probability": 0.666667
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 2,
+  "ProductSequence": [
+   1,
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   0,
+   0
+  ]
+ },
+ "SaltWater": {
+  "Inputs": [
+   {
+    "Name": "Salt",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SaltWater",
+    "Amount": 20,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Extractor",
+  "CraftType": "Extract",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "CopperPowder": {
+  "Inputs": [
+   {
+    "Name": "IronSand",
+    "Amount": 4
+   },
+   {
+    "Name": "SoapPowder",
+    "Amount": 4
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": true
+ },
+ "CopperPowder2": {
+  "Inputs": [
+   {
+    "Name": "IronSand",
+    "Amount": 6
+   },
+   {
+    "Name": "SoapPowder",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 1,
+    "Probability": 0.5
+   },
+   {
+    "Name": "CopperPowder",
+    "Amount": 1,
+    "Probability": 0.5
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 18,
+  "ProductSequence": [
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   1
+  ]
+ },
+ "BronzeIngot": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "BronzeIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "CopperIngot": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "CopperCoin": {
+  "Inputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperCoin",
+    "Amount": 300,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "CopperBearing": {
+  "Inputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperBearing",
+    "Amount": 2,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "BronzeRivet": {
+  "Inputs": [
+   {
+    "Name": "BronzeIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "BronzeRivet",
+    "Amount": 3,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "BlackPowder": {
+  "Inputs": [
+   {
+    "Name": "SulfurPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "CharcoalPowder",
+    "Amount": 12
+   },
+   {
+    "Name": "Limewater",
+    "Amount": 150
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "BlackPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GrowthPotion": {
+  "Inputs": [
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 2
+   },
+   {
+    "Name": "ClayPowder",
+    "Amount": 6
+   },
+   {
+    "Name": "SaltWater",
+    "Amount": 80
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GrowthPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Catalyst1": {
+  "Inputs": [
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 2
+   },
+   {
+    "Name": "GloomSpores",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Catalyst1",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "PocketWatch": {
+  "Inputs": [
+   {
+    "Name": "SteelGear",
+    "Amount": 2
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 2
+   },
+   {
+    "Name": "Glass",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PocketWatch",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Omni-Machine",
+  "CraftType": "OmniCraft",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Malachite": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder",
+    "Amount": 2
+   },
+   {
+    "Name": "ClayPowder",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Malachite",
+    "Amount": 1,
+    "Probability": 0.5
+   },
+   {
+    "Name": "Shard1",
+    "Amount": 1,
+    "Probability": 0.5
+   }
+  ],
+  "Machine": "Athanor",
+  "CraftType": "Athanor",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 36,
+  "ProductSequence": [
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   0,
+   0
+  ]
+ },
+ "ClockworkBird": {
+  "Inputs": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 6
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 2
+   },
+   {
+    "Name": "Malachite",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "ClockworkBird",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Omni-Machine",
+  "CraftType": "OmniCraft",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Saturn": {
+  "Inputs": [
+   {
+    "Name": "Salt",
+    "Amount": 600
+   },
+   {
+    "Name": "Brick",
+    "Amount": 600
+   },
+   {
+    "Name": "Glass",
+    "Amount": 600
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Saturn",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Shaper",
+  "CraftType": "Shaper",
+  "Time": 300,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Mars": {
+  "Inputs": [
+   {
+    "Name": "Nails",
+    "Amount": 600
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 300
+   },
+   {
+    "Name": "BronzeRivet",
+    "Amount": 600
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 300
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Mars",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Shaper",
+  "CraftType": "Shaper",
+  "Time": 300,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand2": {
+  "Inputs": [
+   {
+    "Name": "Sand",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand3": {
+  "Inputs": [
+   {
+    "Name": "Sand2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand4": {
+  "Inputs": [
+   {
+    "Name": "Sand3",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand4",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand5": {
+  "Inputs": [
+   {
+    "Name": "Sand4",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand5",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand6": {
+  "Inputs": [
+   {
+    "Name": "Sand5",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand6",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sand8": {
+  "Inputs": [
+   {
+    "Name": "Sand6",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand8",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Shard1": {
+  "Inputs": [
+   {
+    "Name": "Sand8",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Shard1",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Shard2": {
+  "Inputs": [
+   {
+    "Name": "Shard1",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Shard2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Shard3": {
+  "Inputs": [
+   {
+    "Name": "Shard2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Shard3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Crystal1": {
+  "Inputs": [
+   {
+    "Name": "Shard3",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Crystal1",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Crystal2": {
+  "Inputs": [
+   {
+    "Name": "Crystal1",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Crystal2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Crystal3": {
+  "Inputs": [
+   {
+    "Name": "Crystal2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Crystal3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Diamond1": {
+  "Inputs": [
+   {
+    "Name": "Crystal3",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Diamond1",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Diamond2": {
+  "Inputs": [
+   {
+    "Name": "Diamond1",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Diamond2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Diamond3": {
+  "Inputs": [
+   {
+    "Name": "Diamond2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Diamond3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "StrangeTide": {
+  "Inputs": [
+   {
+    "Name": "SaltWater",
+    "Amount": 60
+   },
+   {
+    "Name": "Limewater",
+    "Amount": 90
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 180
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "StrangeTide",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "BrewBarrel",
+  "CraftType": "LiquidTap",
+  "Time": 15,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LavenderEssentialOil": {
+  "Inputs": [
+   {
+    "Name": "Lavender",
+    "Amount": 3
+   },
+   {
+    "Name": "LinseedOil",
+    "Amount": 120
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LavenderEssentialOil",
+    "Amount": 15,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Alembic",
+  "CraftType": "Distill",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Brandy": {
+  "Inputs": [
+   {
+    "Name": "CokePowder",
+    "Amount": 5
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 100
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Brandy",
+    "Amount": 40,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Alembic",
+  "CraftType": "Distill",
+  "Time": 5,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SulfuricAcid": {
+  "Inputs": [
+   {
+    "Name": "SulfurPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "SaltWater",
+    "Amount": 60
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SulfuricAcid",
+    "Amount": 20,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Alembic",
+  "CraftType": "Distill",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Topaz": {
+  "Inputs": [
+   {
+    "Name": "Shard1",
+    "Amount": 1
+   },
+   {
+    "Name": "SulfuricAcid",
+    "Amount": 30
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Topaz",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "BlastPotion": {
+  "Inputs": [
+   {
+    "Name": "Mors",
+    "Amount": 1
+   },
+   {
+    "Name": "BlackPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "Brandy",
+    "Amount": 40
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "BlastPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Catalyst2": {
+  "Inputs": [
+   {
+    "Name": "Catalyst1",
+    "Amount": 1
+   },
+   {
+    "Name": "Vitae",
+    "Amount": 1
+   },
+   {
+    "Name": "LavenderEssentialOil",
+    "Amount": 18
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Catalyst2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "PerfumedSoap": {
+  "Inputs": [
+   {
+    "Name": "SoapPowder",
+    "Amount": 4
+   },
+   {
+    "Name": "LavenderEssentialOil",
+    "Amount": 30
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PerfumedSoap",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "PerfumedSoapPowder": {
+  "Inputs": [
+   {
+    "Name": "PerfumedSoap",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PerfumedSoapPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Vitae": {
+  "Inputs": [
+   {
+    "Name": "Mors",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Vitae",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "ParadoxCrucible",
+  "CraftType": "Paradox",
+  "Time": 5,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Venus": {
+  "Inputs": [
+   {
+    "Name": "HealingPotion",
+    "Amount": 200
+   },
+   {
+    "Name": "VitalityPotion",
+    "Amount": 200
+   },
+   {
+    "Name": "ManaPotion",
+    "Amount": 200
+   },
+   {
+    "Name": "GrowthPotion",
+    "Amount": 200
+   },
+   {
+    "Name": "BlastPotion",
+    "Amount": 200
+   },
+   {
+    "Name": "SulfuricAcid",
+    "Amount": 4000
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Venus",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedShaper",
+  "CraftType": "AdShaper",
+  "Time": 1200,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LavenderDream": {
+  "Inputs": [
+   {
+    "Name": "LavenderEssentialOil",
+    "Amount": 30
+   },
+   {
+    "Name": "Brandy",
+    "Amount": 120
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LavenderDream",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "BrewBarrel",
+  "CraftType": "LiquidTap",
+  "Time": 18,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GentianPowder": {
+  "Inputs": [
+   {
+    "Name": "Gentian",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GentianPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 3,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GentianNectar": {
+  "Inputs": [
+   {
+    "Name": "GentianSeed",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GentianNectar",
+    "Amount": 80,
+    "Probability": 1
+   },
+   {
+    "Name": "Gentian",
+    "Amount": 80,
+    "Probability": 1
+   }
+  ],
+  "Machine": "SeedPlot",
+  "CraftType": "Plant",
+  "Time": 2160,
+  "Alternate": false,
+  "Hidden": true
+ },
+ "SilverPowder": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 2
+   },
+   {
+    "Name": "BlackPowder",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverPowder",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 6.4,
+  "Alternate": false,
+  "Hidden": true
+ },
+ "SilverPowder2": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverPowder2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SilverPowder3": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 4
+   },
+   {
+    "Name": "BlackPowder",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 1,
+    "Probability": 0.2
+   },
+   {
+    "Name": "SilverPowder",
+    "Amount": 1,
+    "Probability": 0.8
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 6.4,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 150,
+  "ProductSequence": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   0
+  ]
+ },
+ "VolcanicAsh": {
+  "Inputs": [
+   {
+    "Name": "Obsidian",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "VolcanicAsh",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 24,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Obsidian": {
+  "Inputs": [
+   {
+    "Name": "Mors",
+    "Amount": 2
+   },
+   {
+    "Name": "Crystal1",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Obsidian",
+    "Amount": 1,
+    "Probability": 0.5
+   },
+   {
+    "Name": "Marble",
+    "Amount": 1,
+    "Probability": 0.5
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 420,
+  "ProductSequence": [
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   0,
+   0
+  ]
+ },
+ "SilverIngot": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 16,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SilverCoin": {
+  "Inputs": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverCoin",
+    "Amount": 5,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 16,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "SilverAmulet": {
+  "Inputs": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 2
+   },
+   {
+    "Name": "LapisLazuli",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverAmulet",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Mercury": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "Vitae",
+    "Amount": 1
+   },
+   {
+    "Name": "SulfuricAcid",
+    "Amount": 80
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Mercury",
+    "Amount": 10,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAlembic",
+  "CraftType": "AdDistill",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "AquaVitae": {
+  "Inputs": [
+   {
+    "Name": "GentianNectar",
+    "Amount": 1
+   },
+   {
+    "Name": "WorldTreeLeaf",
+    "Amount": 1
+   },
+   {
+    "Name": "Brandy",
+    "Amount": 200
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "AquaVitae",
+    "Amount": 10,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAlembic",
+  "CraftType": "AdDistill",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "LapisLazuli": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder2",
+    "Amount": 1
+   },
+   {
+    "Name": "Crystal1",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "LapisLazuli",
+    "Amount": 1,
+    "Probability": 0.333333
+   },
+   {
+    "Name": "Crystal1",
+    "Amount": 1,
+    "Probability": 0.333333
+   },
+   {
+    "Name": "Shard1",
+    "Amount": 1,
+    "Probability": 0.333333
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 12,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 550,
+  "ProductSequence": [
+   2,
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   0
+  ]
+ },
+ "MercuryP": {
+  "Inputs": [
+   {
+    "Name": "Turquoise",
+    "Amount": 100
+   },
+   {
+    "Name": "Malachite",
+    "Amount": 100
+   },
+   {
+    "Name": "Topaz",
+    "Amount": 100
+   },
+   {
+    "Name": "Obsidian",
+    "Amount": 100
+   },
+   {
+    "Name": "LapisLazuli",
+    "Amount": 100
+   },
+   {
+    "Name": "Mercury",
+    "Amount": 1000
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "MercuryP",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedShaper",
+  "CraftType": "AdShaper",
+  "Time": 600,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Catalyst3": {
+  "Inputs": [
+   {
+    "Name": "Catalyst2",
+    "Amount": 1
+   },
+   {
+    "Name": "VolcanicAsh",
+    "Amount": 1
+   },
+   {
+    "Name": "AquaVitae",
+    "Amount": 12
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Catalyst3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "PanaceaElixir": {
+  "Inputs": [
+   {
+    "Name": "Catalyst2",
+    "Amount": 3
+   },
+   {
+    "Name": "BlastPotion",
+    "Amount": 3
+   },
+   {
+    "Name": "AquaVitae",
+    "Amount": 12
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PanaceaElixir",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 6,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "WorldTreeVintage": {
+  "Inputs": [
+   {
+    "Name": "AquaVitae",
+    "Amount": 20
+   },
+   {
+    "Name": "FruitWine",
+    "Amount": 380
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "WorldTreeVintage",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "BrewBarrel",
+  "CraftType": "LiquidTap",
+  "Time": 24,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GoldDust": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 0
+   },
+   {
+    "Name": "VolcanicAsh",
+    "Amount": 0
+   },
+   {
+    "Name": "Mercury",
+    "Amount": 11
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": true
+ },
+ "GoldDust2": {
+  "Inputs": [
+   {
+    "Name": "GoldDust",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GoldDust3": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 1
+   },
+   {
+    "Name": "VolcanicAsh",
+    "Amount": 1
+   },
+   {
+    "Name": "Mercury",
+    "Amount": 18
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust3",
+    "Amount": 1,
+    "Probability": 0.1
+   },
+   {
+    "Name": "GoldDust2",
+    "Amount": 1,
+    "Probability": 0.3
+   },
+   {
+    "Name": "GoldDust",
+    "Amount": 1,
+    "Probability": 0.6
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false,
+  "CatalystCost": 1000,
+  "ProductSequence": [
+   2,
+   2,
+   1,
+   2,
+   2,
+   1,
+   2,
+   2,
+   1,
+   0
+  ],
+  "UnstableSequence": [
+   1,
+   1,
+   1,
+   1,
+   0
+  ]
+ },
+ "GoldDust5": {
+  "Inputs": [
+   {
+    "Name": "GoldDust3",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust5",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GoldIngot": {
+  "Inputs": [
+   {
+    "Name": "GoldDust5",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 40,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "GoldCoin": {
+  "Inputs": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldCoin",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 40,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Crown": {
+  "Inputs": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 3
+   },
+   {
+    "Name": "Ruby",
+    "Amount": 1
+   },
+   {
+    "Name": "Sapphire",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Crown",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Omni-Machine",
+  "CraftType": "OmniCraft",
+  "Time": 15,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Catalyst4": {
+  "Inputs": [
+   {
+    "Name": "Catalyst3",
+    "Amount": 15
+   },
+   {
+    "Name": "PhilosopherStone",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Catalyst4",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "ArcaneProcessor",
+  "CraftType": "AdProcess",
+  "Time": 60,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "StarDust": {
+  "Inputs": [
+   {
+    "Name": "Jupiter",
+    "Amount": 1
+   },
+   {
+    "Name": "Saturn",
+    "Amount": 1
+   },
+   {
+    "Name": "Mars",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "StarDust",
+    "Amount": 5,
+    "Probability": 1
+   }
+  ],
+  "Machine": "ArcaneProcessor",
+  "CraftType": "AdProcess",
+  "Time": 300,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "FairyDust": {
+  "Inputs": [
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 1
+   },
+   {
+    "Name": "GentianPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "WorldTreeLeaf",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "FairyDust",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "ArcaneProcessor",
+  "CraftType": "AdProcess",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "FairyTear": {
+  "Inputs": [
+   {
+    "Name": "FairyDust",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "FairyTear",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Extractor",
+  "CraftType": "Extract",
+  "Time": 4,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "MoonTear": {
+  "Inputs": [
+   {
+    "Name": "StarDust",
+    "Amount": 1
+   },
+   {
+    "Name": "FairyTear",
+    "Amount": 18
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "MoonTear",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAlembic",
+  "CraftType": "AdDistill",
+  "Time": 8,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "MoonlitSoap": {
+  "Inputs": [
+   {
+    "Name": "PerfumedSoapPowder",
+    "Amount": 2
+   },
+   {
+    "Name": "MoonTear",
+    "Amount": 5
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "MoonlitSoap",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Blender",
+  "CraftType": "Blend",
+  "Time": 10,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Luna": {
+  "Inputs": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 75
+   },
+   {
+    "Name": "BronzeIngot",
+    "Amount": 75
+   },
+   {
+    "Name": "CopperIngot",
+    "Amount": 75
+   },
+   {
+    "Name": "SilverIngot",
+    "Amount": 75
+   },
+   {
+    "Name": "GoldIngot",
+    "Amount": 75
+   },
+   {
+    "Name": "MoonTear",
+    "Amount": 75
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Luna",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedShaper",
+  "CraftType": "AdShaper",
+  "Time": 600,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "AlchemistSigh": {
+  "Inputs": [
+   {
+    "Name": "MoonTear",
+    "Amount": 1
+   },
+   {
+    "Name": "Mercury",
+    "Amount": 20
+   },
+   {
+    "Name": "Brandy",
+    "Amount": 160
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "AlchemistSigh",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "BrewBarrel",
+  "CraftType": "LiquidTap",
+  "Time": 32,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Sol": {
+  "Inputs": [
+   {
+    "Name": "Jupiter",
+    "Amount": 1
+   },
+   {
+    "Name": "Saturn",
+    "Amount": 1
+   },
+   {
+    "Name": "Mars",
+    "Amount": 1
+   },
+   {
+    "Name": "Venus",
+    "Amount": 1
+   },
+   {
+    "Name": "MercuryP",
+    "Amount": 1
+   },
+   {
+    "Name": "Luna",
+    "Amount": 1
+   },
+   {
+    "Name": "Diamond3",
+    "Amount": 25
+   },
+   {
+    "Name": "Catalyst4",
+    "Amount": 5
+   },
+   {
+    "Name": "WorldTreeCore",
+    "Amount": 5
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sol",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AetherShaper",
+  "CraftType": "AtShaper",
+  "Time": 300,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Salt_Alt": {
+  "Inputs": [
+   {
+    "Name": "RockSalt",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Salt",
+    "Amount": 100,
+    "Probability": 1
+   },
+   {
+    "Name": "Sand",
+    "Amount": 100,
+    "Probability": 1
+   }
+  ],
+  "Machine": "StoneCrusher",
+  "CraftType": "StoneCrusher",
+  "Time": 600,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Meteorite_Alt": {
+  "Inputs": [
+   {
+    "Name": "Meteorite",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Stone",
+    "Amount": 1000,
+    "Probability": 1
+   }
+  ],
+  "Machine": "StoneCrusher",
+  "CraftType": "StoneCrusher",
+  "Time": 3000,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "Coke_Alt": {
+  "Inputs": [
+   {
+    "Name": "Coal",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Coke",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 6,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "CopperPowder2_Alt": {
+  "Inputs": [
+   {
+    "Name": "CopperPowder",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 6,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "SilverPowder3_Alt": {
+  "Inputs": [
+   {
+    "Name": "SilverPowder2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 8,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "GoldDust3_Alt": {
+  "Inputs": [
+   {
+    "Name": "GoldDust2",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Refiner",
+  "CraftType": "Refine",
+  "Time": 10,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "CopperIngot_Alt": {
+  "Inputs": [
+   {
+    "Name": "CopperCoin",
+    "Amount": 400
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Kiln",
+  "CraftType": "Fire",
+  "Time": 12,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "SilverIngot_Alt": {
+  "Inputs": [
+   {
+    "Name": "SilverCoin",
+    "Amount": 6
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Kiln",
+  "CraftType": "Fire",
+  "Time": 16,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "GoldIngot_Alt": {
+  "Inputs": [
+   {
+    "Name": "GoldCoin",
+    "Amount": 3
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 2,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Kiln",
+  "CraftType": "Fire",
+  "Time": 40,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "IronIngot_Alt": {
+  "Inputs": [
+   {
+    "Name": "IronSand",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Crucible",
+  "CraftType": "Calcinate",
+  "Time": 6,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "CopperPowder2_Alt2": {
+  "Inputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperPowder2",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 12,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "SilverPowder3_Alt3": {
+  "Inputs": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "SilverPowder3",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 16,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "GoldDust5_Alt": {
+  "Inputs": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust5",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Grinder",
+  "CraftType": "Grind",
+  "Time": 40,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Shard1_Alt": {
+  "Inputs": [
+   {
+    "Name": "QuartzOre",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Shard1",
+    "Amount": 80,
+    "Probability": 1
+   }
+  ],
+  "Machine": "StoneCrusher",
+  "CraftType": "StoneCrusher",
+  "Time": 480,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Mors_Alt": {
+  "Inputs": [
+   {
+    "Name": "Vitae",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Mors",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "ParadoxCrucible",
+  "CraftType": "Paradox",
+  "Time": 5,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "PhilosopherStone_Alt": {
+  "Inputs": [
+   {
+    "Name": "Ruby",
+    "Amount": 1
+   },
+   {
+    "Name": "Sapphire",
+    "Amount": 1
+   },
+   {
+    "Name": "Emerald",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "PhilosopherStone",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Cauldron",
+  "CraftType": "Cauldron",
+  "Time": 60,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Ruby_Alt": {
+  "Inputs": [
+   {
+    "Name": "Diamond2",
+    "Amount": 1
+   },
+   {
+    "Name": "GoldDust5",
+    "Amount": 1
+   },
+   {
+    "Name": "Catalyst3",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Ruby",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Cauldron",
+  "CraftType": "Cauldron",
+  "Time": 30.9,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Sapphire_Alt": {
+  "Inputs": [
+   {
+    "Name": "Diamond3",
+    "Amount": 1
+   },
+   {
+    "Name": "WorldTreeCore",
+    "Amount": 1
+   },
+   {
+    "Name": "Catalyst1",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sapphire",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Cauldron",
+  "CraftType": "Cauldron",
+  "Time": 38.2,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "Emerald_Alt": {
+  "Inputs": [
+   {
+    "Name": "MoonlitSoap",
+    "Amount": 1
+   },
+   {
+    "Name": "LapisLazuli",
+    "Amount": 1
+   },
+   {
+    "Name": "Catalyst2",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Emerald",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Cauldron",
+  "CraftType": "Cauldron",
+  "Time": 45.5,
+  "Alternate": true,
+  "Hidden": false
+ },
+ "IronAmulet": {
+  "Inputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 1
+   },
+   {
+    "Name": "LinenRope",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "IronAmulet",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 3,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "FineBandage": {
+  "Inputs": [
+   {
+    "Name": "Linen",
+    "Amount": 1
+   },
+   {
+    "Name": "HealingPotion",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "FineBandage",
+    "Amount": 2,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 6,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "CopperAmulet": {
+  "Inputs": [
+   {
+    "Name": "CopperIngot",
+    "Amount": 1
+   },
+   {
+    "Name": "Turquoise",
+    "Amount": 1
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CopperAmulet",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Assembler",
+  "CraftType": "Assemble",
+  "Time": 3,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "Cart": {
+  "Inputs": [
+   {
+    "Name": "IronIngot",
+    "Amount": 5
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Cart",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 30,
+  "Alternate": false,
+  "Hidden": false
+ },
+ "Amethyst": {
+  "Inputs": [
+   {
+    "Name": "SulfurPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 1
+   },
+   {
+    "Name": "LavenderEssentialOil",
+    "Amount": 100
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Amethyst",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedAthanor",
+  "CraftType": "AdAthanor",
+  "Time": 1,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "CharismaPotion": {
+  "Inputs": [
+   {
+    "Name": "BlackPowder",
+    "Amount": 1
+   },
+   {
+    "Name": "PerfumedSoapPowder",
+    "Amount": 3
+   },
+   {
+    "Name": "Brandy",
+    "Amount": 40
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "CharismaPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 9,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "Sulfur_Alt": {
+  "Inputs": [
+   {
+    "Name": "ChamomilePowder",
+    "Amount": 1
+   },
+   {
+    "Name": "CokePowder",
+    "Amount": 3
+   },
+   {
+    "Name": "SaltWater",
+    "Amount": 180
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sulfur_Alt",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 6,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "Sand7": {
+  "Inputs": [
+   {
+    "Name": "Sand6",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "Sand7",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 4,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "InvisbilityPotion": {
+  "Inputs": [
+   {
+    "Name": "VolcanicAsh",
+    "Amount": 1
+   },
+   {
+    "Name": "GentianNectar",
+    "Amount": 5
+   },
+   {
+    "Name": "Mercury",
+    "Amount": 15
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "InvisbilityPotion",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "AdvancedBlender",
+  "CraftType": "AdBlend",
+  "Time": 10,
+  "Alternate": true,
+  "Hidden": true
+ },
+ "GoldDust4": {
+  "Inputs": [
+   {
+    "Name": "GoldDust3",
+    "Amount": 2
+   }
+  ],
+  "Outputs": [
+   {
+    "Name": "GoldDust4",
+    "Amount": 1,
+    "Probability": 1
+   }
+  ],
+  "Machine": "Processor",
+  "CraftType": "Process",
+  "Time": 10,
+  "Alternate": true,
+  "Hidden": true
+ }
+}

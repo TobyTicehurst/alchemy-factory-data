@@ -1,0 +1,369 @@
+{
+ "Backpack1": {
+  "GearType": "Backpack",
+  "Tier": 1,
+  "Prerequisites": [],
+  "Cost": [
+   {
+    "Name": "LinenThread",
+    "Amount": 50
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 4
+  }
+ },
+ "Backpack2": {
+  "GearType": "Backpack",
+  "Tier": 2,
+  "Prerequisites": [
+   "Backpack1"
+  ],
+  "Cost": [
+   {
+    "Name": "Linen",
+    "Amount": 50
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 4
+  }
+ },
+ "Backpack3": {
+  "GearType": "Backpack",
+  "Tier": 3,
+  "Prerequisites": [
+   "Backpack2"
+  ],
+  "Cost": [
+   {
+    "Name": "WoodPulley",
+    "Amount": 120
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 8
+  }
+ },
+ "Backpack4": {
+  "GearType": "Backpack",
+  "Tier": 4,
+  "Prerequisites": [
+   "Backpack3"
+  ],
+  "Cost": [
+   {
+    "Name": "ManaPotion",
+    "Amount": 80
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 8
+  }
+ },
+ "Backpack5": {
+  "GearType": "Backpack",
+  "Tier": 5,
+  "Prerequisites": [
+   "Backpack4"
+  ],
+  "Cost": [
+   {
+    "Name": "BronzeRivet",
+    "Amount": 60
+   },
+   {
+    "Name": "PocketWatch",
+    "Amount": 2
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 8
+  }
+ },
+ "Backpack6": {
+  "GearType": "Backpack",
+  "Tier": 6,
+  "Prerequisites": [
+   "Backpack5"
+  ],
+  "Cost": [
+   {
+    "Name": "Obsidian",
+    "Amount": 20
+   },
+   {
+    "Name": "LapisLazuli",
+    "Amount": 20
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "InventoryCapacity": 8
+  }
+ },
+ "PotionBelt1": {
+  "GearType": "PotionBelt",
+  "Tier": 1,
+  "Prerequisites": [],
+  "Cost": [
+   {
+    "Name": "Linen",
+    "Amount": 10
+   },
+   {
+    "Name": "LinenThread",
+    "Amount": 20
+   },
+   {
+    "Name": "HealingPotion",
+    "Amount": 5
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "SleepTime": -2
+  }
+ },
+ "PotionBelt2": {
+  "GearType": "PotionBelt",
+  "Tier": 2,
+  "Prerequisites": [
+   "PotionBelt1"
+  ],
+  "Cost": [
+   {
+    "Name": "HealingPotion",
+    "Amount": 100
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "SleepTime": -2
+  }
+ },
+ "PotionBelt3": {
+  "GearType": "PotionBelt",
+  "Tier": 3,
+  "Prerequisites": [
+   "PotionBelt2"
+  ],
+  "Cost": [
+   {
+    "Name": "VitalityPotion",
+    "Amount": 100
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "SprintSpeed": 10,
+   "SleepTime": -2
+  }
+ },
+ "PotionBelt4": {
+  "GearType": "PotionBelt",
+  "Tier": 4,
+  "Prerequisites": [
+   "PotionBelt3"
+  ],
+  "Cost": [
+   {
+    "Name": "ManaPotion",
+    "Amount": 120
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "SprintSpeed": 10,
+   "SleepTime": -2
+  }
+ },
+ "PotionBelt5": {
+  "GearType": "PotionBelt",
+  "Tier": 5,
+  "Prerequisites": [
+   "PotionBelt4"
+  ],
+  "Cost": [
+   {
+    "Name": "BlastPotion",
+    "Amount": 150
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "SprintSpeed": 10
+  }
+ },
+ "BuildTool1": {
+  "GearType": "BuildTool",
+  "Tier": 1,
+  "Prerequisites": [],
+  "Cost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 20
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 10
+   },
+   {
+    "Name": "Nails",
+    "Amount": 30
+   }
+  ],
+  "UnlockedBuildings": [
+   "Construct_Floor_Wood",
+   "Construct_Wall_Wood",
+   "Construct_Wall_Stone",
+   "Roof_Wood"
+  ],
+  "WorldModifiers": {}
+ },
+ "BuildTool2": {
+  "GearType": "BuildTool",
+  "Tier": 2,
+  "Prerequisites": [
+   "BuildTool1"
+  ],
+  "Cost": [
+   {
+    "Name": "Brick",
+    "Amount": 30
+   },
+   {
+    "Name": "Clay",
+    "Amount": 30
+   }
+  ],
+  "UnlockedBuildings": [
+   "Construct_Floor_Brick",
+   "Construct_Wall_Brick",
+   "GrandStairs",
+   "ShopEntrance"
+  ],
+  "WorldModifiers": {}
+ },
+ "BuildTool3": {
+  "GearType": "BuildTool",
+  "Tier": 3,
+  "Prerequisites": [
+   "BuildTool2"
+  ],
+  "Cost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 30
+   }
+  ],
+  "UnlockedBuildings": [
+   "Pillar",
+   "Elevator_Bottom",
+   "Elevator_Station",
+   "FreightElevatorFrame_Bottom",
+   "FreightElevatorFrame_Middle",
+   "FreightElevatorFrame_Top",
+   "FreightElevator",
+   "LiftUploader",
+   "LiftDownloader",
+   "LiftWagonUploader",
+   "LiftWagonDownloader"
+  ],
+  "WorldModifiers": {}
+ },
+ "BuildTool4": {
+  "GearType": "BuildTool",
+  "Tier": 4,
+  "Prerequisites": [
+   "BuildTool3"
+  ],
+  "Cost": [
+   {
+    "Name": "Marble",
+    "Amount": 30
+   }
+  ],
+  "UnlockedBuildings": [
+   "Construct_Floor_Marble",
+   "Construct_Wall_Marble",
+   "MarblePillar"
+  ],
+  "WorldModifiers": {}
+ },
+ "Gloves1": {
+  "GearType": "Gloves",
+  "Tier": 1,
+  "Prerequisites": [],
+  "Cost": [
+   {
+    "Name": "Linen",
+    "Amount": 6
+   },
+   {
+    "Name": "LinenThread",
+    "Amount": 30
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "RestockSpeed": 1
+  }
+ },
+ "Gloves2": {
+  "GearType": "Gloves",
+  "Tier": 2,
+  "Prerequisites": [
+   "Gloves1"
+  ],
+  "Cost": [
+   {
+    "Name": "Soap",
+    "Amount": 200
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "RestockSpeed": 1
+  }
+ },
+ "Gloves3": {
+  "GearType": "Gloves",
+  "Tier": 3,
+  "Prerequisites": [
+   "Gloves2"
+  ],
+  "Cost": [
+   {
+    "Name": "PerfumedSoap",
+    "Amount": 80
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "RestockSpeed": 1
+  }
+ },
+ "Gloves4": {
+  "GearType": "Gloves",
+  "Tier": 4,
+  "Prerequisites": [
+   "Gloves3"
+  ],
+  "Cost": [
+   {
+    "Name": "MoonlitSoap",
+    "Amount": 5
+   }
+  ],
+  "UnlockedBuildings": [],
+  "WorldModifiers": {
+   "RestockSpeed": 1
+  }
+ }
+}

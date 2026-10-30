@@ -1,0 +1,103 @@
+{
+ "Villager": {
+  "UnlockLevel": 1,
+  "SpawnWeightBase": 220,
+  "SpawnWeightPerReputation": 1.0,
+  "IdleWeight": 50,
+  "CategoryWeights": {
+   "Groceries": 64,
+   "Remedies": 18,
+   "Liquid": 18
+  },
+  "PurchaseCurve": "CV_NormalPurchase",
+  "BasePicksProbability": {
+   "1": 0.1999,
+   "2": 0.2885,
+   "3": 0.2421,
+   "4": 0.1621,
+   "5": 0.0836,
+   "6": 0.0238
+  }
+ },
+ "Soldier": {
+  "UnlockLevel": 2,
+  "SpawnWeightBase": 60,
+  "SpawnWeightPerReputation": 1.2,
+  "IdleWeight": 25,
+  "CategoryWeights": {
+   "Remedies": 40,
+   "Groceries": 20,
+   "Liquid": 40
+  },
+  "PurchaseCurve": "CV_NormalPurchase",
+  "BasePicksProbability": {
+   "1": 0.1999,
+   "2": 0.2885,
+   "3": 0.2421,
+   "4": 0.1621,
+   "5": 0.0836,
+   "6": 0.0238
+  }
+ },
+ "Monk": {
+  "UnlockLevel": 4,
+  "SpawnWeightBase": -30,
+  "SpawnWeightPerReputation": 1.0,
+  "IdleWeight": 5,
+  "CategoryWeights": {
+   "Artcrafts": 70,
+   "Remedies": 15,
+   "Jewelry": 15
+  },
+  "PurchaseCurve": "CV_NormalPurchase",
+  "BasePicksProbability": {
+   "1": 0.1999,
+   "2": 0.2885,
+   "3": 0.2421,
+   "4": 0.1621,
+   "5": 0.0836,
+   "6": 0.0238
+  }
+ },
+ "Merchant": {
+  "UnlockLevel": 3,
+  "SpawnWeightBase": -60,
+  "SpawnWeightPerReputation": 1.8,
+  "IdleWeight": 5,
+  "CategoryWeights": {
+   "Remedies": 30,
+   "Groceries": 30,
+   "Jewelry": 30,
+   "Artcrafts": 10
+  },
+  "PurchaseCurve": "CV_MerchantPurchase",
+  "BasePicksProbability": {
+   "1": 0.0412,
+   "2": 0.0925,
+   "3": 0.1478,
+   "4": 0.2006,
+   "5": 0.2445,
+   "6": 0.2734
+  }
+ },
+ "Noble": {
+  "UnlockLevel": 4,
+  "SpawnWeightBase": -20,
+  "SpawnWeightPerReputation": 1.6,
+  "IdleWeight": 15,
+  "CategoryWeights": {
+   "Groceries": 20,
+   "Jewelry": 50,
+   "Remedies": 30
+  },
+  "PurchaseCurve": "CV_NormalPurchase",
+  "BasePicksProbability": {
+   "1": 0.1999,
+   "2": 0.2885,
+   "3": 0.2421,
+   "4": 0.1621,
+   "5": 0.0836,
+   "6": 0.0238
+  }
+ }
+}

@@ -1,0 +1,630 @@
+{
+ "GeneralGoodsLicense1": {
+  "DisplayName": "Sundries Recognition",
+  "Type": "General",
+  "Tier": 1,
+  "Requirements": [
+   "Sell a total of 6 Mortar",
+   "Technology Level2"
+  ],
+  "Fee": 400,
+  "Unlocks": [
+   "Improvements:GeneralGoodsProfit1"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "GeneralGoodsProfit": 10
+  }
+ },
+ "GeneralGoodsLicense2": {
+  "DisplayName": "Sundries Recognition",
+  "Type": "General",
+  "Tier": 2,
+  "Requirements": [
+   "Sell a total of 30 Linen",
+   "Recognition GeneralGoodsLicense1"
+  ],
+  "Fee": 1600,
+  "Unlocks": [
+   "Improvements:GeneralGoodsProfit2"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "GeneralGoodsProfit": 14
+  }
+ },
+ "GeneralGoodsLicense3": {
+  "DisplayName": "Sundries Recognition",
+  "Type": "General",
+  "Tier": 3,
+  "Requirements": [
+   "Sell a total of 200 WoodPulley",
+   "Recognition GeneralGoodsLicense2"
+  ],
+  "Fee": 3600,
+  "Unlocks": [
+   "Improvements:GeneralGoodsProfit3"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "GeneralGoodsProfit": 16
+  }
+ },
+ "GeneralGoodsLicense4": {
+  "DisplayName": "Sundries Recognition",
+  "Type": "General",
+  "Tier": 4,
+  "Requirements": [
+   "Sell a total of 200 Soap",
+   "Recognition GeneralGoodsLicense3"
+  ],
+  "Fee": 5000,
+  "Unlocks": [
+   "Improvements:GeneralGoodsProfit4"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "GeneralGoodsProfit": 18
+  }
+ },
+ "GeneralGoodsLicense5": {
+  "DisplayName": "Sundries Recognition",
+  "Type": "General",
+  "Tier": 5,
+  "Requirements": [
+   "Sell a total of 600 Salt",
+   "Recognition GeneralGoodsLicense4"
+  ],
+  "Fee": 15000,
+  "Unlocks": [
+   "Improvements:GeneralGoodsProfit5"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "GeneralGoodsProfit": 22
+  }
+ },
+ "ApothecaryLicense1": {
+  "DisplayName": "Apothecary Recognition",
+  "Type": "Potion",
+  "Tier": 1,
+  "Requirements": [
+   "Sell a total of 100 HealingPotion",
+   "Technology Level3"
+  ],
+  "Fee": 2400,
+  "Unlocks": [
+   "Improvements:PotionProfit1"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "PotionProfit": 10
+  }
+ },
+ "ApothecaryLicense2": {
+  "DisplayName": "Apothecary Recognition",
+  "Type": "Potion",
+  "Tier": 2,
+  "Requirements": [
+   "Sell a total of 100 VitalityPotion",
+   "Recognition ApothecaryLicense1"
+  ],
+  "Fee": 8000,
+  "Unlocks": [
+   "Improvements:PotionProfit2"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "PotionProfit": 14
+  }
+ },
+ "ApothecaryLicense3": {
+  "DisplayName": "Apothecary Recognition",
+  "Type": "Potion",
+  "Tier": 3,
+  "Requirements": [
+   "Sell a total of 100 ManaPotion",
+   "Recognition ApothecaryLicense2"
+  ],
+  "Fee": 18000,
+  "Unlocks": [
+   "Improvements:PotionProfit3"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "PotionProfit": 16
+  }
+ },
+ "ApothecaryLicense4": {
+  "DisplayName": "Apothecary Recognition",
+  "Type": "Potion",
+  "Tier": 4,
+  "Requirements": [
+   "Sell a total of 100 GrowthPotion",
+   "Recognition ApothecaryLicense3"
+  ],
+  "Fee": 40000,
+  "Unlocks": [
+   "Improvements:PotionProfit4"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "PotionProfit": 18
+  }
+ },
+ "ApothecaryLicense5": {
+  "DisplayName": "Apothecary Recognition",
+  "Type": "Potion",
+  "Tier": 5,
+  "Requirements": [
+   "Sell a total of 100 BlastPotion",
+   "Recognition ApothecaryLicense4"
+  ],
+  "Fee": 800000,
+  "Unlocks": [
+   "Improvements:PotionProfit5"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "PotionProfit": 22
+  }
+ },
+ "TavernLicense1": {
+  "DisplayName": "Tavern Recognition",
+  "Type": "Tavern",
+  "Tier": 1,
+  "Requirements": [
+   "Sell a total of 20 WhisperingFields",
+   "Technology Level4"
+  ],
+  "Fee": 4800,
+  "Unlocks": [
+   "Improvements:LiquidProfit1"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "LiquidProfit": 10
+  }
+ },
+ "TavernLicense2": {
+  "DisplayName": "Tavern Recognition",
+  "Type": "Tavern",
+  "Tier": 2,
+  "Requirements": [
+   "Sell a total of 150 WhisperingFields",
+   "Recognition TavernLicense1"
+  ],
+  "Fee": 12000,
+  "Unlocks": [
+   "Improvements:LiquidProfit2"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "LiquidProfit": 14
+  }
+ },
+ "TavernLicense3": {
+  "DisplayName": "Tavern Recognition",
+  "Type": "Tavern",
+  "Tier": 3,
+  "Requirements": [
+   "Sell a total of 60 StrangeTide",
+   "Recognition TavernLicense2"
+  ],
+  "Fee": 42000,
+  "Unlocks": [
+   "Improvements:LiquidProfit3"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "LiquidProfit": 16
+  }
+ },
+ "TavernLicense4": {
+  "DisplayName": "Tavern Recognition",
+  "Type": "Tavern",
+  "Tier": 4,
+  "Requirements": [
+   "Sell a total of 60 LavenderDream",
+   "Recognition TavernLicense3"
+  ],
+  "Fee": 1200000,
+  "Unlocks": [
+   "Improvements:LiquidProfit4"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "LiquidProfit": 18
+  }
+ },
+ "TavernLicense5": {
+  "DisplayName": "Tavern Recognition",
+  "Type": "Tavern",
+  "Tier": 5,
+  "Requirements": [
+   "Sell a total of 60 WorldTreeVintage",
+   "Recognition TavernLicense4"
+  ],
+  "Fee": 6000000,
+  "Unlocks": [
+   "Improvements:LiquidProfit5"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "LiquidProfit": 22
+  }
+ },
+ "JewelleryLicense1": {
+  "DisplayName": "Jeweller Recognition",
+  "Type": "Jewellery",
+  "Tier": 1,
+  "Requirements": [
+   "Sell a total of 40 Turquoise",
+   "Technology Level5"
+  ],
+  "Fee": 8000,
+  "Unlocks": [
+   "Improvements:JewelProfit1"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "JewelProfit": 10
+  }
+ },
+ "JewelleryLicense2": {
+  "DisplayName": "Jeweller Recognition",
+  "Type": "Jewellery",
+  "Tier": 2,
+  "Requirements": [
+   "Sell a total of 40 Malachite",
+   "Recognition JewelleryLicense1"
+  ],
+  "Fee": 15000,
+  "Unlocks": [
+   "Improvements:JewelProfit2"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "JewelProfit": 14
+  }
+ },
+ "JewelleryLicense3": {
+  "DisplayName": "Jeweller Recognition",
+  "Type": "Jewellery",
+  "Tier": 3,
+  "Requirements": [
+   "Sell a total of 40 Topaz",
+   "Recognition JewelleryLicense2"
+  ],
+  "Fee": 60000,
+  "Unlocks": [
+   "Improvements:JewelProfit3"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "JewelProfit": 16
+  }
+ },
+ "JewelleryLicense4": {
+  "DisplayName": "Jeweller Recognition",
+  "Type": "Jewellery",
+  "Tier": 4,
+  "Requirements": [
+   "Sell a total of 40 Obsidian",
+   "Recognition JewelleryLicense3"
+  ],
+  "Fee": 300000,
+  "Unlocks": [
+   "Improvements:JewelProfit4"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "JewelProfit": 18
+  }
+ },
+ "JewelleryLicense5": {
+  "DisplayName": "Jeweller Recognition",
+  "Type": "Jewellery",
+  "Tier": 5,
+  "Requirements": [
+   "Sell a total of 40 LapisLazuli",
+   "Recognition JewelleryLicense4"
+  ],
+  "Fee": 2000000,
+  "Unlocks": [
+   "Improvements:JewelProfit5"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "JewelProfit": 22
+  }
+ },
+ "RelicTradingWarrant1": {
+  "DisplayName": "Relic Recognition",
+  "Type": "Relic",
+  "Tier": 1,
+  "Requirements": [
+   "Sell a total of 5 Jupiter",
+   "Technology Level5"
+  ],
+  "Fee": 30000,
+  "Unlocks": [
+   "Improvements:RelicProfit1"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "RelicProfit": 10
+  }
+ },
+ "RelicTradingWarrant2": {
+  "DisplayName": "Relic Recognition",
+  "Type": "Relic",
+  "Tier": 2,
+  "Requirements": [
+   "Sell a total of 5 Saturn",
+   "Recognition RelicTradingWarrant1"
+  ],
+  "Fee": 150000,
+  "Unlocks": [
+   "Improvements:RelicProfit2"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "RelicProfit": 14
+  }
+ },
+ "RelicTradingWarrant3": {
+  "DisplayName": "Relic Recognition",
+  "Type": "Relic",
+  "Tier": 3,
+  "Requirements": [
+   "Sell a total of 5 Mars",
+   "Recognition RelicTradingWarrant2"
+  ],
+  "Fee": 500000,
+  "Unlocks": [
+   "Improvements:RelicProfit3"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "RelicProfit": 16
+  }
+ },
+ "RelicTradingWarrant4": {
+  "DisplayName": "Relic Recognition",
+  "Type": "Relic",
+  "Tier": 4,
+  "Requirements": [
+   "Sell a total of 5 Venus",
+   "Recognition RelicTradingWarrant3"
+  ],
+  "Fee": 2000000,
+  "Unlocks": [
+   "Improvements:RelicProfit4"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "RelicProfit": 18
+  }
+ },
+ "RelicTradingWarrant5": {
+  "DisplayName": "Relic Recognition",
+  "Type": "Relic",
+  "Tier": 5,
+  "Requirements": [
+   "Sell a total of 5 MercuryP",
+   "Recognition RelicTradingWarrant4"
+  ],
+  "Fee": 50000000,
+  "Unlocks": [
+   "Improvements:RelicProfit5"
+  ],
+  "WorldModifiers": {
+   "StoreReputation": 8,
+   "RelicProfit": 22
+  }
+ },
+ "MintingLicense1": {
+  "DisplayName": "Copper Coin Mint License",
+  "Type": "Minting",
+  "Tier": 1,
+  "Requirements": [
+   "Produce a total of 200 CopperIngot",
+   "Technology Level6"
+  ],
+  "Fee": 100000,
+  "Unlocks": [
+   "CraftingRecipes:CopperCoin",
+   "CraftingRecipes:CopperIngot_Alt"
+  ],
+  "WorldModifiers": {}
+ },
+ "MintingLicense2": {
+  "DisplayName": "Silver Coin Mint License",
+  "Type": "Minting",
+  "Tier": 3,
+  "Requirements": [
+   "Produce a total of 200000 CopperCoin",
+   "Recognition MintingLicense1"
+  ],
+  "Fee": 1000000,
+  "Unlocks": [
+   "CraftingRecipes:SilverCoin",
+   "CraftingRecipes:SilverIngot_Alt"
+  ],
+  "WorldModifiers": {}
+ },
+ "MintingLicense3": {
+  "DisplayName": "Gold Coin Mint License",
+  "Type": "Minting",
+  "Tier": 5,
+  "Requirements": [
+   "Produce a total of 1000 SilverCoin",
+   "Recognition MintingLicense2"
+  ],
+  "Fee": 12000000,
+  "Unlocks": [
+   "CraftingRecipes:GoldCoin",
+   "CraftingRecipes:GoldIngot_Alt"
+  ],
+  "WorldModifiers": {}
+ },
+ "SupplierLicense1": {
+  "DisplayName": "Licensed Supplier",
+  "Type": "Supplier",
+  "Tier": 1,
+  "Requirements": [
+   "Complete a total of 2000 Bandage purchase contracts",
+   "Technology Level5"
+  ],
+  "Fee": 20000,
+  "Unlocks": [
+   "Contract:GloomSpores",
+   "Improvements:ContractProfit1"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 60,
+   "ContractProfit": 8
+  }
+ },
+ "SupplierLicense2": {
+  "DisplayName": "Guild Supplier",
+  "Type": "Supplier",
+  "Tier": 2,
+  "Requirements": [
+   "Complete a total of 4000 GloomSpores purchase contracts",
+   "Recognition SupplierLicense1"
+  ],
+  "Fee": 80000,
+  "Unlocks": [
+   "Contract:PocketWatch",
+   "Improvements:ContractProfit2"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 60,
+   "ContractProfit": 10
+  }
+ },
+ "SupplierLicense3": {
+  "DisplayName": "Court Supplier",
+  "Type": "Supplier",
+  "Tier": 3,
+  "Requirements": [
+   "Complete a total of 2400 PocketWatch purchase contracts",
+   "Recognition SupplierLicense2"
+  ],
+  "Fee": 200000,
+  "Unlocks": [
+   "Contract:Catalyst2",
+   "Improvements:ContractProfit3"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 60,
+   "ContractProfit": 12
+  }
+ },
+ "SupplierLicense4": {
+  "DisplayName": "Royal Supplier",
+  "Type": "Supplier",
+  "Tier": 4,
+  "Requirements": [
+   "Complete a total of 3200 Catalyst2 purchase contracts",
+   "Recognition SupplierLicense3"
+  ],
+  "Fee": 1600000,
+  "Unlocks": [
+   "Contract:SilverAmulet",
+   "Improvements:ContractProfit4"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 60,
+   "ContractProfit": 14
+  }
+ },
+ "SupplierLicense5": {
+  "DisplayName": "Exclusive Royal Supplier",
+  "Type": "Supplier",
+  "Tier": 5,
+  "Requirements": [
+   "Complete a total of 1200 SilverAmulet purchase contracts",
+   "Recognition SupplierLicense4"
+  ],
+  "Fee": 12000000,
+  "Unlocks": [
+   "Contract:MoonlitSoap",
+   "Improvements:ContractProfit5"
+  ],
+  "WorldModifiers": {
+   "ContractNum": 60,
+   "ContractProfit": 16
+  }
+ },
+ "AlchemistLicense1": {
+  "DisplayName": "Licensed Alchemist",
+  "Type": "Alchemist",
+  "Tier": 1,
+  "Requirements": [
+   "Produce a total of 500 Soap",
+   "Technology Level5"
+  ],
+  "Fee": 5000,
+  "Unlocks": [
+   "Improvements:StoreProfit1"
+  ],
+  "WorldModifiers": {
+   "PortalTrafficRate": 30,
+   "StoreProfit": 10
+  }
+ },
+ "AlchemistLicense2": {
+  "DisplayName": "Adept Alchemist",
+  "Type": "Alchemist",
+  "Tier": 3,
+  "Requirements": [
+   "Produce a total of 500 BlackPowder",
+   "Recognition AlchemistLicense1"
+  ],
+  "Fee": 50000,
+  "Unlocks": [
+   "Improvements:StoreProfit2"
+  ],
+  "WorldModifiers": {
+   "PortalTrafficRate": 30,
+   "StoreProfit": 10
+  }
+ },
+ "AlchemistLicense3": {
+  "DisplayName": "Grandmaster Alchemist",
+  "Type": "Alchemist",
+  "Tier": 4,
+  "Requirements": [
+   "Produce a total of 500 SilverPowder3",
+   "Recognition AlchemistLicense2"
+  ],
+  "Fee": 500000,
+  "Unlocks": [
+   "Improvements:StoreProfit3"
+  ],
+  "WorldModifiers": {
+   "PortalTrafficRate": 40,
+   "StoreProfit": 10
+  }
+ },
+ "AlchemistLicense4": {
+  "DisplayName": "Legendary Alchemist",
+  "Type": "Alchemist",
+  "Tier": 5,
+  "Requirements": [
+   "Produce a total of 1 PhilosopherStone",
+   "Recognition AlchemistLicense3"
+  ],
+  "Fee": 5000000,
+  "Unlocks": [
+   "Improvements:StoreProfit4"
+  ],
+  "WorldModifiers": {
+   "PortalTrafficRate": 50,
+   "StoreProfit": 10
+  }
+ }
+}

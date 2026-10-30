@@ -1,0 +1,145 @@
+{
+ "Main1": {
+  "PrerequisiteQuests": [],
+  "Requirements": [
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 20
+   }
+  ],
+  "RewardMoney": 400,
+  "RewardItems": [
+   {
+    "Name": "Flax",
+    "Amount": 200
+   }
+  ],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main2": {
+  "PrerequisiteQuests": [
+   "Main1"
+  ],
+  "Requirements": [
+   {
+    "Name": "LinenRope",
+    "Amount": 50
+   }
+  ],
+  "RewardMoney": 4500,
+  "RewardItems": [
+   {
+    "Name": "IronOre",
+    "Amount": 1
+   }
+  ],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main3": {
+  "PrerequisiteQuests": [
+   "Main2"
+  ],
+  "Requirements": [
+   {
+    "Name": "HealingPotion",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 18000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main4": {
+  "PrerequisiteQuests": [
+   "Main3"
+  ],
+  "Requirements": [
+   {
+    "Name": "VitalityPotion",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 60000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main5": {
+  "PrerequisiteQuests": [
+   "Main4"
+  ],
+  "Requirements": [
+   {
+    "Name": "ManaPotion",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 120000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main6": {
+  "PrerequisiteQuests": [
+   "Main5"
+  ],
+  "Requirements": [
+   {
+    "Name": "GrowthPotion",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 200000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main7": {
+  "PrerequisiteQuests": [
+   "Main6"
+  ],
+  "Requirements": [
+   {
+    "Name": "BlastPotion",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 600000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main8": {
+  "PrerequisiteQuests": [
+   "Main7"
+  ],
+  "Requirements": [
+   {
+    "Name": "PanaceaElixir",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 8000000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ },
+ "Main9": {
+  "PrerequisiteQuests": [
+   "Main8"
+  ],
+  "Requirements": [
+   {
+    "Name": "Sol",
+    "Amount": 1
+   }
+  ],
+  "RewardMoney": 100000000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "LevelUp": true
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "Contract1": {
+  "PrerequisiteQuests": [
+   "Main3"
+  ],
+  "Requirements": [
+   {
+    "Name": "Bandage",
+    "Amount": 50
+   }
+  ],
+  "RewardMoney": 12000,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "Portal_Wholesaling"
+  ],
+  "PrerequisiteDispatched": [],
+  "UnlockedContracts": [
+   {
+    "Name": "Bandage",
+    "AmountPerContract": 50,
+    "RewardPerContract": 12000,
+    "DailyLimit": 16
+   }
+  ],
+  "Deprecated": false
+ },
+ "Contract2": {
+  "PrerequisiteQuests": [
+   "Main4",
+   "Contract1"
+  ],
+  "Requirements": [
+   {
+    "Name": "GloomSpores",
+    "Amount": 50
+   }
+  ],
+  "RewardMoney": 18000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "PrerequisiteDispatched": [
+   {
+    "Name": "Bandage",
+    "Amount": 2000
+   }
+  ],
+  "UnlockedContracts": [
+   {
+    "Name": "GloomSpores",
+    "AmountPerContract": 50,
+    "RewardPerContract": 18000,
+    "DailyLimit": 32
+   }
+  ],
+  "Deprecated": true
+ },
+ "Contract3": {
+  "PrerequisiteQuests": [
+   "Main5",
+   "Contract2"
+  ],
+  "Requirements": [
+   {
+    "Name": "PocketWatch",
+    "Amount": 20
+   }
+  ],
+  "RewardMoney": 26000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "PrerequisiteDispatched": [
+   {
+    "Name": "GloomSpores",
+    "Amount": 5000
+   }
+  ],
+  "UnlockedContracts": [
+   {
+    "Name": "PocketWatch",
+    "AmountPerContract": 20,
+    "RewardPerContract": 26000,
+    "DailyLimit": 48
+   }
+  ],
+  "Deprecated": true
+ },
+ "Contract4": {
+  "PrerequisiteQuests": [
+   "Main6",
+   "Contract3"
+  ],
+  "Requirements": [
+   {
+    "Name": "Catalyst2",
+    "Amount": 20
+   }
+  ],
+  "RewardMoney": 60000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "PrerequisiteDispatched": [
+   {
+    "Name": "PocketWatch",
+    "Amount": 3000
+   }
+  ],
+  "UnlockedContracts": [
+   {
+    "Name": "Catalyst2",
+    "AmountPerContract": 20,
+    "RewardPerContract": 60000,
+    "DailyLimit": 60
+   }
+  ],
+  "Deprecated": true
+ },
+ "Contract5": {
+  "PrerequisiteQuests": [
+   "Main7",
+   "Contract4"
+  ],
+  "Requirements": [
+   {
+    "Name": "SilverAmulet",
+    "Amount": 10
+   }
+  ],
+  "RewardMoney": 340000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "PrerequisiteDispatched": [
+   {
+    "Name": "Catalyst2",
+    "Amount": 4000
+   }
+  ],
+  "UnlockedContracts": [
+   {
+    "Name": "SilverAmulet",
+    "AmountPerContract": 10,
+    "RewardPerContract": 340000,
+    "DailyLimit": 48
+   }
+  ],
+  "Deprecated": true
+ },
+ "Contract6": {
+  "PrerequisiteQuests": [
+   "Main8",
+   "Contract5"
+  ],
+  "Requirements": [
+   {
+    "Name": "MoonlitSoap",
+    "Amount": 10
+   }
+  ],
+  "RewardMoney": 6000000,
+  "RewardItems": [],
+  "UnlockedBuildings": [],
+  "PrerequisiteDispatched": [
+   {
+    "Name": "SilverAmulet",
+    "Amount": 2000
+   }
+  ],
+  "UnlockedContracts": [
+   {
+    "Name": "MoonlitSoap",
+    "AmountPerContract": 10,
+    "RewardPerContract": 6000000,
+    "DailyLimit": 8
+   }
+  ],
+  "Deprecated": true
+ }
+}

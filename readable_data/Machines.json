@@ -1,0 +1,1286 @@
+{
+ "Grinder": {
+  "DisplayName": "Grinder",
+  "CraftTypes": [
+   "Grind"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 6
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "EnhancedGrinder": {
+  "DisplayName": "Enhanced Grinder",
+  "CraftTypes": [
+   "Grind"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 12
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 3
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "Crucible": {
+  "DisplayName": "Crucible",
+  "CraftTypes": [
+   "Calcinate"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": 4,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 4
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "StackableCrucible": {
+  "DisplayName": "Stackable Crucible",
+  "CraftTypes": [
+   "Calcinate"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": 6,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 6
+   },
+   {
+    "Name": "SteelIngot",
+    "Amount": 2
+   },
+   {
+    "Name": "BronzeRivet",
+    "Amount": 2
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "Extractor": {
+  "DisplayName": "Extractor",
+  "CraftTypes": [
+   "Extract"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 5
+   },
+   {
+    "Name": "Glass",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "ThermalExtractor": {
+  "DisplayName": "Thermal Extractor",
+  "CraftTypes": [
+   "Extract"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": 80,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 5
+   },
+   {
+    "Name": "Glass",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting",
+   "Heating"
+  ]
+ },
+ "Refiner": {
+  "DisplayName": "Refiner",
+  "CraftTypes": [
+   "Refine"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 8
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 4
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "ParadoxCrucible": {
+  "DisplayName": "Paradox Crucible",
+  "CraftTypes": [
+   "Paradox"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": 1200,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "CopperIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "BronzeRivet",
+    "Amount": 16
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "SteamBoiler": {
+  "DisplayName": "Steam Boiler",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 20
+   },
+   {
+    "Name": "SteelIngot",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "KnowledgeAltar": {
+  "DisplayName": "Knowledge Altar",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 24
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting"
+  ]
+ },
+ "Cauldron": {
+  "DisplayName": "Cauldron",
+  "CraftTypes": [
+   "Cauldron"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "BronzeIngot",
+    "Amount": 20
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 3,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting",
+   "Heating"
+  ]
+ },
+ "AdvancedCauldron": {
+  "DisplayName": "Advanced Cauldron",
+  "CraftTypes": [
+   "Cauldron"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Passive",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SilverIngot",
+    "Amount": 20
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.PassiveCrafting",
+   "Heating"
+  ]
+ },
+ "Processor": {
+  "DisplayName": "Processor",
+  "CraftTypes": [
+   "Process"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 12
+   },
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 3
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Kiln": {
+  "DisplayName": "Kiln",
+  "CraftTypes": [
+   "Fire"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": 15,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 20
+   },
+   {
+    "Name": "Clay",
+    "Amount": 10
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Blender": {
+  "DisplayName": "Blender",
+  "CraftTypes": [
+   "Blend"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "Glass",
+    "Amount": 8
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 1,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Assembler": {
+  "DisplayName": "Assembler",
+  "CraftTypes": [
+   "Assemble"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 10
+   },
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 5
+   },
+   {
+    "Name": "WoodGear",
+    "Amount": 15
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Alembic": {
+  "DisplayName": "Alembic",
+  "CraftTypes": [
+   "Distill"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": 108,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 4
+   },
+   {
+    "Name": "CopperIngot",
+    "Amount": 4
+   },
+   {
+    "Name": "Glass",
+    "Amount": 8
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 1,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Athanor": {
+  "DisplayName": "Athanor",
+  "CraftTypes": [
+   "Athanor"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": 32,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 10
+   },
+   {
+    "Name": "Nails",
+    "Amount": 15
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 2,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "AdvancedBlender": {
+  "DisplayName": "Advanced Blender",
+  "CraftTypes": [
+   "AdBlend"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "Glass",
+    "Amount": 16
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 4
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 1,
+   "PipeIn": 1,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "AdvancedAlembic": {
+  "DisplayName": "Advanced Alembic",
+  "CraftTypes": [
+   "AdDistill"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": 270,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "Glass",
+    "Amount": 16
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 4
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 0,
+   "PipeIn": 1,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Omni-Machine": {
+  "DisplayName": "Advanced Assembler",
+  "CraftTypes": [
+   "OmniCraft"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 12
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 16
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 8
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 3,
+   "BeltOut": 1,
+   "PipeIn": 1,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "AdvancedAthanor": {
+  "DisplayName": "Advanced Athanor",
+  "CraftTypes": [
+   "AdAthanor"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": 360,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 12
+   },
+   {
+    "Name": "CopperIngot",
+    "Amount": 12
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 3,
+   "BeltOut": 3,
+   "PipeIn": 1,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "Shaper": {
+  "DisplayName": "Shaper",
+  "CraftTypes": [
+   "Shaper"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "Nails",
+    "Amount": 16
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 6,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "AdvancedShaper": {
+  "DisplayName": "Advanced Shaper",
+  "CraftTypes": [
+   "AdShaper"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 16
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 5,
+   "BeltOut": 1,
+   "PipeIn": 2,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "AetherShaper": {
+  "DisplayName": "Arcane Shaper",
+  "CraftTypes": [
+   "AtShaper"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "GoldIngot",
+    "Amount": 12
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 24
+   },
+   {
+    "Name": "CopperBearing",
+    "Amount": 18
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 9,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "ArcaneProcessor": {
+  "DisplayName": "Arcane Processor",
+  "CraftTypes": [
+   "AdProcess"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Active",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 6
+   },
+   {
+    "Name": "SteelGear",
+    "Amount": 12
+   },
+   {
+    "Name": "LapisLazuli",
+    "Amount": 2
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 3,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.ActiveCrafting"
+  ]
+ },
+ "StoneStove": {
+  "DisplayName": "Stone Furnace",
+  "CraftTypes": [],
+  "Role": "HeatSource",
+  "MachineType": "HeatSource",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 20
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Nav.ModifierObstacleArea",
+   "CanWallMounted",
+   "Crafting.Heating"
+  ]
+ },
+ "StoneFurnace": {
+  "DisplayName": "Blast Furnace",
+  "CraftTypes": [],
+  "Role": "HeatSource",
+  "MachineType": "HeatSource",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "Brick",
+    "Amount": 30
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Nav.ModifierObstacleArea",
+   "CanWallMounted",
+   "Crafting.Heating"
+  ]
+ },
+ "SteamHeater": {
+  "DisplayName": "Steam Heating Pad",
+  "CraftTypes": [],
+  "Role": "HeatSource",
+  "MachineType": "HeatSource",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "SteelIngot",
+    "Amount": 3
+   },
+   {
+    "Name": "CopperIngot",
+    "Amount": 3
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 2,
+   "PipeOut": 2
+  },
+  "Tags": [
+   "CanWallMounted",
+   "Crafting.Heating"
+  ]
+ },
+ "BrewBarrel": {
+  "DisplayName": "Brew Barrel",
+  "CraftTypes": [
+   "LiquidTap"
+  ],
+  "Role": "Crafting",
+  "MachineType": "Shop",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 30
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 10
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 3,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Shop.Shelves"
+  ]
+ },
+ "TableSaw": {
+  "DisplayName": "Table Saw",
+  "CraftTypes": [
+   "TableSaw"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.RawProduction"
+  ]
+ },
+ "StoneCrusher": {
+  "DisplayName": "Stone Crusher",
+  "CraftTypes": [
+   "StoneCrusher"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 6
+   },
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 6
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.RawProduction"
+  ]
+ },
+ "SeedPlot": {
+  "DisplayName": "Seed Plot",
+  "CraftTypes": [
+   "Plant"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 8
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.RawProduction"
+  ]
+ },
+ "IronSmelter": {
+  "DisplayName": "Iron Smelter",
+  "CraftTypes": [
+   "Smelter"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": 9,
+  "BuildCost": [
+   {
+    "Name": "Stone",
+    "Amount": 15
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Heating",
+   "Crafting.RawProduction"
+  ]
+ },
+ "AutoNursery": {
+  "DisplayName": "Nursery",
+  "CraftTypes": [
+   "Plant"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 8
+   },
+   {
+    "Name": "Clay",
+    "Amount": 4
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.RawProduction"
+  ]
+ },
+ "WorldTreeNursery": {
+  "DisplayName": "World Tree Nursery",
+  "CraftTypes": [
+   "Plant"
+  ],
+  "Role": "Crafting",
+  "MachineType": "RawProduction",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "WorldTreeSeed",
+    "Amount": 1
+   },
+   {
+    "Name": "Clay",
+    "Amount": 100
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 100
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 9,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.RawProduction"
+  ]
+ },
+ "Portal_AlchGuild": {
+  "DisplayName": "Purchasing Portal",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "PortalSigil",
+    "Amount": 1
+   },
+   {
+    "Name": "WoodBoard",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Portal_Bank": {
+  "DisplayName": "Bank Portal",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "PortalSigil",
+    "Amount": 1
+   },
+   {
+    "Name": "IronIngot",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Portal_Wholesaling": {
+  "DisplayName": "Dispatch Portal",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "PortalSigil",
+    "Amount": 1
+   },
+   {
+    "Name": "WoodBoard",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 1,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "LiquidSupplier": {
+  "DisplayName": "Purchasing Portal",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 1,
+   "PipeIn": 0,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Portal_Output": {
+  "DisplayName": "Portal (Output)",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "PortalSigil",
+    "Amount": 1
+   },
+   {
+    "Name": "WoodBoard",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 2,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Portal_Input": {
+  "DisplayName": "Portal (Input)",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "PortalSigil",
+    "Amount": 1
+   },
+   {
+    "Name": "WoodBoard",
+    "Amount": 5
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 2,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Flask_Output": {
+  "DisplayName": "Flask (Output)",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 6
+   },
+   {
+    "Name": "Glass",
+    "Amount": 2
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 1
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "Flask_Input": {
+  "DisplayName": "Flask (Input)",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": "Portal",
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "IronIngot",
+    "Amount": 6
+   },
+   {
+    "Name": "Glass",
+    "Amount": 2
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 1,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Crafting.Portal"
+  ]
+ },
+ "CharcoalBlock": {
+  "DisplayName": "Charcoal Block",
+  "CraftTypes": [],
+  "Role": "Other",
+  "MachineType": null,
+  "FuelUse": null,
+  "BuildCost": [
+   {
+    "Name": "Charcoal",
+    "Amount": 1
+   }
+  ],
+  "SpeedMultiplier": 1,
+  "Ports": {
+   "BeltIn": 0,
+   "BeltOut": 0,
+   "PipeIn": 0,
+   "PipeOut": 0
+  },
+  "Tags": [
+   "Decoration.Blocks",
+   "CanWallMounted",
+   "Heating"
+  ]
+ }
+}

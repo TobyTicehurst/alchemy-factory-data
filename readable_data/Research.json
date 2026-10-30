@@ -1,0 +1,2453 @@
+{
+ "Level1": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "Wood",
+   "GelatinousGridlock"
+  ],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "TableSaw": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [
+   "Level1"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "TableSaw"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "WoodBlock",
+   "WorkBench",
+   "CheckoutTable",
+   "MediumStand",
+   "LargeStand"
+  ],
+  "Deprecated": false
+ },
+ "SmallContainer": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [
+   "TableSaw"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SmallContainer"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Grinder": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [
+   "TableSaw"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Grinder"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "Candle"
+  ],
+  "Deprecated": false
+ },
+ "Belt": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [
+   "TableSaw"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Belt"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "BeltSlopeUp"
+  ],
+  "Deprecated": false
+ },
+ "BeltSlopeUp": {
+  "Tier": 0,
+  "Cost": 100,
+  "Time": 30,
+  "Prerequisites": [
+   "Belt"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "BeltSlopeUp",
+   "BeltInclinedUp"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Level2": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "Grinder"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "FlaxSeed",
+   "Limestone"
+  ],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "StoneCrusher": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "Level2"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "StoneCrusher"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "StoneBlock"
+  ],
+  "Deprecated": false
+ },
+ "Processor": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "StoneCrusher"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Processor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "SeedPlot": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "StoneCrusher"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SeedPlot"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WoodGear": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "Processor"
+  ],
+  "UnlockedRecipes": [
+   "WoodGear"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "WoodContainer"
+  ],
+  "Deprecated": false
+ },
+ "Mortar": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "Processor"
+  ],
+  "UnlockedRecipes": [
+   "Mortar"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "LinenThread": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "Processor",
+   "SeedPlot"
+  ],
+  "UnlockedRecipes": [
+   "LinenThread"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WoodContainer": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "WoodGear"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "WoodContainer"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "LinenRope": {
+  "Tier": 1,
+  "Cost": 230,
+  "Time": 57,
+  "Prerequisites": [
+   "LinenThread"
+  ],
+  "UnlockedRecipes": [
+   "LinenRope"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "Catapult"
+  ],
+  "Deprecated": false
+ },
+ "Level3": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Mortar"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "IronOre",
+   "SageSeed"
+  ],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Catapult": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Level3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Catapult"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "StoneStove": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Level3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "StoneStove"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Assembler": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Level3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Assembler"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "ConveyerLift_Upwards": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Level3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ConveyerLift_Upwards",
+   "ConveyerLift_EndUpwards",
+   "ConveyerLift_EndDownwards",
+   "ConveyerLift_Body",
+   "ConveyerLift_Payload"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "JunkBarrel": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Level3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "JunkBarrel"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Hopper": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Catapult"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Hopper"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "IronSmelter": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "StoneStove"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "IronSmelter"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "IronBlock",
+   "MetalContainer"
+  ],
+  "Deprecated": false
+ },
+ "HealingPotion": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Assembler"
+  ],
+  "UnlockedRecipes": [
+   "HealingPotion"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "PotionStand"
+  ],
+  "Deprecated": false
+ },
+ "WorkBench": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Assembler"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "WorkBench"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Linen": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Assembler"
+  ],
+  "UnlockedRecipes": [
+   "Linen"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "FrameSingle": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "IronSmelter"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "FrameSingle",
+   "IronStand"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Nails": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "IronSmelter"
+  ],
+  "UnlockedRecipes": [
+   "Nails"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "Hopper",
+   "FrameSingle",
+   "ConveyorTunnel",
+   "Chandelier",
+   "NoticeBoard",
+   "Platform_Wood",
+   "Stairs_Wood"
+  ],
+  "Deprecated": false
+ },
+ "PotionStand": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "HealingPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "PotionStand"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Bandage": {
+  "Tier": 2,
+  "Cost": 570,
+  "Time": 90,
+  "Prerequisites": [
+   "Linen"
+  ],
+  "UnlockedRecipes": [
+   "Bandage"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level4": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "HealingPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AutoCheckout"
+  ],
+  "UnlockedItems": [
+   "RedcurrantSeed",
+   "PortalSigil",
+   "CashRegister"
+  ],
+  "UnlockedWorkbenchTechnologies": [
+   "Portal_AlchGuild",
+   "JunkBarrel"
+  ],
+  "Deprecated": false
+ },
+ "Portal_AlchGuild": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Level4"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Portal_AlchGuild"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "ConveyorTunnel": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Level4"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ConveyorTunnel"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Crucible": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Level4"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Crucible"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "CharcoalBlock"
+  ],
+  "Deprecated": false
+ },
+ "Cart": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Level4"
+  ],
+  "UnlockedRecipes": [
+   "Cart"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "Railroad",
+   "TrackStart",
+   "TrackEnd",
+   "TrackUploader",
+   "TrackDownloader",
+   "TrackTransfer"
+  ],
+  "Deprecated": false
+ },
+ "Pipe": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Kiln"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Pipe"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WoodPulley": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Level4"
+  ],
+  "UnlockedRecipes": [
+   "WoodPulley"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "DrawBridge"
+  ],
+  "Deprecated": false
+ },
+ "Portal_Bank": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Portal_AlchGuild"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Portal_Bank"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "BasicFertilizer": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Crucible"
+  ],
+  "UnlockedRecipes": [
+   "BasicFertilizer"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Clay": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Crucible"
+  ],
+  "UnlockedRecipes": [
+   "Clay"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "DrawBridge": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "WoodPulley"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "DrawBridge"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "ExpandableDrawBridge": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "WoodPulley"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ExpandableDrawBridge"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "AutoNursery": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "BasicFertilizer",
+   "Clay"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AutoNursery"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Kiln": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Clay"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Kiln"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "CrossTunnel": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "DrawBridge"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "CrossTunnel"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Brick": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Kiln"
+  ],
+  "UnlockedRecipes": [
+   "Brick"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "BrickBlock"
+  ],
+  "Deprecated": false
+ },
+ "Glass": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Kiln"
+  ],
+  "UnlockedRecipes": [
+   "Glass"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "ConicalFlask"
+  ],
+  "Deprecated": false
+ },
+ "StoneFurnace": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Brick"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "StoneFurnace"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "ConicalFlask": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Glass"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ConicalFlask"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Blender": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Glass"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Blender"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Extractor": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Glass",
+   "Pipe"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Extractor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "BrewBarrel": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Pipe"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "BrewBarrel"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Soap": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Blender"
+  ],
+  "UnlockedRecipes": [
+   "Soap"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "VitalityPotion": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Blender"
+  ],
+  "UnlockedRecipes": [
+   "VitalityPotion"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WhisperingFields": {
+  "Tier": 3,
+  "Cost": 1600,
+  "Time": 129,
+  "Prerequisites": [
+   "Extractor",
+   "BrewBarrel"
+  ],
+  "UnlockedRecipes": [
+   "WhisperingFields"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level5": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "VitalityPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "RottenLog",
+   "CoalOre",
+   "AdPortalSigil"
+  ],
+  "UnlockedWorkbenchTechnologies": [
+   "GrandPortal",
+   "BounceShroom",
+   "Filter_Vert",
+   "Merger_Vert",
+   "Splitter_Vert"
+  ],
+  "Deprecated": false
+ },
+ "BounceShroom": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "BounceShroom"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SphereFlask": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SphereFlask"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Athanor": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Athanor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "YeastPowder": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [
+   "YeastPowder"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Turquoise": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [
+   "Turquoise"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "JewelryStand"
+  ],
+  "Deprecated": false
+ },
+ "Shaper": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Shaper"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AdvancedFertilizer": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Level5"
+  ],
+  "UnlockedRecipes": [
+   "AdvancedFertilizer"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Filter_Vert": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Athanor"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Filter_Vert"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Coke": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Athanor"
+  ],
+  "UnlockedRecipes": [
+   "Coke"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "GloomSpores": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "YeastPowder"
+  ],
+  "UnlockedRecipes": [
+   "GloomSpores"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "JewelryStand": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Turquoise"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "JewelryStand"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Jupiter": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Shaper"
+  ],
+  "UnlockedRecipes": [
+   "Jupiter"
+  ],
+  "UnlockedBuildings": [
+   "JupiterD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "RelicStandSmall",
+   "KnowledgeAltar"
+  ],
+  "Deprecated": false
+ },
+ "Merger_Vert": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Filter_Vert"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Merger_Vert"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Splitter_Vert": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Filter_Vert"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Splitter_Vert"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SteelIngot": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Coke"
+  ],
+  "UnlockedRecipes": [
+   "SteelIngot"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "MetalStand",
+   "ExpandableBeam",
+   "FreightElevatorFrame_Bottom"
+  ],
+  "Deprecated": false
+ },
+ "ManaPotion": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Coke",
+   "GloomSpores"
+  ],
+  "UnlockedRecipes": [
+   "ManaPotion"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "ShrinkMachine"
+  ],
+  "Deprecated": false
+ },
+ "RelicStandSmall": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Jupiter"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "RelicStandSmall"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "KnowledgeAltar": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "Jupiter"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "KnowledgeAltar"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "MetalStand": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "SteelIngot"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "MetalStand"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Cannon": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "SteelIngot"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Cannon"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SteelGear": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "SteelIngot"
+  ],
+  "UnlockedRecipes": [
+   "SteelGear"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "Cannon",
+   "ExpandableConveyorTunnel",
+   "EnhancedGrinder"
+  ],
+  "Deprecated": false
+ },
+ "ShrinkMachine": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "ManaPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ShrinkMachine"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "ExpandableConveyorTunnel": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "SteelGear"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ExpandableConveyorTunnel"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "ExpandableBeam": {
+  "Tier": 4,
+  "Cost": 4400,
+  "Time": 174,
+  "Prerequisites": [
+   "SteelGear"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ExpandableBeam"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Level6": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "ManaPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "ChamomileSeed",
+   "Pyrite",
+   "RockSalt"
+  ],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Salt": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [
+   "Salt"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "SteamBoiler": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SteamBoiler"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "CopperPowder2": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [
+   "CopperPowder2"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "BronzeBlock",
+   "CopperBlock"
+  ],
+  "Deprecated": false
+ },
+ "Refiner": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Refiner"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "EnhancedGrinder": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "EnhancedGrinder"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "FlowerVase1": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Level6"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "FlowerVase1",
+   "FlowerPot1",
+   "FlowerBed1"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "StrangeTide": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Salt"
+  ],
+  "UnlockedRecipes": [
+   "StrangeTide"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Saturn": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Salt"
+  ],
+  "UnlockedRecipes": [
+   "Saturn"
+  ],
+  "UnlockedBuildings": [
+   "SaturnD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "SteamHeater": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "SteamBoiler"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SteamHeater"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Malachite": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [
+   "Malachite"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "CopperBearing": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [
+   "CopperBearing"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "SmartCannon",
+   "SmartHopper"
+  ],
+  "Deprecated": false
+ },
+ "Cauldron": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Cauldron"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "BronzeRivet": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [
+   "BronzeRivet"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "StackableCrucible",
+   "SmallPlatform"
+  ],
+  "Deprecated": false
+ },
+ "CopperIngot_Alt": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [
+   "CopperIngot_Alt"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "CopperCoin": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperPowder2"
+  ],
+  "UnlockedRecipes": [
+   "CopperCoin"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Omni-Machine": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperBearing"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Omni-Machine"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AdvancedBlender": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperBearing"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AdvancedBlender"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Mars": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "CopperBearing",
+   "BronzeRivet"
+  ],
+  "UnlockedRecipes": [
+   "Mars"
+  ],
+  "UnlockedBuildings": [
+   "MarsD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "StackableCrucible": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "BronzeRivet"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "StackableCrucible"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SmallPlatform": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "BronzeRivet"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "SmallPlatform"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Catalyst1": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Omni-Machine"
+  ],
+  "UnlockedRecipes": [
+   "Catalyst1"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "PocketWatch": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Omni-Machine"
+  ],
+  "UnlockedRecipes": [
+   "PocketWatch"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "ClockworkBird": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "Omni-Machine"
+  ],
+  "UnlockedRecipes": [
+   "ClockworkBird"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "BlackPowder": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "AdvancedBlender"
+  ],
+  "UnlockedRecipes": [
+   "BlackPowder"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "GrowthPotion": {
+  "Tier": 5,
+  "Cost": 12000,
+  "Time": 225,
+  "Prerequisites": [
+   "AdvancedBlender"
+  ],
+  "UnlockedRecipes": [
+   "GrowthPotion"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level7": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "GrowthPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "LavenderSeed",
+   "QuartzOre"
+  ],
+  "UnlockedWorkbenchTechnologies": [
+   "FlowerVase1"
+  ],
+  "Deprecated": false
+ },
+ "AdvancedShaper": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Level7"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AdvancedShaper"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "ThermalExtractor": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Level7"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ThermalExtractor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Alembic": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Level7"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "Alembic"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "ThermalExtractor"
+  ],
+  "Deprecated": false
+ },
+ "ParadoxCrucible": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Level7"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ParadoxCrucible"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "SulfuricAcid": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Alembic"
+  ],
+  "UnlockedRecipes": [
+   "SulfuricAcid"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Brandy": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Alembic"
+  ],
+  "UnlockedRecipes": [
+   "Brandy"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "LavenderEssentialOil": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Alembic"
+  ],
+  "UnlockedRecipes": [
+   "LavenderEssentialOil"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Venus": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "AdvancedShaper",
+   "SulfuricAcid"
+  ],
+  "UnlockedRecipes": [
+   "Venus"
+  ],
+  "UnlockedBuildings": [
+   "VenusD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Topaz": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "SulfuricAcid"
+  ],
+  "UnlockedRecipes": [
+   "Topaz"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "BlastPotion": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Brandy"
+  ],
+  "UnlockedRecipes": [
+   "BlastPotion"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "LavenderDream": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "Brandy",
+   "LavenderEssentialOil"
+  ],
+  "UnlockedRecipes": [
+   "LavenderDream"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "PerfumedSoap": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "LavenderEssentialOil"
+  ],
+  "UnlockedRecipes": [
+   "PerfumedSoap"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Catalyst2": {
+  "Tier": 6,
+  "Cost": 43000,
+  "Time": 282,
+  "Prerequisites": [
+   "LavenderEssentialOil",
+   "ParadoxCrucible"
+  ],
+  "UnlockedRecipes": [
+   "Catalyst2"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level8": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "BlastPotion"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "GentianSeed",
+   "WorldTreeSeed"
+  ],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AdvancedAthanor": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "Level8"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AdvancedAthanor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AdvancedAlembic": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "Level8"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AdvancedAlembic"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WorldTreeNursery": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "Level8"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "WorldTreeNursery"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "LeafBlock"
+  ],
+  "Deprecated": false
+ },
+ "SilverPowder3": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AdvancedAthanor"
+  ],
+  "UnlockedRecipes": [
+   "SilverPowder3"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "SilverBlock"
+  ],
+  "Deprecated": false
+ },
+ "LapisLazuli": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AdvancedAthanor"
+  ],
+  "UnlockedRecipes": [
+   "LapisLazuli"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Obsidian": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AdvancedAthanor"
+  ],
+  "UnlockedRecipes": [
+   "Obsidian"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "MarbleBlock",
+   "LicenseShowcase"
+  ],
+  "Deprecated": false
+ },
+ "Mercury": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AdvancedAlembic"
+  ],
+  "UnlockedRecipes": [
+   "Mercury"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AquaVitae": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AdvancedAlembic",
+   "WorldTreeNursery"
+  ],
+  "UnlockedRecipes": [
+   "AquaVitae"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AdvancedCauldron": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "SilverPowder3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AdvancedCauldron"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "SilverCoin": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "SilverPowder3"
+  ],
+  "UnlockedRecipes": [
+   "SilverCoin"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SilverIngot_Alt": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "SilverPowder3"
+  ],
+  "UnlockedRecipes": [
+   "SilverIngot_Alt"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "SilverAmulet": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "SilverPowder3"
+  ],
+  "UnlockedRecipes": [
+   "SilverAmulet"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "MercuryP": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "LapisLazuli",
+   "Obsidian",
+   "Mercury"
+  ],
+  "UnlockedRecipes": [
+   "MercuryP"
+  ],
+  "UnlockedBuildings": [
+   "MercuryD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "WorldTreeVintage": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AquaVitae"
+  ],
+  "UnlockedRecipes": [
+   "WorldTreeVintage"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "PanaceaElixir": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AquaVitae"
+  ],
+  "UnlockedRecipes": [
+   "PanaceaElixir"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Catalyst3": {
+  "Tier": 7,
+  "Cost": 136000,
+  "Time": 345,
+  "Prerequisites": [
+   "AquaVitae"
+  ],
+  "UnlockedRecipes": [
+   "Catalyst3"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level9": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "MercuryP",
+   "PanaceaElixir"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [
+   "Meteorite"
+  ],
+  "UnlockedWorkbenchTechnologies": [
+   "MiniWorldTree"
+  ],
+  "Deprecated": false
+ },
+ "ArcaneProcessor": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "Level9"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "ArcaneProcessor"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "GoldDust3": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "Level9"
+  ],
+  "UnlockedRecipes": [
+   "GoldDust3"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "GoldBlock"
+  ],
+  "Deprecated": false
+ },
+ "FairyDust": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "ArcaneProcessor"
+  ],
+  "UnlockedRecipes": [
+   "FairyDust"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "StarDust": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "ArcaneProcessor"
+  ],
+  "UnlockedRecipes": [
+   "StarDust"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Catalyst4": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "ArcaneProcessor"
+  ],
+  "UnlockedRecipes": [
+   "Catalyst4"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "GoldCoin": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "GoldDust3"
+  ],
+  "UnlockedRecipes": [
+   "GoldCoin"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "Crown": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "GoldDust3"
+  ],
+  "UnlockedRecipes": [
+   "Crown"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [
+   "TreasureChest"
+  ],
+  "Deprecated": false
+ },
+ "GoldIngot_Alt": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "GoldDust3"
+  ],
+  "UnlockedRecipes": [
+   "GoldIngot_Alt"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "MoonTear": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "FairyDust",
+   "StarDust"
+  ],
+  "UnlockedRecipes": [
+   "MoonTear"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "TreasureChest": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "Crown"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "TreasureChest"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": true
+ },
+ "AlchemistSigh": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "MoonTear"
+  ],
+  "UnlockedRecipes": [
+   "AlchemistSigh"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "MoonlitSoap": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "MoonTear"
+  ],
+  "UnlockedRecipes": [
+   "MoonlitSoap"
+  ],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Luna": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "MoonTear"
+  ],
+  "UnlockedRecipes": [
+   "Luna"
+  ],
+  "UnlockedBuildings": [
+   "LunaD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "AetherShaper": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "GoldDust3"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [
+   "AetherShaper"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Sol": {
+  "Tier": 8,
+  "Cost": 500000,
+  "Time": 414,
+  "Prerequisites": [
+   "Luna",
+   "Catalyst4",
+   "AetherShaper"
+  ],
+  "UnlockedRecipes": [
+   "Sol"
+  ],
+  "UnlockedBuildings": [
+   "SolD"
+  ],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ },
+ "Level10": {
+  "Tier": 9,
+  "Cost": 2100000,
+  "Time": 489,
+  "Prerequisites": [
+   "Sol"
+  ],
+  "UnlockedRecipes": [],
+  "UnlockedBuildings": [],
+  "UnlockedItems": [],
+  "UnlockedWorkbenchTechnologies": [],
+  "Deprecated": false
+ }
+}

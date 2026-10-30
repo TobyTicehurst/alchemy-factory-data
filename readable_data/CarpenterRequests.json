@@ -1,0 +1,118 @@
+{
+ "Carpenter1": {
+  "PrerequisiteQuests": [
+   "Main1"
+  ],
+  "Requirements": [
+   {
+    "Name": "WoodBoard",
+    "Amount": 200
+   }
+  ],
+  "RewardMoney": 600,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "WoodCrate"
+  ]
+ },
+ "Carpenter2": {
+  "PrerequisiteQuests": [
+   "Carpenter1"
+  ],
+  "Requirements": [
+   {
+    "Name": "LargeWoodGear",
+    "Amount": 20
+   },
+   {
+    "Name": "WoodGear",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 1200,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "JunkBarrel"
+  ]
+ },
+ "Carpenter3": {
+  "PrerequisiteQuests": [
+   "Carpenter2",
+   "Main2"
+  ],
+  "Requirements": [
+   {
+    "Name": "IronIngot",
+    "Amount": 20
+   },
+   {
+    "Name": "Nails",
+    "Amount": 60
+   }
+  ],
+  "RewardMoney": 2200,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "Beam3"
+  ]
+ },
+ "Carpenter4": {
+  "PrerequisiteQuests": [
+   "Carpenter3",
+   "Main2"
+  ],
+  "Requirements": [
+   {
+    "Name": "LinenRope",
+    "Amount": 30
+   },
+   {
+    "Name": "Linen",
+    "Amount": 10
+   }
+  ],
+  "RewardMoney": 8500,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "WoodBed"
+  ]
+ },
+ "Carpenter5": {
+  "PrerequisiteQuests": [
+   "Carpenter4",
+   "Main3"
+  ],
+  "Requirements": [
+   {
+    "Name": "WoodPulley",
+    "Amount": 100
+   }
+  ],
+  "RewardMoney": 16000,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "WallShelf"
+  ]
+ },
+ "Carpenter6": {
+  "PrerequisiteQuests": [
+   "Carpenter5",
+   "Main3"
+  ],
+  "Requirements": [
+   {
+    "Name": "Brick",
+    "Amount": 60
+   },
+   {
+    "Name": "Glass",
+    "Amount": 60
+   }
+  ],
+  "RewardMoney": 28000,
+  "RewardItems": [],
+  "UnlockedBuildings": [
+   "WoodRailing"
+  ]
+ }
+}
