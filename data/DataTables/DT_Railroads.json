@@ -1,0 +1,4122 @@
+{
+  "row_struct": "RailroadDataConfig",
+  "rows": {
+    "0": {
+      "Name": "默认",
+      "Type": "Spline",
+      "PinOutputType": "Unknown",
+      "PinInputType": "Unknown",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "1": {
+      "Name": "基础直线",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -12.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 12.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "2": {
+      "Name": "右拐",
+      "Type": "Procedural",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -9.45,
+                "Y": -8.6,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 22.5,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 3.0,
+              "position": {
+                "X": 10.0,
+                "Y": 12.2,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 67.5,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 4.0,
+              "position": {
+                "X": 12.5,
+                "Y": 25.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 270.0,
+        "TotalAngle": 90.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 12.5,
+          "Y": 25.0,
+          "Z": 6.29855
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": -25.0,
+          "Y": 25.0,
+          "Z": 6.29855
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_RailroadTurn_L9.SM_RailroadTurn_L9",
+      "Points": []
+    },
+    "2332131": {
+      "Name": "",
+      "Type": "Spline",
+      "PinOutputType": "Unknown",
+      "PinInputType": "Unknown",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "3": {
+      "Name": "左拐",
+      "Type": "Procedural",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": true,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": 25.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 270.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 225.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": -90.0,
+        "BaseRotator": 270.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 12.5,
+          "Y": 25.0,
+          "Z": 6.29855
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": -25.0,
+          "Y": 25.0,
+          "Z": 6.29855
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_RailroadTurn_L9.SM_RailroadTurn_L9",
+      "Points": []
+    },
+    "4": {
+      "Name": "下坡",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -12.5,
+                "Y": 0.0,
+                "Z": 25.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": -45.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 12.5,
+                "Y": 0.0,
+                "Z": 6.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": -45.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": -11.4446,
+          "Y": 0.0,
+          "Z": 30.385
+        },
+        {
+          "X": -9.2798,
+          "Y": 0.0,
+          "Z": 28.2202
+        },
+        {
+          "X": 15.7202,
+          "Y": 0.0,
+          "Z": 3.22024
+        },
+        {
+          "X": 17.5331,
+          "Y": 0.0,
+          "Z": 1.40735
+        }
+      ]
+    },
+    "5": {
+      "Name": "上坡",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": true,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 45.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -12.5,
+                "Y": 0.0,
+                "Z": 31.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 45.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": -11.4446,
+          "Y": 0.0,
+          "Z": 30.385
+        },
+        {
+          "X": -9.2798,
+          "Y": 0.0,
+          "Z": 28.2202
+        },
+        {
+          "X": 15.7202,
+          "Y": 0.0,
+          "Z": 3.22024
+        },
+        {
+          "X": 17.5331,
+          "Y": 0.0,
+          "Z": 1.40735
+        }
+      ]
+    },
+    "6": {
+      "Name": "过山车入口",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": true,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -75.0,
+                "Y": -37.5,
+                "Z": 81.3
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 75.0,
+                "Y": -37.5,
+                "Z": 81.3
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "7": {
+      "Name": "缓上坡",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": 28.3258,
+          "Y": 0.0,
+          "Z": 6.29853
+        },
+        {
+          "X": 25.0,
+          "Y": 0.0,
+          "Z": 6.29854
+        },
+        {
+          "X": 6.61887,
+          "Y": 0.0,
+          "Z": 6.29854
+        },
+        {
+          "X": 4.30136,
+          "Y": 0.0,
+          "Z": 6.46937
+        },
+        {
+          "X": 2.0735,
+          "Y": 0.0,
+          "Z": 7.03837
+        },
+        {
+          "X": -0.347117,
+          "Y": 0.0,
+          "Z": 7.86409
+        },
+        {
+          "X": -2.38219,
+          "Y": 0.0,
+          "Z": 9.07517
+        },
+        {
+          "X": -4.1021,
+          "Y": 0.0,
+          "Z": 10.5426
+        },
+        {
+          "X": -21.7798,
+          "Y": 0.0,
+          "Z": 28.2202
+        },
+        {
+          "X": -23.1604,
+          "Y": 0.0,
+          "Z": 29.6008
+        }
+      ]
+    },
+    "8": {
+      "Name": "缓下坡",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": -40.7582,
+          "Y": 0.0,
+          "Z": 31.2985
+        },
+        {
+          "X": -37.5,
+          "Y": 0.0,
+          "Z": 31.2985
+        },
+        {
+          "X": -20.30979,
+          "Y": 0.0,
+          "Z": 31.2986
+        },
+        {
+          "X": -17.45478,
+          "Y": 0.0,
+          "Z": 31.0554
+        },
+        {
+          "X": -14.19497,
+          "Y": 0.0,
+          "Z": 30.2502
+        },
+        {
+          "X": -11.31303,
+          "Y": 0.0,
+          "Z": 28.9804
+        },
+        {
+          "X": -8.77372,
+          "Y": 0.0,
+          "Z": 27.3059
+        },
+        {
+          "X": -6.49937,
+          "Y": 0.0,
+          "Z": 25.3935
+        },
+        {
+          "X": 15.7097,
+          "Y": 0.0,
+          "Z": 3.22025
+        },
+        {
+          "X": 18.2786,
+          "Y": 0.0,
+          "Z": 0.651361
+        }
+      ]
+    },
+    "9": {
+      "Name": "缓上坡镜像",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": true,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": 28.3258,
+          "Y": 0.0,
+          "Z": 6.29853
+        },
+        {
+          "X": 25.0,
+          "Y": 0.0,
+          "Z": 6.29854
+        },
+        {
+          "X": 6.61887,
+          "Y": 0.0,
+          "Z": 6.29854
+        },
+        {
+          "X": 4.30136,
+          "Y": 0.0,
+          "Z": 6.46937
+        },
+        {
+          "X": 2.0735,
+          "Y": 0.0,
+          "Z": 7.03837
+        },
+        {
+          "X": -0.347117,
+          "Y": 0.0,
+          "Z": 7.86409
+        },
+        {
+          "X": -2.38219,
+          "Y": 0.0,
+          "Z": 9.07517
+        },
+        {
+          "X": -4.1021,
+          "Y": 0.0,
+          "Z": 10.5426
+        },
+        {
+          "X": -21.7798,
+          "Y": 0.0,
+          "Z": 28.2202
+        },
+        {
+          "X": -23.1604,
+          "Y": 0.0,
+          "Z": 29.6008
+        }
+      ]
+    },
+    "10": {
+      "Name": "缓下坡镜像",
+      "Type": "Points",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": true,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": [
+        {
+          "X": -40.7582,
+          "Y": 0.0,
+          "Z": 31.2985
+        },
+        {
+          "X": -37.5,
+          "Y": 0.0,
+          "Z": 31.2985
+        },
+        {
+          "X": -20.30979,
+          "Y": 0.0,
+          "Z": 31.2986
+        },
+        {
+          "X": -17.45478,
+          "Y": 0.0,
+          "Z": 31.0554
+        },
+        {
+          "X": -14.19497,
+          "Y": 0.0,
+          "Z": 30.2502
+        },
+        {
+          "X": -11.31303,
+          "Y": 0.0,
+          "Z": 28.9804
+        },
+        {
+          "X": -8.77372,
+          "Y": 0.0,
+          "Z": 27.3059
+        },
+        {
+          "X": -6.49937,
+          "Y": 0.0,
+          "Z": 25.3935
+        },
+        {
+          "X": 15.7097,
+          "Y": 0.0,
+          "Z": 3.22025
+        },
+        {
+          "X": 18.2786,
+          "Y": 0.0,
+          "Z": 0.651361
+        }
+      ]
+    },
+    "11": {
+      "Name": "上下货站台轨道",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": true,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -50.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": -50.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "12": {
+      "Name": "Track Split",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": -45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "13": {
+      "Name": "Track Merge",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 135.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "14": {
+      "Name": "Track Start",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -37.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "15": {
+      "Name": "Track End",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -37.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 12.5,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "16": {
+      "Name": "Transfer Station",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "17": {
+      "Name": "上下货站台轨道镜像",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": true,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -50.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": -50.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "18": {
+      "Name": "TrackTwist",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -12.5,
+                "Y": -25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 12.5,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "19": {
+      "Name": "TrackTwistSym",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": -25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 135.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -12.5,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "20": {
+      "Name": "Track Split Sym",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "21": {
+      "Name": "Track Merge Sym",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 225.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "22": {
+      "Name": "Transfer Reverse",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "23": {
+      "Name": "垂直上下货站台轨道",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": true,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "24": {
+      "Name": "Transfer Reverse Sym",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": -37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": 37.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "25": {
+      "Name": "Track Split 2",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 1.5165,
+                "Y": 1.5165,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": -45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 12.5,
+                "Y": -25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": -90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "26": {
+      "Name": "Track Split Sym 2",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 1.5165,
+                "Y": -1.5165,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 45.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": 12.5,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "27": {
+      "Name": "Track Merge 2",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": -25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 30.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 90.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 1.5165,
+                "Y": 1.5165,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 21.213,
+                "Y": -21.213,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": -21.213,
+                "Y": 21.213,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 135.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -25.0,
+                "Y": 12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": -30.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "28": {
+      "Name": "Track Merge Sym 2",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": false,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 12.5,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 270.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": 1.5165,
+                "Y": -1.5165,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 225.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            },
+            {
+              "InputKey": 2.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Curve"
+            }
+          ]
+        },
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": -12.5,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    },
+    "29": {
+      "Name": "垂直上下货站台轨道",
+      "Type": "Spline",
+      "PinOutputType": "Straight",
+      "PinInputType": "Straight",
+      "UseMeshReverse": false,
+      "ConstantSpeed": true,
+      "SpeedModify": 0.0,
+      "SampleCount": 10,
+      "Lines": [
+        {
+          "Lines": [
+            {
+              "InputKey": 0.0,
+              "position": {
+                "X": 25.0,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            },
+            {
+              "InputKey": 1.0,
+              "position": {
+                "X": -25.0,
+                "Y": 25.0,
+                "Z": 6.29855
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 180.0,
+                "Roll": 0.0
+              },
+              "Scale": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "Type": "Linear"
+            }
+          ]
+        }
+      ],
+      "Procedural": {
+        "LocationInterpMode": "CIM_Linear",
+        "RotationInterpMode": "CIM_Linear",
+        "StartAngle": 0.0,
+        "TotalAngle": 0.0,
+        "BaseRotator": 0.0,
+        "Segments": 10,
+        "startPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0
+        },
+        "CenterPos": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "mesh": null,
+      "Points": []
+    }
+  }
+}

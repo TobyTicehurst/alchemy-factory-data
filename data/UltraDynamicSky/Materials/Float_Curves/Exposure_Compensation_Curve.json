@@ -1,0 +1,66 @@
+{
+  "FloatCurve": {
+    "Keys": [
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_User",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -8.899999618530273,
+        "Value": -1.9999998807907104,
+        "ArriveTangent": 0.23734037578105927,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.23734037578105927,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -4.300000190734863,
+        "Value": -0.7999587655067444,
+        "ArriveTangent": 0.2774628698825836,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.2774628698825836,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.5446963310241699,
+        "Value": 0.31828635931015015,
+        "ArriveTangent": 0.33939409255981445,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.33939409255981445,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Break",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 1.100000023841858,
+        "Value": 1.0327693223953247,
+        "ArriveTangent": 0.5409168601036072,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": -0.007714714389294386,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 10.0,
+        "Value": 1.0,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.0
+      }
+    ],
+    "DefaultValue": null,
+    "PreInfinityExtrap": null,
+    "PostInfinityExtrap": null,
+    "KeyHandlesToIndices": null
+  },
+  "bIsEventCurve": null
+}

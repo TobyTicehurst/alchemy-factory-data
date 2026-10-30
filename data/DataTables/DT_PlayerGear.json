@@ -1,0 +1,342 @@
+{
+  "row_struct": "PlayerGearConfig",
+  "rows": {
+    "Backpack1": {
+      "GearType": "Backpack",
+      "Tier": 1,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "LinenThread",
+          "Count": 50
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag1"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Backpack2": {
+      "GearType": "Backpack",
+      "Tier": 2,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Linen",
+          "Count": 50
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag2"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Backpack3": {
+      "GearType": "Backpack",
+      "Tier": 3,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "WoodPulley",
+          "Count": 120
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag3"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Backpack4": {
+      "GearType": "Backpack",
+      "Tier": 4,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "ManaPotion",
+          "Count": 80
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag4"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Backpack5": {
+      "GearType": "Backpack",
+      "Tier": 5,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "BronzeRivet",
+          "Count": 60
+        },
+        {
+          "IngredientName": "PocketWatch",
+          "Count": 2
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag5"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Backpack6": {
+      "GearType": "Backpack",
+      "Tier": 6,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Obsidian",
+          "Count": 20
+        },
+        {
+          "IngredientName": "LapisLazuli",
+          "Count": 20
+        }
+      ],
+      "UnlockedBuffs": [
+        "Bag6"
+      ],
+      "UnlockedBuildings": []
+    },
+    "PotionBelt1": {
+      "GearType": "PotionBelt",
+      "Tier": 1,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Linen",
+          "Count": 10
+        },
+        {
+          "IngredientName": "LinenThread",
+          "Count": 20
+        },
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 5
+        }
+      ],
+      "UnlockedBuffs": [
+        "SleepTime1"
+      ],
+      "UnlockedBuildings": []
+    },
+    "PotionBelt2": {
+      "GearType": "PotionBelt",
+      "Tier": 2,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 100
+        }
+      ],
+      "UnlockedBuffs": [
+        "SleepTime2"
+      ],
+      "UnlockedBuildings": []
+    },
+    "PotionBelt3": {
+      "GearType": "PotionBelt",
+      "Tier": 3,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "VitalityPotion",
+          "Count": 100
+        }
+      ],
+      "UnlockedBuffs": [
+        "ActionSpeed1",
+        "SleepTime3"
+      ],
+      "UnlockedBuildings": []
+    },
+    "PotionBelt4": {
+      "GearType": "PotionBelt",
+      "Tier": 4,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "ManaPotion",
+          "Count": 120
+        }
+      ],
+      "UnlockedBuffs": [
+        "ActionSpeed2",
+        "SleepTime4"
+      ],
+      "UnlockedBuildings": []
+    },
+    "PotionBelt5": {
+      "GearType": "PotionBelt",
+      "Tier": 5,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "BlastPotion",
+          "Count": 150
+        }
+      ],
+      "UnlockedBuffs": [
+        "ActionSpeed3"
+      ],
+      "UnlockedBuildings": []
+    },
+    "BuildTool1": {
+      "GearType": "BuildTool",
+      "Tier": 1,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "WoodBoard",
+          "Count": 20
+        },
+        {
+          "IngredientName": "IronIngot",
+          "Count": 10
+        },
+        {
+          "IngredientName": "Nails",
+          "Count": 30
+        }
+      ],
+      "UnlockedBuffs": [],
+      "UnlockedBuildings": [
+        "Construct_Floor_Wood",
+        "Construct_Wall_Wood",
+        "Construct_Wall_Stone",
+        "Roof_Wood"
+      ]
+    },
+    "BuildTool2": {
+      "GearType": "BuildTool",
+      "Tier": 2,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Brick",
+          "Count": 30
+        },
+        {
+          "IngredientName": "Clay",
+          "Count": 30
+        }
+      ],
+      "UnlockedBuffs": [],
+      "UnlockedBuildings": [
+        "Construct_Floor_Brick",
+        "Construct_Wall_Brick",
+        "GrandStairs",
+        "ShopEntrance"
+      ]
+    },
+    "BuildTool3": {
+      "GearType": "BuildTool",
+      "Tier": 3,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "SteelIngot",
+          "Count": 30
+        }
+      ],
+      "UnlockedBuffs": [],
+      "UnlockedBuildings": [
+        "Pillar",
+        "Elevator_Bottom",
+        "Elevator_Station",
+        "FreightElevatorFrame_Bottom",
+        "FreightElevatorFrame_Middle",
+        "FreightElevatorFrame_Top",
+        "FreightElevator",
+        "LiftUploader",
+        "LiftDownloader",
+        "LiftWagonUploader",
+        "LiftWagonDownloader"
+      ]
+    },
+    "BuildTool4": {
+      "GearType": "BuildTool",
+      "Tier": 4,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Marble",
+          "Count": 30
+        }
+      ],
+      "UnlockedBuffs": [],
+      "UnlockedBuildings": [
+        "Construct_Floor_Marble",
+        "Construct_Wall_Marble",
+        "MarblePillar"
+      ]
+    },
+    "Gloves1": {
+      "GearType": "Gloves",
+      "Tier": 1,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Linen",
+          "Count": 6
+        },
+        {
+          "IngredientName": "LinenThread",
+          "Count": 30
+        }
+      ],
+      "UnlockedBuffs": [
+        "RestockSpeed1"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Gloves2": {
+      "GearType": "Gloves",
+      "Tier": 2,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "Soap",
+          "Count": 200
+        }
+      ],
+      "UnlockedBuffs": [
+        "RestockSpeed2"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Gloves3": {
+      "GearType": "Gloves",
+      "Tier": 3,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "PerfumedSoap",
+          "Count": 80
+        }
+      ],
+      "UnlockedBuffs": [
+        "RestockSpeed3"
+      ],
+      "UnlockedBuildings": []
+    },
+    "Gloves4": {
+      "GearType": "Gloves",
+      "Tier": 4,
+      "DisplayIcon": null,
+      "UpgradeCost": [
+        {
+          "IngredientName": "MoonlitSoap",
+          "Count": 5
+        }
+      ],
+      "UnlockedBuffs": [
+        "RestockSpeed4"
+      ],
+      "UnlockedBuildings": []
+    }
+  }
+}

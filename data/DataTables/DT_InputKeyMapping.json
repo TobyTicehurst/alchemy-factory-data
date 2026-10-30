@@ -1,0 +1,292 @@
+{
+  "row_struct": "InputKeyManagerConfig",
+  "rows": {
+    "NewRow": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_1.IA_QuickBar_1"
+    },
+    "NewRow_0": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_2.IA_QuickBar_2"
+    },
+    "NewRow_1": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_3.IA_QuickBar_3"
+    },
+    "NewRow_2": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_4.IA_QuickBar_4"
+    },
+    "NewRow_3": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_5.IA_QuickBar_5"
+    },
+    "NewRow_4": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_6.IA_QuickBar_6"
+    },
+    "NewRow_5": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_7.IA_QuickBar_7"
+    },
+    "NewRow_6": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_8.IA_QuickBar_8"
+    },
+    "NewRow_7": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_9.IA_QuickBar_9"
+    },
+    "NewRow_8": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_QuickBar_10.IA_QuickBar_10"
+    },
+    "NewRow_9": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleInventory.IA_ToggleInventory"
+    },
+    "NewRow_10": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Confirm.IA_Confirm"
+    },
+    "NewRow_11": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_RotateBuilding.IA_RotateBuilding"
+    },
+    "NewRow_12": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_FPP/IA_Jump.IA_Jump"
+    },
+    "NewRow_13": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_FPP/IA_FPPMove.IA_FPPMove"
+    },
+    "NewRow_14": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_FPP/IA_FPPLook.IA_FPPLook"
+    },
+    "NewRow_15": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_GeneralBack.IA_GeneralBack"
+    },
+    "NewRow_16": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep"
+    },
+    "NewRow_17": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction"
+    },
+    "NewRow_18": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleCheat.IA_ToggleCheat"
+    },
+    "NewRow_19": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleBuildPanel.IA_ToggleBuildPanel"
+    },
+    "NewRow_20": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleCatalog.IA_ToggleCatalog"
+    },
+    "NewRow_21": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleSkillTree.IA_ToggleSkillTree"
+    },
+    "NewRow_22": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_GeneralForward.IA_GeneralForward"
+    },
+    "NewRow_23": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_AlterBuildOption.IA_AlterBuildOption"
+    },
+    "NewRow_24": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleEnterDelete.IA_ToggleEnterDelete"
+    },
+    "NewRow_25": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleConfirmDelete.IA_ToggleConfirmDelete"
+    },
+    "NewRow_26": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Cancel.IA_Cancel"
+    },
+    "NewRow_27": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_FPP/IA_FPPCrouch.IA_FPPCrouch"
+    },
+    "NewRow_28": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_29": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_30": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_31": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_32": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_33": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_34": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_35": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_36": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_37": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_38": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    },
+    "NewRow_39": {
+      "Name": "None",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null
+    }
+  }
+}

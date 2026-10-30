@@ -1,0 +1,55 @@
+{
+  "row_struct": "ExpandableBuildingConfig",
+  "rows": {
+    "0": {
+      "Desc": "Beam Body",
+      "Horizontal": true,
+      "MaxBodyNum": 8,
+      "HeadRotation": "CentralSymmetry",
+      "BodyName": "ExpandableBeamBody",
+      "BodyRotation": "CentralSymmetry",
+      "EndName": "ExpandableBeam",
+      "EndRotation": "CentralSymmetry"
+    },
+    "1": {
+      "Desc": "Conveyor Tunnel",
+      "Horizontal": true,
+      "MaxBodyNum": 8,
+      "HeadRotation": "NoRotation",
+      "BodyName": "ExpandableConveyorTunnelBody",
+      "BodyRotation": "NoRotation",
+      "EndName": "ExpandableConveyorTunnel",
+      "EndRotation": "NoRotation"
+    },
+    "2": {
+      "Desc": "Chandelier",
+      "Horizontal": false,
+      "MaxBodyNum": 10,
+      "HeadRotation": "NoRotation",
+      "BodyName": "ExpandableChain",
+      "BodyRotation": "NoRotation",
+      "EndName": "ExpandableChandelier",
+      "EndRotation": "NoRotation"
+    },
+    "3": {
+      "Desc": "Draw Bridge",
+      "Horizontal": false,
+      "MaxBodyNum": 10,
+      "HeadRotation": "NoRotation",
+      "BodyName": "ExpandableChain",
+      "BodyRotation": "NoRotation",
+      "EndName": "ExpandableDrawBridge",
+      "EndRotation": "NoRotation"
+    },
+    "4": {
+      "Desc": "Draw Bridge 2",
+      "Horizontal": false,
+      "MaxBodyNum": 10,
+      "HeadRotation": "NoRotation",
+      "BodyName": "ExpandableChain",
+      "BodyRotation": "NoRotation",
+      "EndName": "ExpandableDrawBridge_2",
+      "EndRotation": "NoRotation"
+    }
+  }
+}

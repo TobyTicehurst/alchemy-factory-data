@@ -1,0 +1,44 @@
+{
+  "FloatCurve": {
+    "Keys": [
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Break",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 0.0,
+        "Value": 0.0,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 1.7362635135650635,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_User",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 2.5,
+        "Value": 2.0,
+        "ArriveTangent": -0.46863511204719543,
+        "ArriveTangentWeight": 1.3083686828613281,
+        "LeaveTangent": -0.46863511204719543,
+        "LeaveTangentWeight": 1.3083686828613281
+      },
+      {
+        "InterpMode": "RCIM_Cubic",
+        "TangentMode": "RCTM_Break",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 7.0,
+        "Value": -3.094796596769811e-08,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": -0.10557426512241364,
+        "LeaveTangentWeight": 0.0
+      }
+    ],
+    "DefaultValue": null,
+    "PreInfinityExtrap": null,
+    "PostInfinityExtrap": null,
+    "KeyHandlesToIndices": null
+  },
+  "bIsEventCurve": null
+}

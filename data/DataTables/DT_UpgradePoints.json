@@ -1,0 +1,3495 @@
+{
+  "row_struct": "BeltTDSkillConfig",
+  "rows": {
+    "Conveyer1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 0
+      },
+      "Predecessors": [
+        "Conveyer1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 1
+      },
+      "Predecessors": [
+        "Conveyer2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 2
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 2
+      },
+      "Predecessors": [
+        "Conveyer3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 3
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 3
+      },
+      "Predecessors": [
+        "Conveyer4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 4
+      },
+      "Predecessors": [
+        "Conveyer5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 5
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 5
+      },
+      "Predecessors": [
+        "Conveyer6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 6
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 6
+      },
+      "Predecessors": [
+        "Conveyer7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 7
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Conveyer8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 8
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 8
+      },
+      "Predecessors": [
+        "Conveyer9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 9
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 9
+      },
+      "Predecessors": [
+        "Conveyer10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 10
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 10
+      },
+      "Predecessors": [
+        "Conveyer11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 11
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Conveyer13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Conveyer12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 80,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 11
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "Conveyer13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 12
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "Predecessors": [
+        "ThrowingEfficiency1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 13
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 1
+      },
+      "Predecessors": [
+        "ThrowingEfficiency2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 14
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 2
+      },
+      "Predecessors": [
+        "ThrowingEfficiency3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 15
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 3
+      },
+      "Predecessors": [
+        "ThrowingEfficiency4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 16
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 4
+      },
+      "Predecessors": [
+        "ThrowingEfficiency5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 17
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 5
+      },
+      "Predecessors": [
+        "ThrowingEfficiency6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 18
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 6
+      },
+      "Predecessors": [
+        "ThrowingEfficiency7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 19
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 7
+      },
+      "Predecessors": [
+        "ThrowingEfficiency8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 20
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 8
+      },
+      "Predecessors": [
+        "ThrowingEfficiency9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 21
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 9
+      },
+      "Predecessors": [
+        "ThrowingEfficiency10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 22
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 10
+      },
+      "Predecessors": [
+        "ThrowingEfficiency11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 23
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 11
+      },
+      "Predecessors": [
+        "ThrowingEfficiency12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 80,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 23
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "ThrowingEfficiency13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 24
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 0
+      },
+      "Predecessors": [
+        "FactorySpeed1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 25
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "Predecessors": [
+        "FactorySpeed2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 26
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 2
+      },
+      "Predecessors": [
+        "FactorySpeed3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 27
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 3
+      },
+      "Predecessors": [
+        "FactorySpeed4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 28
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 4
+      },
+      "Predecessors": [
+        "FactorySpeed5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 29
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 5
+      },
+      "Predecessors": [
+        "FactorySpeed6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 30
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 6
+      },
+      "Predecessors": [
+        "FactorySpeed7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 31
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 7
+      },
+      "Predecessors": [
+        "FactorySpeed8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 32
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 8
+      },
+      "Predecessors": [
+        "FactorySpeed9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 33
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 9
+      },
+      "Predecessors": [
+        "FactorySpeed10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 34
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 10
+      },
+      "Predecessors": [
+        "FactorySpeed11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 35
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FactorySpeed13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 11
+      },
+      "Predecessors": [
+        "FactorySpeed12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 80,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 35
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "FactorySpeed13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 36
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 0
+      },
+      "Predecessors": [
+        "AlchemySkill1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 37
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 1
+      },
+      "Predecessors": [
+        "AlchemySkill2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 38
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 2
+      },
+      "Predecessors": [
+        "AlchemySkill3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 39
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 3
+      },
+      "Predecessors": [
+        "AlchemySkill4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 40
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 4
+      },
+      "Predecessors": [
+        "AlchemySkill5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 41
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 5
+      },
+      "Predecessors": [
+        "AlchemySkill6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 42
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 6
+      },
+      "Predecessors": [
+        "AlchemySkill7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 43
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 7
+      },
+      "Predecessors": [
+        "AlchemySkill8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 44
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 8
+      },
+      "Predecessors": [
+        "AlchemySkill9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 45
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 9
+      },
+      "Predecessors": [
+        "AlchemySkill10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 46
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 10
+      },
+      "Predecessors": [
+        "AlchemySkill11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 47
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AlchemySkill13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 11
+      },
+      "Predecessors": [
+        "AlchemySkill12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 47
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemySkill13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 48
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 0
+      },
+      "Predecessors": [
+        "FuelEfficiency1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 49
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 1
+      },
+      "Predecessors": [
+        "FuelEfficiency2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 50
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 2
+      },
+      "Predecessors": [
+        "FuelEfficiency3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 51
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 3
+      },
+      "Predecessors": [
+        "FuelEfficiency4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 52
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 4
+      },
+      "Predecessors": [
+        "FuelEfficiency5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 53
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 5
+      },
+      "Predecessors": [
+        "FuelEfficiency6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 54
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 6
+      },
+      "Predecessors": [
+        "FuelEfficiency7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 55
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 7
+      },
+      "Predecessors": [
+        "FuelEfficiency8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 56
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 8
+      },
+      "Predecessors": [
+        "FuelEfficiency9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 57
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 9
+      },
+      "Predecessors": [
+        "FuelEfficiency10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 58
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 10
+      },
+      "Predecessors": [
+        "FuelEfficiency11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 59
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FuelEfficiency13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 11
+      },
+      "Predecessors": [
+        "FuelEfficiency12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 60
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "FuelEfficiency13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 61
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 0
+      },
+      "Predecessors": [
+        "FertilizeEfficiency1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 62
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 1
+      },
+      "Predecessors": [
+        "FertilizeEfficiency2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 63
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 2
+      },
+      "Predecessors": [
+        "FertilizeEfficiency3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 64
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 3
+      },
+      "Predecessors": [
+        "FertilizeEfficiency4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 65
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 4
+      },
+      "Predecessors": [
+        "FertilizeEfficiency5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 66
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 5
+      },
+      "Predecessors": [
+        "FertilizeEfficiency6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 67
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 6
+      },
+      "Predecessors": [
+        "FertilizeEfficiency7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 68
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 7
+      },
+      "Predecessors": [
+        "FertilizeEfficiency8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 69
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 8
+      },
+      "Predecessors": [
+        "FertilizeEfficiency9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 70
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 9
+      },
+      "Predecessors": [
+        "FertilizeEfficiency10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 71
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 10
+      },
+      "Predecessors": [
+        "FertilizeEfficiency11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 72
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 11
+      },
+      "Predecessors": [
+        "FertilizeEfficiency12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 73
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "FertilizeEfficiency13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 74
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 0
+      },
+      "Predecessors": [
+        "BargainingSkill1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 75
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 1
+      },
+      "Predecessors": [
+        "BargainingSkill2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 76
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 2
+      },
+      "Predecessors": [
+        "BargainingSkill3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 77
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 3
+      },
+      "Predecessors": [
+        "BargainingSkill4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 78
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 4
+      },
+      "Predecessors": [
+        "BargainingSkill5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 79
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 5
+      },
+      "Predecessors": [
+        "BargainingSkill6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 80
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 6
+      },
+      "Predecessors": [
+        "BargainingSkill7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 81
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 7
+      },
+      "Predecessors": [
+        "BargainingSkill8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 82
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 8
+      },
+      "Predecessors": [
+        "BargainingSkill9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 83
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 9
+      },
+      "Predecessors": [
+        "BargainingSkill10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 84
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 10
+      },
+      "Predecessors": [
+        "BargainingSkill11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 85
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BargainingSkill13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 5,
+        "Y": 11
+      },
+      "Predecessors": [
+        "BargainingSkill12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 86
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "BargainingSkill13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "NegotiationSkill1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 87
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 0
+      },
+      "Predecessors": [
+        "NegotiationSkill1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 88
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 1
+      },
+      "Predecessors": [
+        "NegotiationSkill2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 89
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 2
+      },
+      "Predecessors": [
+        "NegotiationSkill3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 90
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 3
+      },
+      "Predecessors": [
+        "NegotiationSkill4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 91
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 4
+      },
+      "Predecessors": [
+        "NegotiationSkill5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 92
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 5
+      },
+      "Predecessors": [
+        "NegotiationSkill6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 93
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 6
+      },
+      "Predecessors": [
+        "NegotiationSkill7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 94
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 7
+      },
+      "Predecessors": [
+        "NegotiationSkill8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 95
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 8
+      },
+      "Predecessors": [
+        "NegotiationSkill9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 96
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 9
+      },
+      "Predecessors": [
+        "NegotiationSkill10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 97
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 10
+      },
+      "Predecessors": [
+        "NegotiationSkill11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 98
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "NegotiationSkill13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 11
+      },
+      "Predecessors": [
+        "NegotiationSkill12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 99
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "NegotiationSkill13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "QuestSkill1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 0
+      },
+      "Predecessors": [
+        "QuestSkill1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 101
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 1
+      },
+      "Predecessors": [
+        "QuestSkill2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 102
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 2
+      },
+      "Predecessors": [
+        "QuestSkill3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 103
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 3
+      },
+      "Predecessors": [
+        "QuestSkill4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 104
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 4
+      },
+      "Predecessors": [
+        "QuestSkill5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 105
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 5
+      },
+      "Predecessors": [
+        "QuestSkill6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 106
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 6
+      },
+      "Predecessors": [
+        "QuestSkill7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 107
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 7
+      },
+      "Predecessors": [
+        "QuestSkill8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 108
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 8
+      },
+      "Predecessors": [
+        "QuestSkill9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 109
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 9
+      },
+      "Predecessors": [
+        "QuestSkill10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 110
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 10
+      },
+      "Predecessors": [
+        "QuestSkill11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 111
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "QuestSkill13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 6,
+        "Y": 11
+      },
+      "Predecessors": [
+        "QuestSkill12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 112
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "QuestSkill13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency1": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": -1
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 113
+      },
+      "UnlockResearchPoints": 60.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency1",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency2": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 0
+      },
+      "Predecessors": [
+        "AltarEfficiency1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 114
+      },
+      "UnlockResearchPoints": 240.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency2",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency3": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 1
+      },
+      "Predecessors": [
+        "AltarEfficiency2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 115
+      },
+      "UnlockResearchPoints": 540.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency3",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency4": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 2
+      },
+      "Predecessors": [
+        "AltarEfficiency3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 116
+      },
+      "UnlockResearchPoints": 960.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency4",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency5": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 3
+      },
+      "Predecessors": [
+        "AltarEfficiency4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 117
+      },
+      "UnlockResearchPoints": 1500.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency5",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency6": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 4
+      },
+      "Predecessors": [
+        "AltarEfficiency5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 118
+      },
+      "UnlockResearchPoints": 2160.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency6",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency7": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 5
+      },
+      "Predecessors": [
+        "AltarEfficiency6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 119
+      },
+      "UnlockResearchPoints": 2940.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency7",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency8": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 6
+      },
+      "Predecessors": [
+        "AltarEfficiency7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 120
+      },
+      "UnlockResearchPoints": 3840.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency8",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency9": {
+      "Tier": 9,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 7
+      },
+      "Predecessors": [
+        "AltarEfficiency8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 121
+      },
+      "UnlockResearchPoints": 4860.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency9",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency10": {
+      "Tier": 10,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 8
+      },
+      "Predecessors": [
+        "AltarEfficiency9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 122
+      },
+      "UnlockResearchPoints": 6000.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency10",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency11": {
+      "Tier": 11,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 9
+      },
+      "Predecessors": [
+        "AltarEfficiency10"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 123
+      },
+      "UnlockResearchPoints": 7260.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency11",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency12": {
+      "Tier": 12,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 10
+      },
+      "Predecessors": [
+        "AltarEfficiency11"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 124
+      },
+      "UnlockResearchPoints": 8640.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency12",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AltarEfficiency13": {
+      "Tier": 13,
+      "LevelSkill": false,
+      "UpgradeSkill": true,
+      "SlotPosition": {
+        "X": 7,
+        "Y": 11
+      },
+      "Predecessors": [
+        "AltarEfficiency12"
+      ],
+      "IsUnlimited": true,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 125
+      },
+      "UnlockResearchPoints": 10140.0,
+      "UnlockItem": {
+        "ConfigName": "AltarEfficiency13",
+        "ConfigType": "Improvements"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    }
+  }
+}

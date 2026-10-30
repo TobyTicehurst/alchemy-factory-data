@@ -1,0 +1,13 @@
+{
+  "row_struct": "ElevatorConfig",
+  "rows": {
+    "0": {
+      "Desc": "载客电梯",
+      "BottomName": "Elevator_Bottom",
+      "BodyName": "Elevator_Body",
+      "TopName": "Elevator_Top",
+      "StationBuildingName": "Elevator_Station",
+      "ElevatorBuildingName": "Elevator_Actor"
+    }
+  }
+}

@@ -1,0 +1,1088 @@
+{
+  "row_struct": "ConstructBuildingV2Config",
+  "rows": {
+    "0": {
+      "Stand": false,
+      "UseSnapToGrid": false,
+      "OffsetSnapType": 0,
+      "Size": {
+        "X": 16.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": 7,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 8,
+            "Y": 8,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 15,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 15,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 7,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 7,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 15,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 15,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 8,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 8,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 16,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 16,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 16,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 16,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 8,
+            "Y": 16,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 8,
+            "Y": 16,
+            "Z": -1
+          }
+        }
+      ]
+    },
+    "1": {
+      "Stand": true,
+      "UseSnapToGrid": false,
+      "OffsetSnapType": 0,
+      "Size": {
+        "X": 16.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 0,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 0,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 1,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 16,
+            "Y": 1,
+            "Z": 11
+          }
+        }
+      ]
+    },
+    "2": {
+      "Stand": false,
+      "UseSnapToGrid": true,
+      "OffsetSnapType": 1,
+      "Size": {
+        "X": 8.0,
+        "Y": 8.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 7,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 7,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 7,
+            "Y": -1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 7,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 7,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 7,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": 8,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 7,
+            "Y": 8,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": 8,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 7,
+            "Y": 8,
+            "Z": -1
+          }
+        }
+      ]
+    },
+    "3": {
+      "Stand": true,
+      "UseSnapToGrid": true,
+      "OffsetSnapType": 2,
+      "Size": {
+        "X": 8.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 4,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 4,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 7,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 7,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 0,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 0,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": 11
+          }
+        }
+      ]
+    },
+    "4": {
+      "Stand": true,
+      "UseSnapToGrid": false,
+      "OffsetSnapType": 0,
+      "Size": {
+        "X": 16.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 0,
+            "Z": 11
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 4
+          }
+        },
+        {
+          "LoadVal": 20.0,
+          "position": {
+            "X": -1,
+            "Y": 1,
+            "Z": 11
+          }
+        }
+      ]
+    },
+    "5": {
+      "Stand": true,
+      "UseSnapToGrid": false,
+      "OffsetSnapType": 0,
+      "Size": {
+        "X": 16.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 15,
+            "Y": -1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 7,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 15,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 8,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 0,
+            "Y": 16,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 10.0,
+          "position": {
+            "X": 15,
+            "Y": 16,
+            "Z": 16
+          }
+        }
+      ]
+    },
+    "6": {
+      "Stand": true,
+      "UseSnapToGrid": false,
+      "OffsetSnapType": 3,
+      "Size": {
+        "X": 2.0,
+        "Y": 16.0
+      },
+      "RiskLoad": 39.0,
+      "MaxLoad": 59.0,
+      "SupportGrids": [
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 0,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 1,
+            "Z": -1
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 0,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 1,
+            "Z": 0
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 0,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 0,
+            "Y": 1,
+            "Z": 16
+          }
+        },
+        {
+          "LoadVal": 0.1,
+          "position": {
+            "X": 1,
+            "Y": 1,
+            "Z": 16
+          }
+        }
+      ]
+    }
+  }
+}

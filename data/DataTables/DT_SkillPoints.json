@@ -1,0 +1,4234 @@
+{
+  "row_struct": "BeltTDSkillConfig",
+  "rows": {
+    "Level1": {
+      "Tier": 0,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": -2
+      },
+      "Predecessors": [],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "Wood",
+        "GelatinousGridlock"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "TableSaw": {
+      "Tier": 0,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": -1
+      },
+      "Predecessors": [
+        "Level1"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "TableSaw",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SmallContainer": {
+      "Tier": 0,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 0
+      },
+      "Predecessors": [
+        "TableSaw"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "SmallContainer",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Grinder": {
+      "Tier": 0,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "Predecessors": [
+        "TableSaw"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "Grinder",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Belt": {
+      "Tier": 0,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 0
+      },
+      "Predecessors": [
+        "TableSaw"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "Belt",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BeltSlopeUp": {
+      "Tier": 0,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 1
+      },
+      "Predecessors": [
+        "Belt"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 100
+      },
+      "UnlockResearchPoints": 30.0,
+      "UnlockItem": {
+        "ConfigName": "BeltSlopeUp",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "BeltInclinedUp"
+      ],
+      "Deprecated": true
+    },
+    "Level2": {
+      "Tier": 1,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 1
+      },
+      "Predecessors": [
+        "Grinder"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "FlaxSeed",
+        "Limestone"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "StoneCrusher": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 2
+      },
+      "Predecessors": [
+        "Level2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "StoneCrusher",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Processor": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 3
+      },
+      "Predecessors": [
+        "StoneCrusher"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "Processor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SeedPlot": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 3
+      },
+      "Predecessors": [
+        "StoneCrusher"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "SeedPlot",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WoodGear": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 4
+      },
+      "Predecessors": [
+        "Processor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "WoodGear",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Mortar": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 4
+      },
+      "Predecessors": [
+        "Processor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "Mortar",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "LinenThread": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 4
+      },
+      "Predecessors": [
+        "Processor",
+        "SeedPlot"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "LinenThread",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WoodContainer": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 5
+      },
+      "Predecessors": [
+        "WoodGear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "WoodContainer",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "LinenRope": {
+      "Tier": 1,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 5
+      },
+      "Predecessors": [
+        "LinenThread"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 230
+      },
+      "UnlockResearchPoints": 57.0,
+      "UnlockItem": {
+        "ConfigName": "LinenRope",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level3": {
+      "Tier": 2,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 6
+      },
+      "Predecessors": [
+        "Mortar"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "IronOre",
+        "SageSeed"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Catapult": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Level3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Catapult",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "StoneStove": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Level3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "StoneStove",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Assembler": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Level3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Assembler",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ConveyerLift_Upwards": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Level3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "ConveyerLift_Upwards",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "ConveyerLift_EndUpwards",
+        "ConveyerLift_EndDownwards",
+        "ConveyerLift_Body",
+        "ConveyerLift_Payload"
+      ],
+      "Deprecated": false
+    },
+    "JunkBarrel": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 7
+      },
+      "Predecessors": [
+        "Level3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "JunkBarrel",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Hopper": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 8
+      },
+      "Predecessors": [
+        "Catapult"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Hopper",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "IronSmelter": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 8
+      },
+      "Predecessors": [
+        "StoneStove"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "IronSmelter",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "HealingPotion": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 8
+      },
+      "Predecessors": [
+        "Assembler"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "HealingPotion",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WorkBench": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 8
+      },
+      "Predecessors": [
+        "Assembler"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "WorkBench",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Linen": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 8
+      },
+      "Predecessors": [
+        "Assembler"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Linen",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FrameSingle": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 9
+      },
+      "Predecessors": [
+        "IronSmelter"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "FrameSingle",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "IronStand"
+      ],
+      "Deprecated": true
+    },
+    "Nails": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 9
+      },
+      "Predecessors": [
+        "IronSmelter"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Nails",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "PotionStand": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 9
+      },
+      "Predecessors": [
+        "HealingPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "PotionStand",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Bandage": {
+      "Tier": 2,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 9
+      },
+      "Predecessors": [
+        "Linen"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 570
+      },
+      "UnlockResearchPoints": 90.0,
+      "UnlockItem": {
+        "ConfigName": "Bandage",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level4": {
+      "Tier": 3,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 10
+      },
+      "Predecessors": [
+        "HealingPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "RedcurrantSeed",
+        "PortalSigil",
+        "CashRegister"
+      ],
+      "ExtraUnlockConstructions": [
+        "AutoCheckout"
+      ],
+      "Deprecated": false
+    },
+    "Portal_AlchGuild": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Level4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Portal_AlchGuild",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "ConveyorTunnel": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Level4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "ConveyorTunnel",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Crucible": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Level4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Crucible",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Cart": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Level4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Cart",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Pipe": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 14
+      },
+      "Predecessors": [
+        "Kiln"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Pipe",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WoodPulley": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 11
+      },
+      "Predecessors": [
+        "Level4"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "WoodPulley",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Portal_Bank": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 12
+      },
+      "Predecessors": [
+        "Portal_AlchGuild"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Portal_Bank",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "BasicFertilizer": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 12
+      },
+      "Predecessors": [
+        "Crucible"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "BasicFertilizer",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Clay": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 12
+      },
+      "Predecessors": [
+        "Crucible"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Clay",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "DrawBridge": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 12
+      },
+      "Predecessors": [
+        "WoodPulley"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "DrawBridge",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "ExpandableDrawBridge": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 12
+      },
+      "Predecessors": [
+        "WoodPulley"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "ExpandableDrawBridge",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "AutoNursery": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 13
+      },
+      "Predecessors": [
+        "BasicFertilizer",
+        "Clay"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "AutoNursery",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Kiln": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 13
+      },
+      "Predecessors": [
+        "Clay"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Kiln",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "CrossTunnel": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 13
+      },
+      "Predecessors": [
+        "DrawBridge"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "CrossTunnel",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Brick": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 14
+      },
+      "Predecessors": [
+        "Kiln"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Brick",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Glass": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 14
+      },
+      "Predecessors": [
+        "Kiln"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Glass",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "StoneFurnace": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 15
+      },
+      "Predecessors": [
+        "Brick"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "StoneFurnace",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ConicalFlask": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 15
+      },
+      "Predecessors": [
+        "Glass"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "ConicalFlask",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Blender": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 15
+      },
+      "Predecessors": [
+        "Glass"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Blender",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Extractor": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 15
+      },
+      "Predecessors": [
+        "Glass",
+        "Pipe"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Extractor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BrewBarrel": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 15
+      },
+      "Predecessors": [
+        "Pipe"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "BrewBarrel",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Soap": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 16
+      },
+      "Predecessors": [
+        "Blender"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "Soap",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "VitalityPotion": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 16
+      },
+      "Predecessors": [
+        "Blender"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "VitalityPotion",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WhisperingFields": {
+      "Tier": 3,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 16
+      },
+      "Predecessors": [
+        "Extractor",
+        "BrewBarrel"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockResearchPoints": 129.0,
+      "UnlockItem": {
+        "ConfigName": "WhisperingFields",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level5": {
+      "Tier": 4,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 17
+      },
+      "Predecessors": [
+        "VitalityPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "RottenLog",
+        "CoalOre",
+        "AdPortalSigil"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BounceShroom": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "BounceShroom",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SphereFlask": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "SphereFlask",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Athanor": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Athanor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "YeastPowder": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "YeastPowder",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Turquoise": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Turquoise",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Shaper": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Shaper",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedFertilizer": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 18
+      },
+      "Predecessors": [
+        "Level5"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedFertilizer",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Filter_Vert": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 19
+      },
+      "Predecessors": [
+        "Athanor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Filter_Vert",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Coke": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 19
+      },
+      "Predecessors": [
+        "Athanor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Coke",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "GloomSpores": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 19
+      },
+      "Predecessors": [
+        "YeastPowder"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "GloomSpores",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "JewelryStand": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 19
+      },
+      "Predecessors": [
+        "Turquoise"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "JewelryStand",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Jupiter": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 19
+      },
+      "Predecessors": [
+        "Shaper"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Jupiter",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "JupiterD"
+      ],
+      "Deprecated": false
+    },
+    "Merger_Vert": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Filter_Vert"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Merger_Vert",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Splitter_Vert": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Filter_Vert"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Splitter_Vert",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SteelIngot": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Coke"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "SteelIngot",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ManaPotion": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Coke",
+        "GloomSpores"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "ManaPotion",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "RelicStandSmall": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Jupiter"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "RelicStandSmall",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "KnowledgeAltar": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 20
+      },
+      "Predecessors": [
+        "Jupiter"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "KnowledgeAltar",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "MetalStand": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 21
+      },
+      "Predecessors": [
+        "SteelIngot"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "MetalStand",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Cannon": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 21
+      },
+      "Predecessors": [
+        "SteelIngot"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "Cannon",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SteelGear": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 21
+      },
+      "Predecessors": [
+        "SteelIngot"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "SteelGear",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ShrinkMachine": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 21
+      },
+      "Predecessors": [
+        "ManaPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "ShrinkMachine",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "ExpandableConveyorTunnel": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 22
+      },
+      "Predecessors": [
+        "SteelGear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "ExpandableConveyorTunnel",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "ExpandableBeam": {
+      "Tier": 4,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 22
+      },
+      "Predecessors": [
+        "SteelGear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4400
+      },
+      "UnlockResearchPoints": 174.0,
+      "UnlockItem": {
+        "ConfigName": "ExpandableBeam",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Level6": {
+      "Tier": 5,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 22
+      },
+      "Predecessors": [
+        "ManaPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "ChamomileSeed",
+        "Pyrite",
+        "RockSalt"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Salt": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Salt",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SteamBoiler": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "SteamBoiler",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "CopperPowder2": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "CopperPowder2",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Refiner": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Refiner",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "EnhancedGrinder": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "EnhancedGrinder",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "FlowerVase1": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 23
+      },
+      "Predecessors": [
+        "Level6"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "FlowerVase1",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "FlowerPot1",
+        "FlowerBed1"
+      ],
+      "Deprecated": true
+    },
+    "StrangeTide": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 24
+      },
+      "Predecessors": [
+        "Salt"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "StrangeTide",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Saturn": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 24
+      },
+      "Predecessors": [
+        "Salt"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Saturn",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "SaturnD"
+      ],
+      "Deprecated": false
+    },
+    "SteamHeater": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 24
+      },
+      "Predecessors": [
+        "SteamBoiler"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "SteamHeater",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Malachite": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Malachite",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "CopperBearing": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "CopperBearing",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Cauldron": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Cauldron",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BronzeRivet": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "BronzeRivet",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "CopperIngot_Alt": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "CopperIngot_Alt",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "CopperCoin": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 24
+      },
+      "Predecessors": [
+        "CopperPowder2"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "CopperCoin",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Omni-Machine": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 25
+      },
+      "Predecessors": [
+        "CopperBearing"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Omni-Machine",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedBlender": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 25
+      },
+      "Predecessors": [
+        "CopperBearing"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedBlender",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Mars": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 25
+      },
+      "Predecessors": [
+        "CopperBearing",
+        "BronzeRivet"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Mars",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "MarsD"
+      ],
+      "Deprecated": false
+    },
+    "StackableCrucible": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 25
+      },
+      "Predecessors": [
+        "BronzeRivet"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "StackableCrucible",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SmallPlatform": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 25
+      },
+      "Predecessors": [
+        "BronzeRivet"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "SmallPlatform",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Catalyst1": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 26
+      },
+      "Predecessors": [
+        "Omni-Machine"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "Catalyst1",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "PocketWatch": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 26
+      },
+      "Predecessors": [
+        "Omni-Machine"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "PocketWatch",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ClockworkBird": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 26
+      },
+      "Predecessors": [
+        "Omni-Machine"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "ClockworkBird",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BlackPowder": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 26
+      },
+      "Predecessors": [
+        "AdvancedBlender"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "BlackPowder",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "GrowthPotion": {
+      "Tier": 5,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 26
+      },
+      "Predecessors": [
+        "AdvancedBlender"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 225.0,
+      "UnlockItem": {
+        "ConfigName": "GrowthPotion",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level7": {
+      "Tier": 6,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 27
+      },
+      "Predecessors": [
+        "GrowthPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "LavenderSeed",
+        "QuartzOre"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedShaper": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 28
+      },
+      "Predecessors": [
+        "Level7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedShaper",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ThermalExtractor": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 28
+      },
+      "Predecessors": [
+        "Level7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "ThermalExtractor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Alembic": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 28
+      },
+      "Predecessors": [
+        "Level7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "Alembic",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ParadoxCrucible": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 28
+      },
+      "Predecessors": [
+        "Level7"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "ParadoxCrucible",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SulfuricAcid": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 29
+      },
+      "Predecessors": [
+        "Alembic"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "SulfuricAcid",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Brandy": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 29
+      },
+      "Predecessors": [
+        "Alembic"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "Brandy",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "LavenderEssentialOil": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 29
+      },
+      "Predecessors": [
+        "Alembic"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "LavenderEssentialOil",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Venus": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 30
+      },
+      "Predecessors": [
+        "AdvancedShaper",
+        "SulfuricAcid"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "Venus",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "VenusD"
+      ],
+      "Deprecated": false
+    },
+    "Topaz": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 30
+      },
+      "Predecessors": [
+        "SulfuricAcid"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "Topaz",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "BlastPotion": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 30
+      },
+      "Predecessors": [
+        "Brandy"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "BlastPotion",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "LavenderDream": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 30
+      },
+      "Predecessors": [
+        "Brandy",
+        "LavenderEssentialOil"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "LavenderDream",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "PerfumedSoap": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 30
+      },
+      "Predecessors": [
+        "LavenderEssentialOil"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "PerfumedSoap",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Catalyst2": {
+      "Tier": 6,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 30
+      },
+      "Predecessors": [
+        "LavenderEssentialOil",
+        "ParadoxCrucible"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 43,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 282.0,
+      "UnlockItem": {
+        "ConfigName": "Catalyst2",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level8": {
+      "Tier": 7,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 31
+      },
+      "Predecessors": [
+        "BlastPotion"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "GentianSeed",
+        "WorldTreeSeed"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedAthanor": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 32
+      },
+      "Predecessors": [
+        "Level8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedAthanor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedAlembic": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 32
+      },
+      "Predecessors": [
+        "Level8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedAlembic",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "WorldTreeNursery": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 32
+      },
+      "Predecessors": [
+        "Level8"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "WorldTreeNursery",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SilverPowder3": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 33
+      },
+      "Predecessors": [
+        "AdvancedAthanor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "SilverPowder3",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "LapisLazuli": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 33
+      },
+      "Predecessors": [
+        "AdvancedAthanor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "LapisLazuli",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Obsidian": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 33
+      },
+      "Predecessors": [
+        "AdvancedAthanor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "Obsidian",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Mercury": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 33
+      },
+      "Predecessors": [
+        "AdvancedAlembic"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "Mercury",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AquaVitae": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 33
+      },
+      "Predecessors": [
+        "AdvancedAlembic",
+        "WorldTreeNursery"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "AquaVitae",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "AdvancedCauldron": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 34
+      },
+      "Predecessors": [
+        "SilverPowder3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "AdvancedCauldron",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "SilverCoin": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 34
+      },
+      "Predecessors": [
+        "SilverPowder3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "SilverCoin",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SilverIngot_Alt": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -4,
+        "Y": 34
+      },
+      "Predecessors": [
+        "SilverPowder3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "SilverIngot_Alt",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "SilverAmulet": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 34
+      },
+      "Predecessors": [
+        "SilverPowder3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "SilverAmulet",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "MercuryP": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 34
+      },
+      "Predecessors": [
+        "LapisLazuli",
+        "Obsidian",
+        "Mercury"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "MercuryP",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "MercuryD"
+      ],
+      "Deprecated": false
+    },
+    "WorldTreeVintage": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 34
+      },
+      "Predecessors": [
+        "AquaVitae"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "WorldTreeVintage",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "PanaceaElixir": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 34
+      },
+      "Predecessors": [
+        "AquaVitae"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "PanaceaElixir",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Catalyst3": {
+      "Tier": 7,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 4,
+        "Y": 34
+      },
+      "Predecessors": [
+        "AquaVitae"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 0,
+        "Y": 136,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 345.0,
+      "UnlockItem": {
+        "ConfigName": "Catalyst3",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Level9": {
+      "Tier": 8,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 35
+      },
+      "Predecessors": [
+        "MercuryP",
+        "PanaceaElixir"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [
+        "Meteorite"
+      ],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "ArcaneProcessor": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 36
+      },
+      "Predecessors": [
+        "Level9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "ArcaneProcessor",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "GoldDust3": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 36
+      },
+      "Predecessors": [
+        "Level9"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "GoldDust3",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "FairyDust": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 37
+      },
+      "Predecessors": [
+        "ArcaneProcessor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "FairyDust",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "StarDust": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 37
+      },
+      "Predecessors": [
+        "ArcaneProcessor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "StarDust",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Catalyst4": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 37
+      },
+      "Predecessors": [
+        "ArcaneProcessor"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "Catalyst4",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "GoldCoin": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 37
+      },
+      "Predecessors": [
+        "GoldDust3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "GoldCoin",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "Crown": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 37
+      },
+      "Predecessors": [
+        "GoldDust3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "Crown",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "GoldIngot_Alt": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 3,
+        "Y": 37
+      },
+      "Predecessors": [
+        "GoldDust3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "GoldIngot_Alt",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "MoonTear": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 38
+      },
+      "Predecessors": [
+        "FairyDust",
+        "StarDust"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "MoonTear",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "TreasureChest": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 2,
+        "Y": 38
+      },
+      "Predecessors": [
+        "Crown"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "TreasureChest",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": true
+    },
+    "AlchemistSigh": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -3,
+        "Y": 39
+      },
+      "Predecessors": [
+        "MoonTear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "AlchemistSigh",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "MoonlitSoap": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -2,
+        "Y": 39
+      },
+      "Predecessors": [
+        "MoonTear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "MoonlitSoap",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Luna": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": -1,
+        "Y": 39
+      },
+      "Predecessors": [
+        "MoonTear"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "Luna",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "LunaD"
+      ],
+      "Deprecated": false
+    },
+    "AetherShaper": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 1,
+        "Y": 39
+      },
+      "Predecessors": [
+        "GoldDust3"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "AetherShaper",
+        "ConfigType": "ConstructOptions"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    },
+    "Sol": {
+      "Tier": 8,
+      "LevelSkill": false,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 40
+      },
+      "Predecessors": [
+        "Luna",
+        "Catalyst4",
+        "AetherShaper"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 414.0,
+      "UnlockItem": {
+        "ConfigName": "Sol",
+        "ConfigType": "CraftingRecipes"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [
+        "SolD"
+      ],
+      "Deprecated": false
+    },
+    "Level10": {
+      "Tier": 9,
+      "LevelSkill": true,
+      "UpgradeSkill": false,
+      "SlotPosition": {
+        "X": 0,
+        "Y": 41
+      },
+      "Predecessors": [
+        "Sol"
+      ],
+      "IsUnlimited": false,
+      "MaxUnlimitedLevel": 0,
+      "UnlockCost": {
+        "X": 21,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockResearchPoints": 489.0,
+      "UnlockItem": {
+        "ConfigName": "None",
+        "ConfigType": "Ingredients"
+      },
+      "LevelUnlockItems": [],
+      "ExtraUnlockConstructions": [],
+      "Deprecated": false
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "row_struct": "BeltTDZoneConfig",
+  "rows": {
+    "Room1_1": {
+      "DisplayName": "Starting Land",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyRent": 300
+    },
+    "Room1_2": {
+      "DisplayName": "",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4000
+      },
+      "DailyRent": 0
+    },
+    "Land1": {
+      "DisplayName": "Land 1",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 6000
+      },
+      "DailyRent": 150
+    },
+    "Land2": {
+      "DisplayName": "Land 2",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 8000
+      },
+      "DailyRent": 200
+    },
+    "Land3": {
+      "DisplayName": "Land 3",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 10000
+      },
+      "DailyRent": 300
+    },
+    "Land4": {
+      "DisplayName": "Land 4",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 15000
+      },
+      "DailyRent": 800
+    },
+    "Land5": {
+      "DisplayName": "Land 5",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 150,
+        "Z": 0
+      },
+      "DailyRent": 1200
+    },
+    "Land6": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 150,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land7": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 150,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land8": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 800,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land9": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 800,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land10": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 1000,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land11": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 1000,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land12": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 1200,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "Land13": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 1200,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "HighLand1": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 50,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "HighLand2": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 50,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "HighLand3": {
+      "DisplayName": "Land 6",
+      "UnlockCost": {
+        "X": 50,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyRent": 1500
+    },
+    "HighLand4": {
+      "DisplayName": "",
+      "UnlockCost": {
+        "X": 1000,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyRent": 20000
+    },
+    "AloneLand": {
+      "DisplayName": "",
+      "UnlockCost": {
+        "X": 0,
+        "Y": 0,
+        "Z": 500
+      },
+      "DailyRent": 0
+    }
+  }
+}

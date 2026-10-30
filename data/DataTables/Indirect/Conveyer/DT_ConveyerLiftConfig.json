@@ -1,0 +1,19 @@
+{
+  "row_struct": "ConveyerLiftConfig",
+  "rows": {
+    "0": {
+      "Desc": "垂直运输从下往上",
+      "Upwards": true,
+      "BodyName": "ConveyerLift_Body",
+      "EndName": "ConveyerLift_EndUpwards",
+      "PayloadName": "ConveyerLift_Payload"
+    },
+    "1": {
+      "Desc": "垂直运输从上往下",
+      "Upwards": false,
+      "BodyName": "ConveyerLift_Body",
+      "EndName": "ConveyerLift_EndDownwards",
+      "PayloadName": "ConveyerLift_Payload"
+    }
+  }
+}

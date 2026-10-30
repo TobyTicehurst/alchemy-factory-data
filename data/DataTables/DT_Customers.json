@@ -1,0 +1,108 @@
+{
+  "row_struct": "CustomerConfig",
+  "rows": {
+    "Villager": {
+      "DisplayName": "",
+      "DisplayIcon": null,
+      "CustomerClasses": [
+        "/Game/MedievalCitizen01/blueprints/BP_Customer_MaleCitizen.BP_Customer_MaleCitizen_C",
+        "/Game/ModularMedievalNPC/Character/Blueprints/BP_CustomizableCharacter_FemaleCitizen.BP_CustomizableCharacter_FemaleCitizen_C"
+      ],
+      "ClassPr": [
+        0.6000000238418579,
+        0.4000000059604645
+      ],
+      "UnlockLevel": 1,
+      "BasePr": 220.0,
+      "RepPrMulti": 1.0,
+      "IdlePr": 50.0,
+      "GoodsPrMap": {
+        "Groceries": 64.0,
+        "Remedies": 18.0,
+        "Liquid": 18.0
+      },
+      "PurchaseNumberCurve": "/Game/DataTables/CustomerCurves/CV_NormalPurchase.CV_NormalPurchase"
+    },
+    "Soldier": {
+      "DisplayName": "",
+      "DisplayIcon": null,
+      "CustomerClasses": [
+        "/Game/MedievalCitizen01/blueprints/BP_Customer_Soldier.BP_Customer_Soldier_C"
+      ],
+      "ClassPr": [
+        1.0
+      ],
+      "UnlockLevel": 2,
+      "BasePr": 60.0,
+      "RepPrMulti": 1.2000000476837158,
+      "IdlePr": 25.0,
+      "GoodsPrMap": {
+        "Remedies": 40.0,
+        "Groceries": 20.0,
+        "Liquid": 40.0
+      },
+      "PurchaseNumberCurve": "/Game/DataTables/CustomerCurves/CV_NormalPurchase.CV_NormalPurchase"
+    },
+    "Monk": {
+      "DisplayName": "",
+      "DisplayIcon": null,
+      "CustomerClasses": [
+        "/Game/ModularMedievalNPC/Character/Blueprints/BP_CustomizableCharacter_Monk.BP_CustomizableCharacter_Monk_C"
+      ],
+      "ClassPr": [
+        1.0
+      ],
+      "UnlockLevel": 4,
+      "BasePr": -30.0,
+      "RepPrMulti": 1.0,
+      "IdlePr": 5.0,
+      "GoodsPrMap": {
+        "Artcrafts": 70.0,
+        "Remedies": 15.0,
+        "Jewelry": 15.0
+      },
+      "PurchaseNumberCurve": "/Game/DataTables/CustomerCurves/CV_NormalPurchase.CV_NormalPurchase"
+    },
+    "Merchant": {
+      "DisplayName": "",
+      "DisplayIcon": null,
+      "CustomerClasses": [
+        "/Game/ModularMedievalNPC/Character/Blueprints/BP_CustomizableCharacter_StaticMerchant.BP_CustomizableCharacter_StaticMerchant_C"
+      ],
+      "ClassPr": [
+        1.0
+      ],
+      "UnlockLevel": 3,
+      "BasePr": -60.0,
+      "RepPrMulti": 1.7999999523162842,
+      "IdlePr": 5.0,
+      "GoodsPrMap": {
+        "Remedies": 30.0,
+        "Groceries": 30.0,
+        "Jewelry": 30.0,
+        "Artcrafts": 10.0
+      },
+      "PurchaseNumberCurve": "/Game/DataTables/CustomerCurves/CV_MerchantPurchase.CV_MerchantPurchase"
+    },
+    "Noble": {
+      "DisplayName": "",
+      "DisplayIcon": null,
+      "CustomerClasses": [
+        "/Game/ModularMedievalNPC/Character/Blueprints/BP_CustomizableCharacter_FemaleNoble.BP_CustomizableCharacter_FemaleNoble_C"
+      ],
+      "ClassPr": [
+        1.0
+      ],
+      "UnlockLevel": 4,
+      "BasePr": -20.0,
+      "RepPrMulti": 1.600000023841858,
+      "IdlePr": 15.0,
+      "GoodsPrMap": {
+        "Groceries": 20.0,
+        "Jewelry": 50.0,
+        "Remedies": 30.0
+      },
+      "PurchaseNumberCurve": "/Game/DataTables/CustomerCurves/CV_NormalPurchase.CV_NormalPurchase"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "row_struct": "RailroadTurnConfig",
+  "rows": {
+    "Railroad": {
+      "LeftTurnBuilding": "RailroadTurn_Sym",
+      "RightTurnBuilding": "RailroadTurn"
+    }
+  }
+}

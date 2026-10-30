@@ -1,0 +1,3932 @@
+{
+  "structs": {
+    "DataTable": {
+      "name": "DataTable",
+      "super": "Object",
+      "properties": [
+        {
+          "name": "RowStruct",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "bStripFromClientBuilds",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bIgnoreExtraFields",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bIgnoreMissingFields",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bPreserveExistingValues",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ImportKeyField",
+          "type": "Str",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Object": {
+      "name": "Object",
+      "super": null,
+      "properties": []
+    },
+    "CompositeDataTable": {
+      "name": "CompositeDataTable",
+      "super": "DataTable",
+      "properties": [
+        {
+          "name": "ParentTables",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Object",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "OldParentTables",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Object",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "CurveFloat": {
+      "name": "CurveFloat",
+      "super": "CurveBase",
+      "properties": [
+        {
+          "name": "FloatCurve",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "RichCurve"
+        },
+        {
+          "name": "bIsEventCurve",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "RichCurve": {
+      "name": "RichCurve",
+      "super": "RealCurve",
+      "properties": [
+        {
+          "name": "Keys",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "RichCurveKey"
+          }
+        }
+      ]
+    },
+    "RichCurveKey": {
+      "name": "RichCurveKey",
+      "super": null,
+      "properties": [
+        {
+          "name": "InterpMode",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERichCurveInterpMode",
+          "underlying": "Byte"
+        },
+        {
+          "name": "TangentMode",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERichCurveTangentMode",
+          "underlying": "Byte"
+        },
+        {
+          "name": "TangentWeightMode",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERichCurveTangentWeightMode",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Time",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Value",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "ArriveTangent",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "ArriveTangentWeight",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "LeaveTangent",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "LeaveTangentWeight",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "RealCurve": {
+      "name": "RealCurve",
+      "super": "IndexedCurve",
+      "properties": [
+        {
+          "name": "DefaultValue",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "PreInfinityExtrap",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERichCurveExtrapolation",
+          "underlying": "Byte"
+        },
+        {
+          "name": "PostInfinityExtrap",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERichCurveExtrapolation",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "IndexedCurve": {
+      "name": "IndexedCurve",
+      "super": null,
+      "properties": [
+        {
+          "name": "KeyHandlesToIndices",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "KeyHandleMap"
+        }
+      ]
+    },
+    "KeyHandleMap": {
+      "name": "KeyHandleMap",
+      "super": null,
+      "properties": []
+    },
+    "CurveBase": {
+      "name": "CurveBase",
+      "super": "Object",
+      "properties": []
+    },
+    "CurveLinearColor": {
+      "name": "CurveLinearColor",
+      "super": "CurveBase",
+      "properties": [
+        {
+          "name": "FloatCurves",
+          "type": "Struct",
+          "array_dimension": 4,
+          "struct": "RichCurve"
+        },
+        {
+          "name": "AdjustHue",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustSaturation",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustBrightness",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustBrightnessCurve",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustVibrance",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustMinAlpha",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "AdjustMaxAlpha",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_IndicatorSettings_Struct": {
+      "name": "UMPI_IndicatorSettings_Struct",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "OnScreen_Texture_Settings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OnScreen_Texture_Struct"
+        },
+        {
+          "name": "OffScreen_Texture_Settings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OffScreen_Texture_Struct"
+        },
+        {
+          "name": "Arrive_Function",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Distance_For_Arrive_Units",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Distance_Based_Visibility",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Life_Time",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Use_Z_Offset",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Additional_Z_Offsett",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Indicator_Type",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_IndicatorType_Struct"
+        },
+        {
+          "name": "EffectSettings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_Effect_Struct"
+        }
+      ]
+    },
+    "UMPI_Effect_Struct": {
+      "name": "UMPI_Effect_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Off_Rotation_Rule",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "UMPI_OffScreenRotationRule_Enum_OP",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Distance_Text",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_DistanceText_Struct"
+        },
+        {
+          "name": "OnScreenScaleSwift",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OnScreenScaleSwift_Struct"
+        },
+        {
+          "name": "OnScreen_Rotation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OnScreenRotation_Struct"
+        },
+        {
+          "name": "OnScreenOpacity",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OnScreenOpacity_Struct"
+        },
+        {
+          "name": "OnScreenPulse",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "UMPI_OnScreenPulse_Struct"
+        }
+      ]
+    },
+    "UMPI_OnScreenPulse_Struct": {
+      "name": "UMPI_OnScreenPulse_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Speed",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Pulse_Scale_Limit",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_OnScreenOpacity_Struct": {
+      "name": "UMPI_OnScreenOpacity_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Speed",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Do_Once",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_OnScreenRotation_Struct": {
+      "name": "UMPI_OnScreenRotation_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Rotation_Rate",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_OnScreenScaleSwift_Struct": {
+      "name": "UMPI_OnScreenScaleSwift_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Init_Scale",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Speed",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Do_Once",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Vector2D": {
+      "name": "Vector2D",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_DistanceText_Struct": {
+      "name": "UMPI_DistanceText_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Show_Distance_Text",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Font_Settings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateFontInfo"
+        },
+        {
+          "name": "Text_Color",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        }
+      ]
+    },
+    "LinearColor": {
+      "name": "LinearColor",
+      "super": null,
+      "properties": [
+        {
+          "name": "R",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "G",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "B",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "A",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "SlateFontInfo": {
+      "name": "SlateFontInfo",
+      "super": null,
+      "properties": [
+        {
+          "name": "FontObject",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "FontMaterial",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "OutlineSettings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "FontOutlineSettings"
+        },
+        {
+          "name": "TypefaceFontName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "Size",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "LetterSpacing",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "SkewAmount",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "bForceMonospaced",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bMaterialIsStencil",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "MonospacedWidth",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "FontOutlineSettings": {
+      "name": "FontOutlineSettings",
+      "super": null,
+      "properties": [
+        {
+          "name": "OutlineSize",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "bMiteredCorners",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bSeparateFillAlpha",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bApplyOutlineToDropShadows",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "OutlineMaterial",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "OutlineColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        }
+      ]
+    },
+    "UMPI_IndicatorType_Struct": {
+      "name": "UMPI_IndicatorType_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Indicator_Type",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "UMPI_Indicator_Type_Enum_OP",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Circle_Radius",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_OffScreen_Texture_Struct": {
+      "name": "UMPI_OffScreen_Texture_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use_Material_Image",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Material_Image",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Screen_Texture",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Screen_Indicator_Size",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Tint_Color",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        },
+        {
+          "name": "Screen_Margin",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "UMPI_OnScreen_Texture_Struct": {
+      "name": "UMPI_OnScreen_Texture_Struct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Use_Material_Image",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Material_Image",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Screen_Texture",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Screen_Indicator_Size",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Screen_Indicator_Pivot",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Tint_Color",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        }
+      ]
+    },
+    "TableRowBase": {
+      "name": "TableRowBase",
+      "super": null,
+      "properties": []
+    },
+    "AchievementConfig": {
+      "name": "AchievementConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Type",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EAchievementType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "TargetName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "TargetNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "AchievementStr",
+          "type": "Str",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDAttributeConfig": {
+      "name": "BeltTDAttributeConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "AttributeDesc",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "AttributeUnit",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "BaseValue",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnlockAttribute",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltMeshConfig": {
+      "name": "BeltMeshConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Desc",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "InOutList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BuildingGridInOutConfig"
+          }
+        },
+        {
+          "name": "mesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Rotation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Rotator"
+        }
+      ]
+    },
+    "Rotator": {
+      "name": "Rotator",
+      "super": null,
+      "properties": [
+        {
+          "name": "Pitch",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Yaw",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Roll",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BuildingGridInOutConfig": {
+      "name": "BuildingGridInOutConfig",
+      "super": null,
+      "properties": [
+        {
+          "name": "InOutType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGridInOutType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "IsPipeGrid",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "PipeOverrideType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EPipeOverrideType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "MaxLiquidValue",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Color",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Color"
+        },
+        {
+          "name": "position",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "OffsetOutput",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "Right",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "InOutInfo"
+        },
+        {
+          "name": "Bottom",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "InOutInfo"
+        },
+        {
+          "name": "Left",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "InOutInfo"
+        },
+        {
+          "name": "Up",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "InOutInfo"
+        },
+        {
+          "name": "Vertical",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "VerticalInOutInfo"
+        }
+      ]
+    },
+    "VerticalInOutInfo": {
+      "name": "VerticalInOutInfo",
+      "super": null,
+      "properties": [
+        {
+          "name": "base",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Top",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "InOutInfo": {
+      "name": "InOutInfo",
+      "super": null,
+      "properties": [
+        {
+          "name": "IsInput",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "IsOutput",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "RailroadPortIndex",
+          "type": "Byte",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "IntVector": {
+      "name": "IntVector",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "Z",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Color": {
+      "name": "Color",
+      "super": null,
+      "properties": [
+        {
+          "name": "B",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "G",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "R",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "A",
+          "type": "Byte",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDBuildingConfig": {
+      "name": "BeltTDBuildingConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "ID",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "FurnitureType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EFurnitureType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "SecondaryType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESecondaryType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "SecondaryIndirect",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayDesc",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "bHideInGame",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bHideInCreative",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "HeatCost",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisableRotator",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ScriptClass",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "InstanceMesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "bInstanceAffectsNavigation",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "CollisionProfile",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ECollisionPresetType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Dilation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltDilation"
+        },
+        {
+          "name": "BeltRotation",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "GridConfigList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BuildingGridConfig"
+          }
+        },
+        {
+          "name": "VolumeList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "GridVolume"
+          }
+        },
+        {
+          "name": "ReplacementRegions",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BuildingReplacementRegion"
+          }
+        },
+        {
+          "name": "InOutList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BuildingGridInOutConfig"
+          }
+        },
+        {
+          "name": "PhantomGridConfigs",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BuildingGridConfig"
+          }
+        },
+        {
+          "name": "CostList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        },
+        {
+          "name": "BuildingTags",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "GameplayTagContainer"
+        },
+        {
+          "name": "AlterBuildOption",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ActiveSound",
+          "type": "Object",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "GameplayTagContainer": {
+      "name": "GameplayTagContainer",
+      "super": null,
+      "properties": [
+        {
+          "name": "GameplayTags",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "GameplayTag"
+          }
+        },
+        {
+          "name": "ParentTags",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "GameplayTag"
+          }
+        }
+      ]
+    },
+    "GameplayTag": {
+      "name": "GameplayTag",
+      "super": null,
+      "properties": [
+        {
+          "name": "TagName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDIngredientCount": {
+      "name": "BeltTDIngredientCount",
+      "super": null,
+      "properties": [
+        {
+          "name": "IngredientName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "Count",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BuildingGridConfig": {
+      "name": "BuildingGridConfig",
+      "super": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "OccupationConfig",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGridOccupationConfig",
+          "underlying": "Byte"
+        },
+        {
+          "name": "OccupationValue",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "IsFoundationGrid",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "IsOverrideGrid",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EOverrideGridType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "IsStackableGrid",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BuildingReplacementRegion": {
+      "name": "BuildingReplacementRegion",
+      "super": null,
+      "properties": [
+        {
+          "name": "min",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "max",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "Secondary",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESecondaryType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "SecondaryIndirect",
+          "type": "Byte",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "GridVolume": {
+      "name": "GridVolume",
+      "super": null,
+      "properties": [
+        {
+          "name": "min",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "max",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "GridConfig",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BuildingGridConfig"
+        }
+      ]
+    },
+    "BeltDilation": {
+      "name": "BeltDilation",
+      "super": null,
+      "properties": [
+        {
+          "name": "TimeDilation",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "SizeDilation",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "CustomerConfig": {
+      "name": "CustomerConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "CustomerClasses",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Object",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "ClassPr",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Double",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "UnlockLevel",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "BasePr",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "RepPrMulti",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "IdlePr",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "GoodsPrMap",
+          "type": "Map",
+          "array_dimension": 1,
+          "key": {
+            "name": "",
+            "type": "Enum",
+            "array_dimension": 1,
+            "enum": "EEnemySellType",
+            "underlying": "Byte"
+          },
+          "value": {
+            "name": "",
+            "type": "Double",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "PurchaseNumberCurve",
+          "type": "Object",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "ST_TutorialData": {
+      "name": "ST_TutorialData",
+      "super": null,
+      "properties": [
+        {
+          "name": "Title_7_D794DB134FB9218183759E956CB01945",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "Class_17_9B3770644D416EB3A1728AA31FBC9FD2",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Position_21_9AC265734241B75DA9D13DB3EA8EF66E",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "ST_TutorialDataValue"
+          }
+        },
+        {
+          "name": "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56",
+          "type": "Text",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "ST_TutorialDataValue": {
+      "name": "ST_TutorialDataValue",
+      "super": null,
+      "properties": [
+        {
+          "name": "type_7_76232DAD40E8EE0E16976789FE6559ED",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "Enum_Tutorials",
+          "underlying": "Byte"
+        },
+        {
+          "name": "value_1_C7D03F984D980375875C96912F9E47D3",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "text_4_10A6A2CC4FA43F6C56669DA1D9676446",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "option_10_FC70DCF149B43E7B2A7B77818E51573B",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Vector": {
+      "name": "Vector",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Z",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDEnemyConfig": {
+      "name": "BeltTDEnemyConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "ID",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "SolidMesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "ShowColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Color"
+        },
+        {
+          "name": "IngredientTags",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "GameplayTagContainer"
+        },
+        {
+          "name": "bHideInGame",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "MaximumStack",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "StockCost",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "SellType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EEnemySellType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "CostValue",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "HeatValue",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "NutrientValue",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "NutrientSpeed",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "IsLiquid",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "SellCanStack",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "RandomQuestBaseNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "NpcShoppingBaseNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "BulkMeshThreshold",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Int",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "BulkMeshList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Object",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "DescRowName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "AllowPortalSupply",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "BaseCost",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "CauldronCost",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "CauldronTarget",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "CauldronMulti",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "QuestCost",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "QuestTier",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "ShoppingTier",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "bHideInCreative",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDCraftingConfig": {
+      "name": "BeltTDCraftingConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "ID",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "IngredientList",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        },
+        {
+          "name": "ProductInfo",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDIngredientCount"
+        },
+        {
+          "name": "CraftType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EBeltTDCraftType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "CraftingTime",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "FractionNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "FailRate1",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "FailRate2",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "FailProduct1",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDIngredientCount"
+        },
+        {
+          "name": "FailProduct2",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDIngredientCount"
+        },
+        {
+          "name": "SideProduct",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDIngredientCount"
+        },
+        {
+          "name": "bHideInGame",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bAlternate",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ProductSequence",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Int",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "CatalystCost",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnstableSequence",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Int",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "BeltTDZoneConfig": {
+      "name": "BeltTDZoneConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnlockCost",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "DailyRent",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDImprovementConfig": {
+      "name": "BeltTDImprovementConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "AllowRepeat",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ImprovementLevel",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "Effects",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDImprovementEffect"
+          }
+        },
+        {
+          "name": "Deprecated",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDImprovementEffect": {
+      "name": "BeltTDImprovementEffect",
+      "super": null,
+      "properties": [
+        {
+          "name": "AttributeName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ModificationType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EBeltTDModificationType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "ModValue",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "InputKeyManagerConfig": {
+      "name": "InputKeyManagerConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Name",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "Key",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Key"
+        },
+        {
+          "name": "InputAction",
+          "type": "Object",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Key": {
+      "name": "Key",
+      "super": null,
+      "properties": [
+        {
+          "name": "KeyName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDInteractionInfo": {
+      "name": "BeltTDInteractionInfo",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayName",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "Key",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Key"
+        },
+        {
+          "name": "InputAction",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Ctrl",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Shift",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Hold",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Center",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "RichText",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "HintText",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "LicenseConfig": {
+      "name": "LicenseConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "DisplayBackground",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "LicenseType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ELicenseType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "LicenseTier",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "UseSpecialText",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "LicenseText",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "PreLicenseName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "PreSkillName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "RequestConditions",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDRequestCondition"
+          }
+        },
+        {
+          "name": "ApplyPrice",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "UnlockItems",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDConfigName"
+          }
+        },
+        {
+          "name": "UnlockBuff",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDConfigName": {
+      "name": "BeltTDConfigName",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "ConfigName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ConfigType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EBeltTDConfigType",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "BeltTDRequestCondition": {
+      "name": "BeltTDRequestCondition",
+      "super": null,
+      "properties": [
+        {
+          "name": "Type",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EBeltTDRequestType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "TargetName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "TargetCount",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "LoanConfig": {
+      "name": "LoanConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Title",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "Message",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "LoanDay",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "LoanCurrency",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "CostRateRange",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2f"
+        },
+        {
+          "name": "UnlockLevel",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Vector2f": {
+      "name": "Vector2f",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "BeltTDManualConfig": {
+      "name": "BeltTDManualConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "ID",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "ManualTitle",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "ContentBeforeVideo",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "VideoShowcase",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "ContentAfterVideo",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "AutoTrigger",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "TriggerSkillName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ForceWatch",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "HideInGame",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "TriggerUnlockName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "PipeMeshConfig": {
+      "name": "PipeMeshConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Desc",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "InOut",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BuildingGridInOutConfig"
+        },
+        {
+          "name": "mesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Rotation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Rotator"
+        }
+      ]
+    },
+    "PlantSeedConfig": {
+      "name": "PlantSeedConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "PlantName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "SideProductName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "GrowthSeconds",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "GrowthNutrientValue",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "GrowthNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "SideGrowthNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "SeedMesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "PlantMesh",
+          "type": "Object",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "PlayerGearConfig": {
+      "name": "PlayerGearConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "GearType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EPlayerGearType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Tier",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "DisplayIcon",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "UpgradeCost",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        },
+        {
+          "name": "UnlockedBuffs",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "UnlockedBuildings",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "QuestConfig": {
+      "name": "QuestConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Title",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "Message",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "AutoAccept",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Conditions",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "QuestCondition"
+        },
+        {
+          "name": "RandomWeight",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "DateRange",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntPoint"
+        },
+        {
+          "name": "RequireProducts",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "QuestProduct"
+        },
+        {
+          "name": "Awards",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "QuestComplexAward"
+        },
+        {
+          "name": "IsMain",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Deprecated",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "QuestComplexAward": {
+      "name": "QuestComplexAward",
+      "super": null,
+      "properties": [
+        {
+          "name": "Gold",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "GoldFactor",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Products",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        },
+        {
+          "name": "Buildings",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "Contracts",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "LevelUp",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "QuestProduct": {
+      "name": "QuestProduct",
+      "super": null,
+      "properties": [
+        {
+          "name": "Items",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "Nums",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Int",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "IntPoint": {
+      "name": "IntPoint",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "QuestCondition": {
+      "name": "QuestCondition",
+      "super": null,
+      "properties": [
+        {
+          "name": "DateRange",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntPoint"
+        },
+        {
+          "name": "GameLevelRange",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntPoint"
+        },
+        {
+          "name": "RequireQuests",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "RequireContracts",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        }
+      ]
+    },
+    "RailroadDataConfig": {
+      "name": "RailroadDataConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Name",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "Type",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGeneratorRailroadType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "PinOutputType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERailroadPinType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "PinInputType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ERailroadPinType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "UseMeshReverse",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ConstantSpeed",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "SpeedModify",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "SampleCount",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "Lines",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "RailroadLineArray"
+          }
+        },
+        {
+          "name": "Procedural",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "RailroadProcedural"
+        },
+        {
+          "name": "mesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Points",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "Vector"
+          }
+        }
+      ]
+    },
+    "RailroadProcedural": {
+      "name": "RailroadProcedural",
+      "super": null,
+      "properties": [
+        {
+          "name": "LocationInterpMode",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EInterpCurveMode",
+          "underlying": "Byte"
+        },
+        {
+          "name": "RotationInterpMode",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EInterpCurveMode",
+          "underlying": "Byte"
+        },
+        {
+          "name": "StartAngle",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "TotalAngle",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "BaseRotator",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Segments",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "startPos",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "Axis",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "CenterPos",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        }
+      ]
+    },
+    "RailroadLineArray": {
+      "name": "RailroadLineArray",
+      "super": null,
+      "properties": [
+        {
+          "name": "Lines",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "SplinePoint"
+          }
+        }
+      ]
+    },
+    "SplinePoint": {
+      "name": "SplinePoint",
+      "super": null,
+      "properties": [
+        {
+          "name": "InputKey",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "position",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "ArriveTangent",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "LeaveTangent",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "Rotation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Rotator"
+        },
+        {
+          "name": "Scale",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "Type",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESplinePointType",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "RichImageRow": {
+      "name": "RichImageRow",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Brush",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateBrush"
+        }
+      ]
+    },
+    "SlateBrush": {
+      "name": "SlateBrush",
+      "super": null,
+      "properties": [
+        {
+          "name": "TintColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateColor"
+        },
+        {
+          "name": "DrawAs",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateBrushDrawType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Tiling",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateBrushTileType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "Mirroring",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateBrushMirrorType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "ImageType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateBrushImageType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "ImageSize",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "DeprecateSlateVector2D"
+        },
+        {
+          "name": "Margin",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Margin"
+        },
+        {
+          "name": "ResourceObject",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "OutlineSettings",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateBrushOutlineSettings"
+        },
+        {
+          "name": "UVRegion",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Box2f"
+        },
+        {
+          "name": "bIsDynamicallyLoaded",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "bHasUObject",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "ResourceName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Box2f": {
+      "name": "Box2f",
+      "super": null,
+      "properties": [
+        {
+          "name": "min",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2f"
+        },
+        {
+          "name": "max",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2f"
+        },
+        {
+          "name": "bIsValid",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "SlateBrushOutlineSettings": {
+      "name": "SlateBrushOutlineSettings",
+      "super": null,
+      "properties": [
+        {
+          "name": "CornerRadii",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector4"
+        },
+        {
+          "name": "Color",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateColor"
+        },
+        {
+          "name": "Width",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "RoundingType",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateBrushRoundingType",
+          "underlying": "Byte"
+        },
+        {
+          "name": "bUseBrushTransparency",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "SlateColor": {
+      "name": "SlateColor",
+      "super": null,
+      "properties": [
+        {
+          "name": "SpecifiedColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        },
+        {
+          "name": "ColorUseRule",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ESlateColorStylingMode",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "Vector4": {
+      "name": "Vector4",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Z",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "W",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "Margin": {
+      "name": "Margin",
+      "super": null,
+      "properties": [
+        {
+          "name": "Left",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Top",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Right",
+          "type": "Float",
+          "array_dimension": 1
+        },
+        {
+          "name": "Bottom",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "DeprecateSlateVector2D": {
+      "name": "DeprecateSlateVector2D",
+      "super": "Vector2f",
+      "properties": []
+    },
+    "RichTextStyleRow": {
+      "name": "RichTextStyleRow",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "TextStyle",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "TextBlockStyle"
+        }
+      ]
+    },
+    "TextBlockStyle": {
+      "name": "TextBlockStyle",
+      "super": "SlateWidgetStyle",
+      "properties": [
+        {
+          "name": "Font",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateFontInfo"
+        },
+        {
+          "name": "ColorAndOpacity",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateColor"
+        },
+        {
+          "name": "ShadowOffset",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "DeprecateSlateVector2D"
+        },
+        {
+          "name": "ShadowColorAndOpacity",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        },
+        {
+          "name": "SelectedBackgroundColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateColor"
+        },
+        {
+          "name": "HighlightColor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateColor"
+        },
+        {
+          "name": "HighlightShape",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateBrush"
+        },
+        {
+          "name": "StrikeBrush",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateBrush"
+        },
+        {
+          "name": "UnderlineBrush",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "SlateBrush"
+        },
+        {
+          "name": "TransformPolicy",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ETextTransformPolicy",
+          "underlying": "Byte"
+        },
+        {
+          "name": "OverflowPolicy",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "ETextOverflowPolicy",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "SlateWidgetStyle": {
+      "name": "SlateWidgetStyle",
+      "super": null,
+      "properties": []
+    },
+    "BeltTDSkillConfig": {
+      "name": "BeltTDSkillConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Tier",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "LevelSkill",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "UpgradeSkill",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "SlotPosition",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntPoint"
+        },
+        {
+          "name": "Predecessors",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "IsUnlimited",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "MaxUnlimitedLevel",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnlockCost",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "UnlockResearchPoints",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnlockItem",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDConfigName"
+        },
+        {
+          "name": "LevelUnlockItems",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "ExtraUnlockConstructions",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        },
+        {
+          "name": "Deprecated",
+          "type": "Bool",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "SupplyContractConfig": {
+      "name": "SupplyContractConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "SellItem",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "BeltTDIngredientCount"
+        },
+        {
+          "name": "ContractReward",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        },
+        {
+          "name": "DailyLimit",
+          "type": "Int",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "RailroadTrolleyConfig": {
+      "name": "RailroadTrolleyConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Name",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "Message",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "mesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "Speed",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "MinSpeed",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "MaxSpeed",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "CargoMesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "LiquidCargoMesh",
+          "type": "Object",
+          "array_dimension": 1
+        },
+        {
+          "name": "CargoLocalTransform",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Transform"
+        }
+      ]
+    },
+    "Transform": {
+      "name": "Transform",
+      "super": null,
+      "properties": [
+        {
+          "name": "Rotation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Quat"
+        },
+        {
+          "name": "Translation",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        },
+        {
+          "name": "Scale3D",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector"
+        }
+      ]
+    },
+    "Quat": {
+      "name": "Quat",
+      "super": null,
+      "properties": [
+        {
+          "name": "X",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Y",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "Z",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "W",
+          "type": "Double",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "WorkbenchConfig": {
+      "name": "WorkbenchConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "UnlockSkillName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "UnlockCost",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "BeltTDIngredientCount"
+          }
+        },
+        {
+          "name": "UnlockBuilding",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "PrerequisiteBuilding",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ExtraUnlockBuildings",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "ConstructBuildingConfig": {
+      "name": "ConstructBuildingConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Stand",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "Size",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Anchor",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "Horizontal",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "Vertical",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "Corner",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "ConstructNormalsConfig": {
+      "name": "ConstructNormalsConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Buildings",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Name",
+            "array_dimension": 1
+          }
+        }
+      ]
+    },
+    "ConstructBuildingV2Config": {
+      "name": "ConstructBuildingV2Config",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Stand",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "UseSnapToGrid",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "OffsetSnapType",
+          "type": "Byte",
+          "array_dimension": 1
+        },
+        {
+          "name": "Size",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "Vector2D"
+        },
+        {
+          "name": "RiskLoad",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "MaxLoad",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "SupportGrids",
+          "type": "Array",
+          "array_dimension": 1,
+          "inner": {
+            "name": "",
+            "type": "Struct",
+            "array_dimension": 1,
+            "struct": "ConstructSupportGrid"
+          }
+        }
+      ]
+    },
+    "ConstructSupportGrid": {
+      "name": "ConstructSupportGrid",
+      "super": null,
+      "properties": [
+        {
+          "name": "LoadVal",
+          "type": "Double",
+          "array_dimension": 1
+        },
+        {
+          "name": "position",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "IntVector"
+        }
+      ]
+    },
+    "ConveyerLiftConfig": {
+      "name": "ConveyerLiftConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Desc",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "Upwards",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "BodyName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "EndName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "PayloadName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "ElevatorConfig": {
+      "name": "ElevatorConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Desc",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "BottomName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "BodyName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "TopName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "StationBuildingName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ElevatorBuildingName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "FreightElevatorConfig": {
+      "name": "FreightElevatorConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "BottomName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "MiddleName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "TopName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "ElevatorName",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "ExpandableBuildingConfig": {
+      "name": "ExpandableBuildingConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "Desc",
+          "type": "Str",
+          "array_dimension": 1
+        },
+        {
+          "name": "Horizontal",
+          "type": "Bool",
+          "array_dimension": 1
+        },
+        {
+          "name": "MaxBodyNum",
+          "type": "Int",
+          "array_dimension": 1
+        },
+        {
+          "name": "HeadRotation",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGridRotation",
+          "underlying": "Byte"
+        },
+        {
+          "name": "BodyName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "BodyRotation",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGridRotation",
+          "underlying": "Byte"
+        },
+        {
+          "name": "EndName",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "EndRotation",
+          "type": "Enum",
+          "array_dimension": 1,
+          "enum": "EGridRotation",
+          "underlying": "Byte"
+        }
+      ]
+    },
+    "RailroadTurnConfig": {
+      "name": "RailroadTurnConfig",
+      "super": "TableRowBase",
+      "properties": [
+        {
+          "name": "LeftTurnBuilding",
+          "type": "Name",
+          "array_dimension": 1
+        },
+        {
+          "name": "RightTurnBuilding",
+          "type": "Name",
+          "array_dimension": 1
+        }
+      ]
+    },
+    "STintSample_SkinOverride": {
+      "name": "STintSample_SkinOverride",
+      "super": null,
+      "properties": [
+        {
+          "name": "DisplayName_9_CDE9BCB341787D2AEA2FDEA31A8E4E90",
+          "type": "Text",
+          "array_dimension": 1
+        },
+        {
+          "name": "ThumbnailColor_10_7E56D9F44D79D88476D05CB4C6D26FE9",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        },
+        {
+          "name": "SkinColorTint_14_72FDDE8C431A264FA2876DAA377A2EDE",
+          "type": "Struct",
+          "array_dimension": 1,
+          "struct": "LinearColor"
+        },
+        {
+          "name": "SkinRoughnessMultiplier_13_2A8C558B40D7AC48DE27E2A4E5DB059A",
+          "type": "Float",
+          "array_dimension": 1
+        }
+      ]
+    }
+  },
+  "enums": {
+    "ERichCurveTangentWeightMode": {
+      "0": "RCTWM_WeightedNone",
+      "1": "RCTWM_WeightedArrive",
+      "2": "RCTWM_WeightedLeave",
+      "3": "RCTWM_WeightedBoth",
+      "4": "RCTWM_MAX"
+    },
+    "ERichCurveTangentMode": {
+      "0": "RCTM_Auto",
+      "1": "RCTM_User",
+      "2": "RCTM_Break",
+      "3": "RCTM_None",
+      "4": "RCTM_SmartAuto",
+      "5": "RCTM_MAX"
+    },
+    "ERichCurveInterpMode": {
+      "0": "RCIM_Linear",
+      "1": "RCIM_Constant",
+      "2": "RCIM_Cubic",
+      "3": "RCIM_None",
+      "4": "RCIM_MAX"
+    },
+    "ERichCurveExtrapolation": {
+      "0": "RCCE_Cycle",
+      "1": "RCCE_CycleWithOffset",
+      "2": "RCCE_Oscillate",
+      "3": "RCCE_Linear",
+      "4": "RCCE_Constant",
+      "5": "RCCE_None",
+      "6": "RCCE_MAX"
+    },
+    "UMPI_OffScreenRotationRule_Enum_OP": {
+      "0": "OP_Free",
+      "1": "OP_Closest_Edge",
+      "2": "OP_Do_Not_Rotate"
+    },
+    "UMPI_Indicator_Type_Enum_OP": {
+      "0": "OP_Classic",
+      "1": "OP_Circle",
+      "2": "OP_MAX"
+    },
+    "EAchievementType": {
+      "0": "Invalid",
+      "1": "MainQuest",
+      "2": "FirstProduce",
+      "3": "FirstBuild",
+      "4": "CraftGear",
+      "5": "BuyLand",
+      "6": "TotalProduce",
+      "7": "DailyIncome",
+      "8": "FinishResearch",
+      "9": "SideQuest",
+      "10": "Custom",
+      "11": "EAchievementType_MAX"
+    },
+    "EPipeOverrideType": {
+      "0": "InputAndOutput",
+      "1": "OnlyInput",
+      "2": "OnlyOutput",
+      "3": "EPipeOverrideType_MAX"
+    },
+    "EGridInOutType": {
+      "0": "Unknown",
+      "1": "Belt",
+      "2": "Pipeline",
+      "3": "Railroad",
+      "4": "EGridInOutType_MAX"
+    },
+    "EOverrideGridType": {
+      "0": "NoOverride",
+      "1": "Belt",
+      "2": "Pipeline",
+      "3": "Construct",
+      "4": "EOverrideGridType_MAX"
+    },
+    "EGridOccupationConfig": {
+      "0": "EMPTY",
+      "1": "BOTTOM",
+      "2": "MIDDLE",
+      "4": "TOP",
+      "8": "SIDE",
+      "3": "BOTTOM_MIDDLE",
+      "5": "BOTTOM_TOP",
+      "9": "BOTTOM_SIDE",
+      "6": "MIDDLE_TOP",
+      "10": "MIDDLE_SIDE",
+      "12": "TOP_SIDE",
+      "7": "BOTTOM_MIDDLE_TOP",
+      "11": "BOTTOM_MIDDLE_SIDE",
+      "13": "BOTTOM_TOP_SIDE",
+      "14": "MIDDLE_TOP_SIDE",
+      "15": "WHOLE",
+      "16": "EGridOccupationConfig_MAX"
+    },
+    "ESecondaryType": {
+      "0": "None",
+      "1": "Belt",
+      "2": "BeltSlope",
+      "3": "ConveyerLift",
+      "4": "Construct",
+      "5": "ConstructStuff",
+      "6": "ConstructV2",
+      "7": "Pipeline",
+      "8": "ProductVisualCpp",
+      "9": "Railroad",
+      "10": "Elevator",
+      "11": "FreightElevator",
+      "12": "ESecondaryType_MAX"
+    },
+    "ECollisionPresetType": {
+      "0": "Enemy",
+      "1": "Furniture",
+      "2": "FurnitureNoBuild",
+      "3": "FurnitureMove",
+      "4": "BuildingSolid",
+      "5": "ECollisionPresetType_MAX"
+    },
+    "EFurnitureType": {
+      "0": "Logistics",
+      "1": "Normal",
+      "2": "CanInteract",
+      "3": "Construct",
+      "4": "ConstructV2",
+      "5": "Pipeline",
+      "6": "Railroad",
+      "7": "EFurnitureType_MAX"
+    },
+    "EEnemySellType": {
+      "0": "Worthless",
+      "1": "Groceries",
+      "2": "Jewelry",
+      "3": "Remedies",
+      "4": "Artcrafts",
+      "5": "Vehicles",
+      "6": "Liquid",
+      "7": "EEnemySellType_MAX"
+    },
+    "Enum_Tutorials": {
+      "0": "NewEnumerator0",
+      "1": "NewEnumerator1",
+      "2": "NewEnumerator2",
+      "3": "NewEnumerator3",
+      "4": "NewEnumerator7",
+      "5": "NewEnumerator4",
+      "6": "NewEnumerator5",
+      "7": "NewEnumerator6",
+      "8": "NewEnumerator8",
+      "9": "NewEnumerator9",
+      "10": "NewEnumerator10",
+      "11": "NewEnumerator11",
+      "12": "NewEnumerator12",
+      "13": "NewEnumerator14",
+      "14": "NewEnumerator15",
+      "15": "NewEnumerator16",
+      "16": "NewEnumerator17",
+      "17": "NewEnumerator18",
+      "18": "NewEnumerator19",
+      "19": "NewEnumerator20",
+      "20": "NewEnumerator21",
+      "21": "NewEnumerator22",
+      "22": "NewEnumerator23",
+      "23": "NewEnumerator24",
+      "24": "NewEnumerator25",
+      "25": "NewEnumerator26",
+      "26": "NewEnumerator27",
+      "27": "NewEnumerator28",
+      "28": "NewEnumerator29",
+      "29": "NewEnumerator30",
+      "30": "Enum_MAX"
+    },
+    "EBeltTDCraftType": {
+      "0": "TableSaw",
+      "1": "StoneCrusher",
+      "2": "Smelter",
+      "3": "Plant",
+      "4": "Grind",
+      "5": "Extract",
+      "6": "Calcinate",
+      "7": "Refine",
+      "8": "Fire",
+      "9": "Process",
+      "10": "Assemble",
+      "11": "Blend",
+      "12": "AdBlend",
+      "13": "Distill",
+      "14": "AdDistill",
+      "15": "Athanor",
+      "16": "AdAthanor",
+      "17": "OmniCraft",
+      "18": "Shaper",
+      "19": "AdShaper",
+      "20": "AtShaper",
+      "21": "Paradox",
+      "22": "Cauldron",
+      "23": "AdProcess",
+      "24": "LiquidTap",
+      "25": "Max"
+    },
+    "EBeltTDModificationType": {
+      "0": "Add",
+      "1": "Increase",
+      "2": "Multiply",
+      "3": "Override",
+      "4": "EBeltTDModificationType_MAX"
+    },
+    "EBeltTDConfigType": {
+      "0": "Ingredients",
+      "1": "SkillPoints",
+      "2": "CraftingRecipes",
+      "3": "ConstructOptions",
+      "4": "Improvements",
+      "5": "Gear",
+      "6": "Contract",
+      "7": "License",
+      "8": "EBeltTDConfigType_MAX"
+    },
+    "EBeltTDRequestType": {
+      "0": "ProduceAll",
+      "1": "SellAll",
+      "2": "ContractAll",
+      "3": "EBeltTDRequestType_MAX"
+    },
+    "ELicenseType": {
+      "0": "Invalid",
+      "1": "General",
+      "2": "Potion",
+      "3": "Jewellery",
+      "4": "Relic",
+      "5": "Minting",
+      "6": "Tavern",
+      "7": "Supplier",
+      "8": "Alchemist",
+      "9": "ELicenseType_MAX"
+    },
+    "EPlayerGearType": {
+      "0": "Invalid",
+      "1": "Backpack",
+      "2": "Gloves",
+      "3": "PotionBelt",
+      "4": "Blueprint",
+      "5": "BuildTool",
+      "6": "Monocle",
+      "7": "EPlayerGearType_MAX"
+    },
+    "EInterpCurveMode": {
+      "0": "CIM_Linear",
+      "1": "CIM_CurveAuto",
+      "2": "CIM_Constant",
+      "3": "CIM_CurveUser",
+      "4": "CIM_CurveBreak",
+      "5": "CIM_CurveAutoClamped",
+      "6": "CIM_MAX"
+    },
+    "ESplinePointType": {
+      "0": "Linear",
+      "1": "Curve",
+      "2": "Constant",
+      "3": "CurveClamped",
+      "4": "CurveCustomTangent",
+      "5": "ESplinePointType_MAX"
+    },
+    "ERailroadPinType": {
+      "0": "Unknown",
+      "1": "Straight",
+      "2": "DiagonalUp",
+      "3": "DiagonalDown",
+      "4": "ERailroadPinType_MAX"
+    },
+    "EGeneratorRailroadType": {
+      "0": "Spline",
+      "1": "Procedural",
+      "2": "Mesh",
+      "3": "Points",
+      "4": "EGeneratorRailroadType_MAX"
+    },
+    "ESlateBrushRoundingType": {
+      "0": "FixedRadius",
+      "1": "HalfHeightRadius",
+      "2": "ESlateBrushRoundingType_MAX"
+    },
+    "ESlateColorStylingMode": {
+      "0": "UseColor_Specified",
+      "1": "UseColor_ColorTable",
+      "2": "UseColor_Foreground",
+      "3": "UseColor_Foreground_Subdued",
+      "4": "UseColor_UseStyle",
+      "5": "UseColor_MAX"
+    },
+    "ESlateBrushImageType": {
+      "0": "NoImage",
+      "1": "FullColor",
+      "2": "Linear",
+      "3": "Vector",
+      "4": "ESlateBrushImageType_MAX"
+    },
+    "ESlateBrushMirrorType": {
+      "0": "NoMirror",
+      "1": "Horizontal",
+      "2": "Vertical",
+      "3": "Both",
+      "4": "ESlateBrushMirrorType_MAX"
+    },
+    "ESlateBrushTileType": {
+      "0": "NoTile",
+      "1": "Horizontal",
+      "2": "Vertical",
+      "3": "Both",
+      "4": "ESlateBrushTileType_MAX"
+    },
+    "ESlateBrushDrawType": {
+      "0": "NoDrawType",
+      "1": "Box",
+      "2": "Border",
+      "3": "Image",
+      "4": "RoundedBox",
+      "5": "ESlateBrushDrawType_MAX"
+    },
+    "ETextOverflowPolicy": {
+      "0": "Clip",
+      "1": "Ellipsis",
+      "2": "MultilineEllipsis",
+      "3": "MiddleEllipsis",
+      "4": "ETextOverflowPolicy_MAX"
+    },
+    "ETextTransformPolicy": {
+      "0": "None",
+      "1": "ToLower",
+      "2": "ToUpper",
+      "3": "ETextTransformPolicy_MAX"
+    },
+    "EGridRotation": {
+      "0": "NoRotation",
+      "1": "ClockWise",
+      "2": "CentralSymmetry",
+      "3": "CounterClockWise",
+      "4": "EGridRotation_MAX"
+    }
+  }
+}

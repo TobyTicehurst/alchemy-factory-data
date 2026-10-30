@@ -1,0 +1,6183 @@
+{
+  "row_struct": "BeltTDCraftingConfig",
+  "rows": {
+    "Flax": {
+      "ID": 5,
+      "IngredientList": [
+        {
+          "IngredientName": "FlaxSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Flax",
+        "Count": 200
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 400.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sage": {
+      "ID": 6,
+      "IngredientList": [
+        {
+          "IngredientName": "SageSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sage",
+        "Count": 180
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 540.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Redcurrant": {
+      "ID": 11,
+      "IngredientList": [
+        {
+          "IngredientName": "RedcurrantSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Redcurrant",
+        "Count": 150
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 720.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Lavender": {
+      "ID": 13,
+      "IngredientList": [
+        {
+          "IngredientName": "LavenderSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Lavender",
+        "Count": 120
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 1440.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Chamomile": {
+      "ID": 15,
+      "IngredientList": [
+        {
+          "IngredientName": "ChamomileSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Chamomile",
+        "Count": 140
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 1120.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Gentian": {
+      "ID": 17,
+      "IngredientList": [
+        {
+          "IngredientName": "GentianSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Gentian",
+        "Count": 80
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 2160.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "GentianNectar",
+        "Count": 80
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "WoodBoard": {
+      "ID": 101,
+      "IngredientList": [
+        {
+          "IngredientName": "Wood",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "WoodBoard",
+        "Count": 1
+      },
+      "CraftType": "TableSaw",
+      "CraftingTime": 2.0,
+      "FractionNum": 200,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LargeWoodGear": {
+      "ID": 102,
+      "IngredientList": [
+        {
+          "IngredientName": "WoodBoard",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LargeWoodGear",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Stone": {
+      "ID": 201,
+      "IngredientList": [
+        {
+          "IngredientName": "Limestone",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Stone",
+        "Count": 1
+      },
+      "CraftType": "StoneCrusher",
+      "CraftingTime": 3.0,
+      "FractionNum": 150,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand": {
+      "ID": 202,
+      "IngredientList": [
+        {
+          "IngredientName": "Stone",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Mortar": {
+      "ID": 203,
+      "IngredientList": [
+        {
+          "IngredientName": "Stone",
+          "Count": 5
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Mortar",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 20.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "FlaxFiber": {
+      "ID": 204,
+      "IngredientList": [
+        {
+          "IngredientName": "Flax",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "FlaxFiber",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LinenThread": {
+      "ID": 205,
+      "IngredientList": [
+        {
+          "IngredientName": "FlaxFiber",
+          "Count": 3
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LinenThread",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LinenRope": {
+      "ID": 206,
+      "IngredientList": [
+        {
+          "IngredientName": "LinenThread",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LinenRope",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "WoodGear": {
+      "ID": 207,
+      "IngredientList": [
+        {
+          "IngredientName": "LargeWoodGear",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "WoodGear",
+        "Count": 3
+      },
+      "CraftType": "Process",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "IronIngot": {
+      "ID": 301,
+      "IngredientList": [
+        {
+          "IngredientName": "IronOre",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "IronIngot",
+        "Count": 1
+      },
+      "CraftType": "Smelter",
+      "CraftingTime": 6.0,
+      "FractionNum": 100,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Nails": {
+      "ID": 302,
+      "IngredientList": [
+        {
+          "IngredientName": "IronIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Nails",
+        "Count": 3
+      },
+      "CraftType": "Process",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "IronSand": {
+      "ID": 303,
+      "IngredientList": [
+        {
+          "IngredientName": "IronIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "IronSand",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 30.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PlantAsh": {
+      "ID": 304,
+      "IngredientList": [
+        {
+          "IngredientName": "Sage",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PlantAsh",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SagePowder": {
+      "ID": 305,
+      "IngredientList": [
+        {
+          "IngredientName": "Sage",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SagePowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "HealingPotion": {
+      "ID": 306,
+      "IngredientList": [
+        {
+          "IngredientName": "SagePowder",
+          "Count": 6
+        },
+        {
+          "IngredientName": "FlaxFiber",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "HealingPotion",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Linen": {
+      "ID": 307,
+      "IngredientList": [
+        {
+          "IngredientName": "LinenThread",
+          "Count": 10
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Linen",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 5.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Bandage": {
+      "ID": 308,
+      "IngredientList": [
+        {
+          "IngredientName": "Linen",
+          "Count": 1
+        },
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Bandage",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Quicklime": {
+      "ID": 401,
+      "IngredientList": [
+        {
+          "IngredientName": "Stone",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Quicklime",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 9.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "QuicklimePowder": {
+      "ID": 402,
+      "IngredientList": [
+        {
+          "IngredientName": "Quicklime",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "QuicklimePowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 9.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Charcoal": {
+      "ID": 403,
+      "IngredientList": [
+        {
+          "IngredientName": "WoodBoard",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Charcoal",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CharcoalPowder": {
+      "ID": 404,
+      "IngredientList": [
+        {
+          "IngredientName": "Charcoal",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CharcoalPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "WoodPulley": {
+      "ID": 405,
+      "IngredientList": [
+        {
+          "IngredientName": "WoodBoard",
+          "Count": 2
+        },
+        {
+          "IngredientName": "LinenRope",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "WoodPulley",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Clay": {
+      "ID": 406,
+      "IngredientList": [
+        {
+          "IngredientName": "CharcoalPowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "Sand",
+          "Count": 4
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Clay",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "ClayPowder": {
+      "ID": 407,
+      "IngredientList": [
+        {
+          "IngredientName": "Clay",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "ClayPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Brick": {
+      "ID": 408,
+      "IngredientList": [
+        {
+          "IngredientName": "Clay",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Brick",
+        "Count": 1
+      },
+      "CraftType": "Fire",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LinseedOil": {
+      "ID": 409,
+      "IngredientList": [
+        {
+          "IngredientName": "Flax",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LinseedOil",
+        "Count": 20
+      },
+      "CraftType": "Extract",
+      "CraftingTime": 2.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "FruitWine": {
+      "ID": 410,
+      "IngredientList": [
+        {
+          "IngredientName": "Redcurrant",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "FruitWine",
+        "Count": 10
+      },
+      "CraftType": "Extract",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Limewater": {
+      "ID": 411,
+      "IngredientList": [
+        {
+          "IngredientName": "QuicklimePowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Limewater",
+        "Count": 30
+      },
+      "CraftType": "Extract",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Glass": {
+      "ID": 412,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Glass",
+        "Count": 1
+      },
+      "CraftType": "Fire",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Soap": {
+      "ID": 413,
+      "IngredientList": [
+        {
+          "IngredientName": "PlantAsh",
+          "Count": 3
+        },
+        {
+          "IngredientName": "LinseedOil",
+          "Count": 80
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Soap",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SoapPowder": {
+      "ID": 414,
+      "IngredientList": [
+        {
+          "IngredientName": "Soap",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SoapPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "VitalityPotion": {
+      "ID": 415,
+      "IngredientList": [
+        {
+          "IngredientName": "QuicklimePowder",
+          "Count": 4
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 80
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "VitalityPotion",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "BasicFertilizer": {
+      "ID": 416,
+      "IngredientList": [
+        {
+          "IngredientName": "PlantAsh",
+          "Count": 1
+        },
+        {
+          "IngredientName": "QuicklimePowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "BasicFertilizer",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "WhisperingFields": {
+      "ID": 417,
+      "IngredientList": [
+        {
+          "IngredientName": "LinseedOil",
+          "Count": 40
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 80
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "WhisperingFields",
+        "Count": 1
+      },
+      "CraftType": "LiquidTap",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Turquoise": {
+      "ID": 501,
+      "IngredientList": [
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 2
+        },
+        {
+          "IngredientName": "Sand",
+          "Count": 12
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Turquoise",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Jupiter": {
+      "ID": 502,
+      "IngredientList": [
+        {
+          "IngredientName": "WoodBoard",
+          "Count": 4
+        },
+        {
+          "IngredientName": "WoodGear",
+          "Count": 6
+        },
+        {
+          "IngredientName": "WoodPulley",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Jupiter",
+        "Count": 1
+      },
+      "CraftType": "Shaper",
+      "CraftingTime": 2.0,
+      "FractionNum": 300,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Coke": {
+      "ID": 503,
+      "IngredientList": [
+        {
+          "IngredientName": "CharcoalPowder",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Coke",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.5,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "Charcoal",
+        "Count": 2
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        0
+      ],
+      "CatalystCost": 1,
+      "UnstableSequence": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "CokePowder": {
+      "ID": 504,
+      "IngredientList": [
+        {
+          "IngredientName": "Coke",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CokePowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SteelIngot": {
+      "ID": 505,
+      "IngredientList": [
+        {
+          "IngredientName": "IronIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "CokePowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SteelIngot",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.75,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "IronIngot",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "CatalystCost": 4,
+      "UnstableSequence": [
+        1,
+        0
+      ]
+    },
+    "SteelGear": {
+      "ID": 506,
+      "IngredientList": [
+        {
+          "IngredientName": "SteelIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SteelGear",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 16.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "YeastPowder": {
+      "ID": 507,
+      "IngredientList": [
+        {
+          "IngredientName": "SoapPowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 40
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "YeastPowder",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "ManaPotion": {
+      "ID": 508,
+      "IngredientList": [
+        {
+          "IngredientName": "CokePowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "GloomSpores",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "ManaPotion",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GloomFungus": {
+      "ID": 509,
+      "IngredientList": [
+        {
+          "IngredientName": "RottenLog",
+          "Count": 5
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GloomFungus",
+        "Count": 1
+      },
+      "CraftType": "TableSaw",
+      "CraftingTime": 10.0,
+      "FractionNum": 40,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "WoodBoard",
+        "Count": 4
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GloomSpores": {
+      "ID": 510,
+      "IngredientList": [
+        {
+          "IngredientName": "GloomFungus",
+          "Count": 2
+        },
+        {
+          "IngredientName": "YeastPowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GloomSpores",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "AdvancedFertilizer": {
+      "ID": 511,
+      "IngredientList": [
+        {
+          "IngredientName": "BasicFertilizer",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GloomFungus",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "AdvancedFertilizer",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "ChamomilePowder": {
+      "ID": 601,
+      "IngredientList": [
+        {
+          "IngredientName": "Chamomile",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "ChamomilePowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sulfur": {
+      "ID": 602,
+      "IngredientList": [
+        {
+          "IngredientName": "Pyrite",
+          "Count": 4
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sulfur",
+        "Count": 1
+      },
+      "CraftType": "Smelter",
+      "CraftingTime": 24.0,
+      "FractionNum": 40,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "IronIngot",
+        "Count": 3
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SulfurPowder": {
+      "ID": 603,
+      "IngredientList": [
+        {
+          "IngredientName": "Sulfur",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SulfurPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Coal": {
+      "ID": 604,
+      "IngredientList": [
+        {
+          "IngredientName": "CoalOre",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Coal",
+        "Count": 1
+      },
+      "CraftType": "StoneCrusher",
+      "CraftingTime": 3.0,
+      "FractionNum": 120,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Salt": {
+      "ID": 605,
+      "IngredientList": [
+        {
+          "IngredientName": "CharcoalPowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "QuicklimePowder",
+          "Count": 4
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Salt",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.6666666666666667,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "Sand",
+        "Count": 6
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        1,
+        0
+      ],
+      "CatalystCost": 2,
+      "UnstableSequence": [
+        1,
+        0,
+        0
+      ]
+    },
+    "SaltWater": {
+      "ID": 606,
+      "IngredientList": [
+        {
+          "IngredientName": "Salt",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SaltWater",
+        "Count": 20
+      },
+      "CraftType": "Extract",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperPowder": {
+      "ID": 607,
+      "IngredientList": [
+        {
+          "IngredientName": "IronSand",
+          "Count": 4
+        },
+        {
+          "IngredientName": "SoapPowder",
+          "Count": 4
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperPowder",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperPowder2": {
+      "ID": 608,
+      "IngredientList": [
+        {
+          "IngredientName": "IronSand",
+          "Count": 6
+        },
+        {
+          "IngredientName": "SoapPowder",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperPowder2",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.5,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "CopperPowder",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        0
+      ],
+      "CatalystCost": 18,
+      "UnstableSequence": [
+        1,
+        1
+      ]
+    },
+    "BronzeIngot": {
+      "ID": 609,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "BronzeIngot",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperIngot": {
+      "ID": 610,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder2",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperIngot",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperCoin": {
+      "ID": 611,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperCoin",
+        "Count": 300
+      },
+      "CraftType": "Process",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperBearing": {
+      "ID": 612,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperBearing",
+        "Count": 2
+      },
+      "CraftType": "Process",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "BronzeRivet": {
+      "ID": 613,
+      "IngredientList": [
+        {
+          "IngredientName": "BronzeIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "BronzeRivet",
+        "Count": 3
+      },
+      "CraftType": "Process",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "BlackPowder": {
+      "ID": 614,
+      "IngredientList": [
+        {
+          "IngredientName": "SulfurPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "CharcoalPowder",
+          "Count": 12
+        },
+        {
+          "IngredientName": "Limewater",
+          "Count": 150
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "BlackPowder",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GrowthPotion": {
+      "ID": 615,
+      "IngredientList": [
+        {
+          "IngredientName": "ChamomilePowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "ClayPowder",
+          "Count": 6
+        },
+        {
+          "IngredientName": "SaltWater",
+          "Count": 80
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GrowthPotion",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Catalyst1": {
+      "ID": 616,
+      "IngredientList": [
+        {
+          "IngredientName": "ChamomilePowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "GloomSpores",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Catalyst1",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PocketWatch": {
+      "ID": 617,
+      "IngredientList": [
+        {
+          "IngredientName": "SteelGear",
+          "Count": 2
+        },
+        {
+          "IngredientName": "CopperBearing",
+          "Count": 2
+        },
+        {
+          "IngredientName": "Glass",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PocketWatch",
+        "Count": 1
+      },
+      "CraftType": "OmniCraft",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Malachite": {
+      "ID": 618,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "ClayPowder",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Malachite",
+        "Count": 1
+      },
+      "CraftType": "Athanor",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.5,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "Shard1",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        0
+      ],
+      "CatalystCost": 36,
+      "UnstableSequence": [
+        0,
+        0
+      ]
+    },
+    "ClockworkBird": {
+      "ID": 619,
+      "IngredientList": [
+        {
+          "IngredientName": "SteelIngot",
+          "Count": 6
+        },
+        {
+          "IngredientName": "SteelGear",
+          "Count": 2
+        },
+        {
+          "IngredientName": "Malachite",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "ClockworkBird",
+        "Count": 1
+      },
+      "CraftType": "OmniCraft",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Saturn": {
+      "ID": 620,
+      "IngredientList": [
+        {
+          "IngredientName": "Salt",
+          "Count": 6
+        },
+        {
+          "IngredientName": "Brick",
+          "Count": 6
+        },
+        {
+          "IngredientName": "Glass",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Saturn",
+        "Count": 1
+      },
+      "CraftType": "Shaper",
+      "CraftingTime": 3.0,
+      "FractionNum": 100,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Mars": {
+      "ID": 621,
+      "IngredientList": [
+        {
+          "IngredientName": "Nails",
+          "Count": 8
+        },
+        {
+          "IngredientName": "SteelGear",
+          "Count": 4
+        },
+        {
+          "IngredientName": "BronzeRivet",
+          "Count": 8
+        },
+        {
+          "IngredientName": "CopperBearing",
+          "Count": 4
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Mars",
+        "Count": 1
+      },
+      "CraftType": "Shaper",
+      "CraftingTime": 4.0,
+      "FractionNum": 75,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand2": {
+      "ID": 622,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand3": {
+      "ID": 623,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand4": {
+      "ID": 624,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand3",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand4",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand5": {
+      "ID": 625,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand4",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand5",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand6": {
+      "ID": 626,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand5",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand6",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand8": {
+      "ID": 627,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand6",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand8",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Shard1": {
+      "ID": 628,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand8",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Shard1",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Shard2": {
+      "ID": 629,
+      "IngredientList": [
+        {
+          "IngredientName": "Shard1",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Shard2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Shard3": {
+      "ID": 630,
+      "IngredientList": [
+        {
+          "IngredientName": "Shard2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Shard3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Crystal1": {
+      "ID": 631,
+      "IngredientList": [
+        {
+          "IngredientName": "Shard3",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Crystal1",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Crystal2": {
+      "ID": 632,
+      "IngredientList": [
+        {
+          "IngredientName": "Crystal1",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Crystal2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Crystal3": {
+      "ID": 633,
+      "IngredientList": [
+        {
+          "IngredientName": "Crystal2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Crystal3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Diamond1": {
+      "ID": 634,
+      "IngredientList": [
+        {
+          "IngredientName": "Crystal3",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Diamond1",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Diamond2": {
+      "ID": 635,
+      "IngredientList": [
+        {
+          "IngredientName": "Diamond1",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Diamond2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Diamond3": {
+      "ID": 636,
+      "IngredientList": [
+        {
+          "IngredientName": "Diamond2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Diamond3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "StrangeTide": {
+      "ID": 637,
+      "IngredientList": [
+        {
+          "IngredientName": "SaltWater",
+          "Count": 60
+        },
+        {
+          "IngredientName": "Limewater",
+          "Count": 90
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 180
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "StrangeTide",
+        "Count": 1
+      },
+      "CraftType": "LiquidTap",
+      "CraftingTime": 15.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LavenderEssentialOil": {
+      "ID": 701,
+      "IngredientList": [
+        {
+          "IngredientName": "Lavender",
+          "Count": 3
+        },
+        {
+          "IngredientName": "LinseedOil",
+          "Count": 120
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LavenderEssentialOil",
+        "Count": 15
+      },
+      "CraftType": "Distill",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Brandy": {
+      "ID": 702,
+      "IngredientList": [
+        {
+          "IngredientName": "CokePowder",
+          "Count": 5
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 100
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Brandy",
+        "Count": 40
+      },
+      "CraftType": "Distill",
+      "CraftingTime": 5.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SulfuricAcid": {
+      "ID": 703,
+      "IngredientList": [
+        {
+          "IngredientName": "SulfurPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "SaltWater",
+          "Count": 60
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SulfuricAcid",
+        "Count": 20
+      },
+      "CraftType": "Distill",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Topaz": {
+      "ID": 704,
+      "IngredientList": [
+        {
+          "IngredientName": "Shard1",
+          "Count": 1
+        },
+        {
+          "IngredientName": "SulfuricAcid",
+          "Count": 30
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Topaz",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "BlastPotion": {
+      "ID": 705,
+      "IngredientList": [
+        {
+          "IngredientName": "Mors",
+          "Count": 1
+        },
+        {
+          "IngredientName": "BlackPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Brandy",
+          "Count": 40
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "BlastPotion",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Catalyst2": {
+      "ID": 706,
+      "IngredientList": [
+        {
+          "IngredientName": "Catalyst1",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Vitae",
+          "Count": 1
+        },
+        {
+          "IngredientName": "LavenderEssentialOil",
+          "Count": 18
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Catalyst2",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PerfumedSoap": {
+      "ID": 707,
+      "IngredientList": [
+        {
+          "IngredientName": "SoapPowder",
+          "Count": 4
+        },
+        {
+          "IngredientName": "LavenderEssentialOil",
+          "Count": 30
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PerfumedSoap",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PerfumedSoapPowder": {
+      "ID": 708,
+      "IngredientList": [
+        {
+          "IngredientName": "PerfumedSoap",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PerfumedSoapPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Vitae": {
+      "ID": 709,
+      "IngredientList": [
+        {
+          "IngredientName": "Mors",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Vitae",
+        "Count": 1
+      },
+      "CraftType": "Paradox",
+      "CraftingTime": 5.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Venus": {
+      "ID": 710,
+      "IngredientList": [
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 1
+        },
+        {
+          "IngredientName": "VitalityPotion",
+          "Count": 1
+        },
+        {
+          "IngredientName": "ManaPotion",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GrowthPotion",
+          "Count": 1
+        },
+        {
+          "IngredientName": "BlastPotion",
+          "Count": 1
+        },
+        {
+          "IngredientName": "SulfuricAcid",
+          "Count": 20
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Venus",
+        "Count": 1
+      },
+      "CraftType": "AdShaper",
+      "CraftingTime": 6.0,
+      "FractionNum": 200,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LavenderDream": {
+      "ID": 711,
+      "IngredientList": [
+        {
+          "IngredientName": "LavenderEssentialOil",
+          "Count": 30
+        },
+        {
+          "IngredientName": "Brandy",
+          "Count": 120
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LavenderDream",
+        "Count": 1
+      },
+      "CraftType": "LiquidTap",
+      "CraftingTime": 18.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GentianPowder": {
+      "ID": 801,
+      "IngredientList": [
+        {
+          "IngredientName": "Gentian",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GentianPowder",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GentianNectar": {
+      "ID": 802,
+      "IngredientList": [
+        {
+          "IngredientName": "GentianSeed",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GentianNectar",
+        "Count": 80
+      },
+      "CraftType": "Plant",
+      "CraftingTime": 2160.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "Gentian",
+        "Count": 80
+      },
+      "bHideInGame": true,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverPowder": {
+      "ID": 803,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder2",
+          "Count": 2
+        },
+        {
+          "IngredientName": "BlackPowder",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverPowder",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 6.4,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverPowder2": {
+      "ID": 804,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverPowder2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverPowder3": {
+      "ID": 805,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder2",
+          "Count": 4
+        },
+        {
+          "IngredientName": "BlackPowder",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverPowder3",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 6.4,
+      "FractionNum": 1,
+      "FailRate1": 0.8,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "SilverPowder",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "CatalystCost": 150,
+      "UnstableSequence": [
+        1,
+        0
+      ]
+    },
+    "VolcanicAsh": {
+      "ID": 807,
+      "IngredientList": [
+        {
+          "IngredientName": "Obsidian",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "VolcanicAsh",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 24.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Obsidian": {
+      "ID": 806,
+      "IngredientList": [
+        {
+          "IngredientName": "Mors",
+          "Count": 2
+        },
+        {
+          "IngredientName": "Crystal1",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Obsidian",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.5,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "Marble",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        1,
+        0
+      ],
+      "CatalystCost": 420,
+      "UnstableSequence": [
+        0,
+        0
+      ]
+    },
+    "SilverIngot": {
+      "ID": 808,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder3",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverIngot",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 16.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverCoin": {
+      "ID": 809,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverCoin",
+        "Count": 5
+      },
+      "CraftType": "Process",
+      "CraftingTime": 16.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverAmulet": {
+      "ID": 810,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverIngot",
+          "Count": 2
+        },
+        {
+          "IngredientName": "LapisLazuli",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverAmulet",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Mercury": {
+      "ID": 811,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Vitae",
+          "Count": 1
+        },
+        {
+          "IngredientName": "SulfuricAcid",
+          "Count": 80
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Mercury",
+        "Count": 10
+      },
+      "CraftType": "AdDistill",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "AquaVitae": {
+      "ID": 812,
+      "IngredientList": [
+        {
+          "IngredientName": "GentianNectar",
+          "Count": 1
+        },
+        {
+          "IngredientName": "WorldTreeLeaf",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Brandy",
+          "Count": 200
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "AquaVitae",
+        "Count": 10
+      },
+      "CraftType": "AdDistill",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "LapisLazuli": {
+      "ID": 813,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder2",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Crystal1",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "LapisLazuli",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.3333333333333334,
+      "FailRate2": 0.3333333333333333,
+      "FailProduct1": {
+        "IngredientName": "Crystal1",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "Shard1",
+        "Count": 1
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        2,
+        1,
+        0
+      ],
+      "CatalystCost": 550,
+      "UnstableSequence": [
+        1,
+        0
+      ]
+    },
+    "MercuryP": {
+      "ID": 814,
+      "IngredientList": [
+        {
+          "IngredientName": "Turquoise",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Malachite",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Topaz",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Obsidian",
+          "Count": 1
+        },
+        {
+          "IngredientName": "LapisLazuli",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Mercury",
+          "Count": 10
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "MercuryP",
+        "Count": 1
+      },
+      "CraftType": "AdShaper",
+      "CraftingTime": 6.0,
+      "FractionNum": 100,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Catalyst3": {
+      "ID": 815,
+      "IngredientList": [
+        {
+          "IngredientName": "Catalyst2",
+          "Count": 1
+        },
+        {
+          "IngredientName": "VolcanicAsh",
+          "Count": 1
+        },
+        {
+          "IngredientName": "AquaVitae",
+          "Count": 12
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Catalyst3",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PanaceaElixir": {
+      "ID": 816,
+      "IngredientList": [
+        {
+          "IngredientName": "Catalyst2",
+          "Count": 3
+        },
+        {
+          "IngredientName": "BlastPotion",
+          "Count": 3
+        },
+        {
+          "IngredientName": "AquaVitae",
+          "Count": 12
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PanaceaElixir",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "WorldTreeVintage": {
+      "ID": 817,
+      "IngredientList": [
+        {
+          "IngredientName": "AquaVitae",
+          "Count": 20
+        },
+        {
+          "IngredientName": "FruitWine",
+          "Count": 380
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "WorldTreeVintage",
+        "Count": 1
+      },
+      "CraftType": "LiquidTap",
+      "CraftingTime": 24.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust": {
+      "ID": 901,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder3",
+          "Count": 0
+        },
+        {
+          "IngredientName": "VolcanicAsh",
+          "Count": 0
+        },
+        {
+          "IngredientName": "Mercury",
+          "Count": 11
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust2": {
+      "ID": 902,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldDust",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust3": {
+      "ID": 903,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder3",
+          "Count": 1
+        },
+        {
+          "IngredientName": "VolcanicAsh",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Mercury",
+          "Count": 18
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust3",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.30000000000000004,
+      "FailRate2": 0.6,
+      "FailProduct1": {
+        "IngredientName": "GoldDust2",
+        "Count": 1
+      },
+      "FailProduct2": {
+        "IngredientName": "GoldDust",
+        "Count": 1
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      "CatalystCost": 1000,
+      "UnstableSequence": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "GoldDust5": {
+      "ID": 904,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldDust3",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust5",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldIngot": {
+      "ID": 905,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldDust5",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldIngot",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 40.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldCoin": {
+      "ID": 906,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldCoin",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 40.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Crown": {
+      "ID": 907,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldIngot",
+          "Count": 3
+        },
+        {
+          "IngredientName": "Ruby",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Sapphire",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Crown",
+        "Count": 1
+      },
+      "CraftType": "OmniCraft",
+      "CraftingTime": 15.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Catalyst4": {
+      "ID": 908,
+      "IngredientList": [
+        {
+          "IngredientName": "Catalyst3",
+          "Count": 15
+        },
+        {
+          "IngredientName": "PhilosopherStone",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Catalyst4",
+        "Count": 1
+      },
+      "CraftType": "AdProcess",
+      "CraftingTime": 60.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "StarDust": {
+      "ID": 909,
+      "IngredientList": [
+        {
+          "IngredientName": "Jupiter",
+          "Count": 60
+        },
+        {
+          "IngredientName": "Saturn",
+          "Count": 20
+        },
+        {
+          "IngredientName": "Mars",
+          "Count": 15
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "StarDust",
+        "Count": 1
+      },
+      "CraftType": "AdProcess",
+      "CraftingTime": 60.0,
+      "FractionNum": 5,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "FairyDust": {
+      "ID": 910,
+      "IngredientList": [
+        {
+          "IngredientName": "ChamomilePowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GentianPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "WorldTreeLeaf",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "FairyDust",
+        "Count": 1
+      },
+      "CraftType": "AdProcess",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "FairyTear": {
+      "ID": 911,
+      "IngredientList": [
+        {
+          "IngredientName": "FairyDust",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "FairyTear",
+        "Count": 1
+      },
+      "CraftType": "Extract",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "MoonTear": {
+      "ID": 912,
+      "IngredientList": [
+        {
+          "IngredientName": "StarDust",
+          "Count": 1
+        },
+        {
+          "IngredientName": "FairyTear",
+          "Count": 18
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "MoonTear",
+        "Count": 1
+      },
+      "CraftType": "AdDistill",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "MoonlitSoap": {
+      "ID": 913,
+      "IngredientList": [
+        {
+          "IngredientName": "PerfumedSoapPowder",
+          "Count": 2
+        },
+        {
+          "IngredientName": "MoonTear",
+          "Count": 5
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "MoonlitSoap",
+        "Count": 1
+      },
+      "CraftType": "Blend",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Luna": {
+      "ID": 914,
+      "IngredientList": [
+        {
+          "IngredientName": "SteelIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "BronzeIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "CopperIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "SilverIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GoldIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "MoonTear",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Luna",
+        "Count": 1
+      },
+      "CraftType": "AdShaper",
+      "CraftingTime": 8.0,
+      "FractionNum": 75,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "AlchemistSigh": {
+      "ID": 915,
+      "IngredientList": [
+        {
+          "IngredientName": "MoonTear",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Mercury",
+          "Count": 20
+        },
+        {
+          "IngredientName": "Brandy",
+          "Count": 160
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "AlchemistSigh",
+        "Count": 1
+      },
+      "CraftType": "LiquidTap",
+      "CraftingTime": 32.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sol": {
+      "ID": 1001,
+      "IngredientList": [
+        {
+          "IngredientName": "Jupiter",
+          "Count": 60
+        },
+        {
+          "IngredientName": "Saturn",
+          "Count": 20
+        },
+        {
+          "IngredientName": "Mars",
+          "Count": 15
+        },
+        {
+          "IngredientName": "Venus",
+          "Count": 40
+        },
+        {
+          "IngredientName": "MercuryP",
+          "Count": 20
+        },
+        {
+          "IngredientName": "Luna",
+          "Count": 15
+        },
+        {
+          "IngredientName": "Diamond3",
+          "Count": 5
+        },
+        {
+          "IngredientName": "Catalyst4",
+          "Count": 1
+        },
+        {
+          "IngredientName": "WorldTreeCore",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sol",
+        "Count": 1
+      },
+      "CraftType": "AtShaper",
+      "CraftingTime": 60.0,
+      "FractionNum": 5,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Salt_Alt": {
+      "ID": 2001,
+      "IngredientList": [
+        {
+          "IngredientName": "RockSalt",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Salt",
+        "Count": 1
+      },
+      "CraftType": "StoneCrusher",
+      "CraftingTime": 6.0,
+      "FractionNum": 100,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "Sand",
+        "Count": 1
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Meteorite_Alt": {
+      "ID": 2002,
+      "IngredientList": [
+        {
+          "IngredientName": "Meteorite",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Stone",
+        "Count": 1
+      },
+      "CraftType": "StoneCrusher",
+      "CraftingTime": 3.0,
+      "FractionNum": 1000,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Coke_Alt": {
+      "ID": 2003,
+      "IngredientList": [
+        {
+          "IngredientName": "Coal",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Coke",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperPowder2_Alt": {
+      "ID": 2004,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperPowder",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperPowder2",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverPowder3_Alt": {
+      "ID": 2005,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverPowder2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverPowder3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 8.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust3_Alt": {
+      "ID": 2006,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldDust2",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust3",
+        "Count": 1
+      },
+      "CraftType": "Refine",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperIngot_Alt": {
+      "ID": 2007,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperCoin",
+          "Count": 400
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperIngot",
+        "Count": 1
+      },
+      "CraftType": "Fire",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverIngot_Alt": {
+      "ID": 2008,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverCoin",
+          "Count": 6
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverIngot",
+        "Count": 1
+      },
+      "CraftType": "Fire",
+      "CraftingTime": 16.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldIngot_Alt": {
+      "ID": 2009,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldCoin",
+          "Count": 3
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldIngot",
+        "Count": 2
+      },
+      "CraftType": "Fire",
+      "CraftingTime": 40.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "IronIngot_Alt": {
+      "ID": 2010,
+      "IngredientList": [
+        {
+          "IngredientName": "IronSand",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "IronIngot",
+        "Count": 1
+      },
+      "CraftType": "Calcinate",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperPowder2_Alt2": {
+      "ID": 2011,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperPowder2",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 12.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "SilverPowder3_Alt3": {
+      "ID": 2012,
+      "IngredientList": [
+        {
+          "IngredientName": "SilverIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "SilverPowder3",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 16.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust5_Alt": {
+      "ID": 2013,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldIngot",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust5",
+        "Count": 1
+      },
+      "CraftType": "Grind",
+      "CraftingTime": 40.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Shard1_Alt": {
+      "ID": 2014,
+      "IngredientList": [
+        {
+          "IngredientName": "QuartzOre",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Shard1",
+        "Count": 1
+      },
+      "CraftType": "StoneCrusher",
+      "CraftingTime": 6.0,
+      "FractionNum": 80,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Mors_Alt": {
+      "ID": 2015,
+      "IngredientList": [
+        {
+          "IngredientName": "Vitae",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Mors",
+        "Count": 1
+      },
+      "CraftType": "Paradox",
+      "CraftingTime": 5.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "PhilosopherStone_Alt": {
+      "ID": 2016,
+      "IngredientList": [
+        {
+          "IngredientName": "Ruby",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Sapphire",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Emerald",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "PhilosopherStone",
+        "Count": 1
+      },
+      "CraftType": "Cauldron",
+      "CraftingTime": 60.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Ruby_Alt": {
+      "ID": 2017,
+      "IngredientList": [
+        {
+          "IngredientName": "Diamond2",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GoldDust5",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Catalyst3",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Ruby",
+        "Count": 1
+      },
+      "CraftType": "Cauldron",
+      "CraftingTime": 30.9,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sapphire_Alt": {
+      "ID": 2018,
+      "IngredientList": [
+        {
+          "IngredientName": "Diamond3",
+          "Count": 1
+        },
+        {
+          "IngredientName": "WorldTreeCore",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Catalyst1",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sapphire",
+        "Count": 1
+      },
+      "CraftType": "Cauldron",
+      "CraftingTime": 38.2,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Emerald_Alt": {
+      "ID": 2019,
+      "IngredientList": [
+        {
+          "IngredientName": "MoonlitSoap",
+          "Count": 1
+        },
+        {
+          "IngredientName": "LapisLazuli",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Catalyst2",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Emerald",
+        "Count": 1
+      },
+      "CraftType": "Cauldron",
+      "CraftingTime": 45.5,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "IronAmulet": {
+      "ID": 9004,
+      "IngredientList": [
+        {
+          "IngredientName": "IronIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "LinenRope",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "IronAmulet",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "FineBandage": {
+      "ID": 9005,
+      "IngredientList": [
+        {
+          "IngredientName": "Linen",
+          "Count": 1
+        },
+        {
+          "IngredientName": "HealingPotion",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "FineBandage",
+        "Count": 2
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CopperAmulet": {
+      "ID": 9007,
+      "IngredientList": [
+        {
+          "IngredientName": "CopperIngot",
+          "Count": 1
+        },
+        {
+          "IngredientName": "Turquoise",
+          "Count": 1
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CopperAmulet",
+        "Count": 1
+      },
+      "CraftType": "Assemble",
+      "CraftingTime": 3.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Cart": {
+      "ID": 418,
+      "IngredientList": [
+        {
+          "IngredientName": "IronIngot",
+          "Count": 5
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Cart",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 30.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": false,
+      "bAlternate": false,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Amethyst": {
+      "ID": 9010,
+      "IngredientList": [
+        {
+          "IngredientName": "SulfurPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "ChamomilePowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "LavenderEssentialOil",
+          "Count": 100
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Amethyst",
+        "Count": 1
+      },
+      "CraftType": "AdAthanor",
+      "CraftingTime": 1.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "CharismaPotion": {
+      "ID": 9013,
+      "IngredientList": [
+        {
+          "IngredientName": "BlackPowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "PerfumedSoapPowder",
+          "Count": 3
+        },
+        {
+          "IngredientName": "Brandy",
+          "Count": 40
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "CharismaPotion",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 9.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sulfur_Alt": {
+      "ID": 9014,
+      "IngredientList": [
+        {
+          "IngredientName": "ChamomilePowder",
+          "Count": 1
+        },
+        {
+          "IngredientName": "CokePowder",
+          "Count": 3
+        },
+        {
+          "IngredientName": "SaltWater",
+          "Count": 180
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sulfur_Alt",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 6.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "Sand7": {
+      "ID": 9015,
+      "IngredientList": [
+        {
+          "IngredientName": "Sand6",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "Sand7",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 4.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "InvisbilityPotion": {
+      "ID": 9016,
+      "IngredientList": [
+        {
+          "IngredientName": "VolcanicAsh",
+          "Count": 1
+        },
+        {
+          "IngredientName": "GentianNectar",
+          "Count": 5
+        },
+        {
+          "IngredientName": "Mercury",
+          "Count": 15
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "InvisbilityPotion",
+        "Count": 1
+      },
+      "CraftType": "AdBlend",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    },
+    "GoldDust4": {
+      "ID": 9017,
+      "IngredientList": [
+        {
+          "IngredientName": "GoldDust3",
+          "Count": 2
+        }
+      ],
+      "ProductInfo": {
+        "IngredientName": "GoldDust4",
+        "Count": 1
+      },
+      "CraftType": "Process",
+      "CraftingTime": 10.0,
+      "FractionNum": 1,
+      "FailRate1": 0.0,
+      "FailRate2": 0.0,
+      "FailProduct1": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "FailProduct2": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "SideProduct": {
+        "IngredientName": "None",
+        "Count": 0
+      },
+      "bHideInGame": true,
+      "bAlternate": true,
+      "ProductSequence": [],
+      "CatalystCost": 0,
+      "UnstableSequence": []
+    }
+  }
+}

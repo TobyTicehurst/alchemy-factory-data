@@ -1,0 +1,69 @@
+{
+  "row_struct": "STintSample_SkinOverride",
+  "rows": {
+    "Light": {
+      "DisplayName_9_CDE9BCB341787D2AEA2FDEA31A8E4E90": "Light",
+      "ThumbnailColor_10_7E56D9F44D79D88476D05CB4C6D26FE9": {
+        "R": 0.625,
+        "G": 0.3667390048503876,
+        "B": 0.22812500596046448,
+        "A": 1.0
+      },
+      "SkinColorTint_14_72FDDE8C431A264FA2876DAA377A2EDE": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.0
+      },
+      "SkinRoughnessMultiplier_13_2A8C558B40D7AC48DE27E2A4E5DB059A": 1.0
+    },
+    "Dark": {
+      "DisplayName_9_CDE9BCB341787D2AEA2FDEA31A8E4E90": "Dark",
+      "ThumbnailColor_10_7E56D9F44D79D88476D05CB4C6D26FE9": {
+        "R": 0.109375,
+        "G": 0.057096000760793686,
+        "B": 0.030432000756263733,
+        "A": 0.8019999861717224
+      },
+      "SkinColorTint_14_72FDDE8C431A264FA2876DAA377A2EDE": {
+        "R": 0.17747800052165985,
+        "G": 0.2240000069141388,
+        "B": 0.08166699856519699,
+        "A": 0.656000018119812
+      },
+      "SkinRoughnessMultiplier_13_2A8C558B40D7AC48DE27E2A4E5DB059A": 1.0
+    },
+    "Black": {
+      "DisplayName_9_CDE9BCB341787D2AEA2FDEA31A8E4E90": "Black",
+      "ThumbnailColor_10_7E56D9F44D79D88476D05CB4C6D26FE9": {
+        "R": 0.019999999552965164,
+        "G": 0.008502000011503696,
+        "B": 0.0038560000248253345,
+        "A": 1.0
+      },
+      "SkinColorTint_14_72FDDE8C431A264FA2876DAA377A2EDE": {
+        "R": 0.15104199945926666,
+        "G": 0.068511001765728,
+        "B": 0.02710600011050701,
+        "A": 0.800000011920929
+      },
+      "SkinRoughnessMultiplier_13_2A8C558B40D7AC48DE27E2A4E5DB059A": 1.0
+    },
+    "Albino": {
+      "DisplayName_9_CDE9BCB341787D2AEA2FDEA31A8E4E90": "Albino",
+      "ThumbnailColor_10_7E56D9F44D79D88476D05CB4C6D26FE9": {
+        "R": 1.0,
+        "G": 0.837365984916687,
+        "B": 0.7561519742012024,
+        "A": 1.0
+      },
+      "SkinColorTint_14_72FDDE8C431A264FA2876DAA377A2EDE": {
+        "R": 1.5,
+        "G": 1.0499999523162842,
+        "B": 0.824999988079071,
+        "A": 1.0
+      },
+      "SkinRoughnessMultiplier_13_2A8C558B40D7AC48DE27E2A4E5DB059A": 1.0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "row_struct": "SupplyContractConfig",
+  "rows": {
+    "Bandage": {
+      "SellItem": {
+        "IngredientName": "Bandage",
+        "Count": 50
+      },
+      "ContractReward": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "DailyLimit": 16
+    },
+    "GloomSpores": {
+      "SellItem": {
+        "IngredientName": "GloomSpores",
+        "Count": 50
+      },
+      "ContractReward": {
+        "X": 0,
+        "Y": 18,
+        "Z": 0
+      },
+      "DailyLimit": 32
+    },
+    "PocketWatch": {
+      "SellItem": {
+        "IngredientName": "PocketWatch",
+        "Count": 20
+      },
+      "ContractReward": {
+        "X": 0,
+        "Y": 26,
+        "Z": 0
+      },
+      "DailyLimit": 48
+    },
+    "Catalyst2": {
+      "SellItem": {
+        "IngredientName": "Catalyst2",
+        "Count": 20
+      },
+      "ContractReward": {
+        "X": 0,
+        "Y": 60,
+        "Z": 0
+      },
+      "DailyLimit": 60
+    },
+    "SilverAmulet": {
+      "SellItem": {
+        "IngredientName": "SilverAmulet",
+        "Count": 10
+      },
+      "ContractReward": {
+        "X": 0,
+        "Y": 340,
+        "Z": 0
+      },
+      "DailyLimit": 48
+    },
+    "MoonlitSoap": {
+      "SellItem": {
+        "IngredientName": "MoonlitSoap",
+        "Count": 10
+      },
+      "ContractReward": {
+        "X": 60,
+        "Y": 0,
+        "Z": 0
+      },
+      "DailyLimit": 8
+    }
+  }
+}

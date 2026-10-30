@@ -1,0 +1,95 @@
+{
+  "row_struct": "PlantSeedConfig",
+  "rows": {
+    "FlaxSeed": {
+      "PlantName": "Flax",
+      "SideProductName": "None",
+      "GrowthSeconds": 400,
+      "GrowthNutrientValue": 24.0,
+      "GrowthNum": 200,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawFlax.SM_RawFlax"
+    },
+    "SageSeed": {
+      "PlantName": "Sage",
+      "SideProductName": "None",
+      "GrowthSeconds": 540,
+      "GrowthNutrientValue": 36.0,
+      "GrowthNum": 180,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawSage.SM_RawSage"
+    },
+    "RedcurrantSeed": {
+      "PlantName": "Redcurrant",
+      "SideProductName": "None",
+      "GrowthSeconds": 720,
+      "GrowthNutrientValue": 144.0,
+      "GrowthNum": 150,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawRedcurrant.SM_RawRedcurrant"
+    },
+    "ChamomileSeed": {
+      "PlantName": "Chamomile",
+      "SideProductName": "None",
+      "GrowthSeconds": 1120,
+      "GrowthNutrientValue": 720.0,
+      "GrowthNum": 140,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawChamomile.SM_RawChamomile"
+    },
+    "LavenderSeed": {
+      "PlantName": "Lavender",
+      "SideProductName": "None",
+      "GrowthSeconds": 1440,
+      "GrowthNutrientValue": 2160.0,
+      "GrowthNum": 120,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawLavender.SM_RawLavender"
+    },
+    "GentianSeed": {
+      "PlantName": "Gentian",
+      "SideProductName": "GentianNectar",
+      "GrowthSeconds": 2160,
+      "GrowthNutrientValue": 6000.0,
+      "GrowthNum": 80,
+      "SideGrowthNum": 80,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_RawGentian.SM_RawGentian"
+    },
+    "TreeStage1": {
+      "PlantName": "None",
+      "SideProductName": "None",
+      "GrowthSeconds": 4320,
+      "GrowthNutrientValue": 0.0,
+      "GrowthNum": 1,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_Yggdrasill_1.SM_Yggdrasill_1"
+    },
+    "TreeStage2": {
+      "PlantName": "WorldTreeLeaf",
+      "SideProductName": "None",
+      "GrowthSeconds": 4320,
+      "GrowthNutrientValue": 30000.0,
+      "GrowthNum": 99,
+      "SideGrowthNum": 0,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_Yggdrasill_2.SM_Yggdrasill_2"
+    },
+    "TreeStage3": {
+      "PlantName": "WorldTreeLeaf",
+      "SideProductName": "WorldTreeCore",
+      "GrowthSeconds": 4320,
+      "GrowthNutrientValue": 60000.0,
+      "GrowthNum": 99,
+      "SideGrowthNum": 1,
+      "SeedMesh": "/Game/Arts/Mesh/Ingredients/SM_Seedling.SM_Seedling",
+      "PlantMesh": "/Game/Arts/Mesh/Ingredients/SM_Yggdrasill_3.SM_Yggdrasill_3"
+    }
+  }
+}

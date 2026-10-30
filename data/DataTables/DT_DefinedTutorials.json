@@ -1,0 +1,431 @@
+{
+  "row_struct": "ST_TutorialData",
+  "rows": {
+    "BuyWood": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_PurchaseWoodLog.BP_PurchaseWoodLog_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator12",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Buy Logs from the merchant",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Wood"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Movement: <img id=\"Key_W\"/><img id=\"Key_A\"/><img id=\"Key_S\"/><img id=\"Key_D\"/>\r\nVisit the merchant to buy logs."
+    },
+    "BuyLand": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_HouseBoardIndicator.BP_HouseBoardIndicator_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator26",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Buy a plot of land.",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Room1_2"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "All plots with a \"For Sale\" sign are available for purchase."
+    },
+    "BuildWoodTable": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_MoveTarget.BP_MoveTarget_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 1945.0,
+        "Y": 2075.0,
+        "Z": 100.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator0",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Go to the yard",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Wooden Table",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "WoodTable"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Press <img id=\"Key_Q\"/> to open the Build panel.\r\nDrag build options to hotbar for quick access.\r\nIt's recommended to put devices on tables."
+    },
+    "ResearchTableSaw": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Table Saw",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "TableSaw"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Press <img id=\"Key_Z\"/> to open the Research panel.\r\nSelect table saw and begin research."
+    },
+    "BuildTableSaw": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_ProduceWoodBoard.BP_ProduceWoodBoard_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Table Saw",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "TableSaw"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator23",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Place logs into the table saw to produce planks.",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "WoodBoard"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Press <img id=\"Key_G\"/> over the Table Saw to add logs.\r\nAlternatively, interact with the Table Saw and drag logs into it."
+    },
+    "BuildGrinder": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_ProduceLargeWoodGear.BP_ProduceLargeWoodGear_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Grinder",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Grinder"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Conveyor Belt",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Belt"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator21",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Produce a Large Wooden Gear",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "LargeWoodGear"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Grinders auto-process Planks into Large Wooden Gears.\r\nThe grinder must be connected to conveyor belts to start working.\r\nPay attention to conveyor arrow directions.\r\nPress <img id=\"Key_O\"/> to view detailed conveyor tutorials."
+    },
+    "BuildSmallContainer": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_CollectLargeWoodGear.BP_CollectLargeWoodGear_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Small Storage Box",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "SmallContainer"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator19",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Collect 10 Large Wooden Gears",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "When building Small Storage Boxes, press <img id=\"Key_T\"/> to toggle their forms.\r\nInteract with the Small Storage Box to transfer items to your inventory.\r\nConsider building multiple grinders to improve efficiency."
+    },
+    "AccomplishMainQuest": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_MailBoxIndicator.BP_MailBoxIndicator_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator18",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Check the mailbox for the quest list",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator14",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete the main quests to increase Alchemy Level",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Main1"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Higher levels unlock new materials and technologies.\r\nThe mailbox also allows you to complete commissions and apply for loans."
+    },
+    "BuyLimestone": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_PurchaseLimestone.BP_PurchaseLimestone_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator12",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Buy Limestone from the merchant",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Limestone"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Stone crusher is another type of basic production device output."
+    },
+    "BuildStoneCrusher": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Stone Crusher",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "StoneCrusher"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Stone Crusher",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "StoneCrusher"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Stone crusher is another type of basic production device output."
+    },
+    "ProduceMortar": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Processor",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Processor"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Mortar Recipe",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Mortar"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator10",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Processor and set the recipe to Mortar",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Mortar"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Processors are advanced crafting devices requiring recipe setup.\r\nUnlock crafting recipes through research.\r\nPress <img id=\"Key_V\"/> to view all unlocked recipes."
+    },
+    "BuySeed": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_PurchaseFlaxSeed.BP_PurchaseFlaxSeed_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator12",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Buy Flax Seeds from the merchant",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "FlaxSeed"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Flax can be ground into flax fiber via a grinder.\r\nFlax Fiber is used to craft linen threads.\r\nPress <img id=\"Key_V\"/> to view detailed recipes."
+    },
+    "PlantFlax": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator7",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Complete research of Seed Plot",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "SeedPlot"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Seed Plot",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "SeedPlot"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator15",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Plant flax seeds in the Seed Plot",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "FlaxSeed"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Flax can be ground into flax fiber via a grinder.\r\nFlax Fiber is used to craft linen threads.\r\nPress <img id=\"Key_V\"/> to view detailed recipes."
+    },
+    "UnlockStand": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_WorkbenchIndicator.BP_WorkbenchIndicator_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator27",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Go to the Workbench and view the unlock list",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator28",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Unlock the Medium Shelf",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "MediumStand"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "The Workbench can unlock new building options."
+    },
+    "BuildStand": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 675.0,
+        "Y": 2125.0,
+        "Z": 125.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Build a Medium Shelf",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "MediumStand"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator16",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Assign a shelf to sell Mortar",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Mortar"
+        },
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator20",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Restock Mortar once",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "Mortar"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Hold <img id=\"Mouse_Left\"/> to restock manually.\r\nAlternatively, you can restock automatically via catapults."
+    },
+    "CheckoutOnce": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator17",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Process a customer checkout",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Customers will proceed to a checkout table after purchases.\r\nPurchase and install an Automatic Cashier to enable automatic checkout."
+    },
+    "ApplyRecognition": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": "/Game/Blueprints/Gameplay/Tutorials/Tasks/BP_RecognitionIndicator.BP_RecognitionIndicator_C",
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": null,
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator30",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Apply for Sundries Recognition I",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "GeneralGoodsLicense1"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": "Increasing your shop's Recognition level raises its reputation and attracts more customers."
+    },
+    "TutorialOver": {
+      "Title_7_D794DB134FB9218183759E956CB01945": "",
+      "Class_17_9B3770644D416EB3A1728AA31FBC9FD2": null,
+      "Widget_24_252CE68C42B072629A94D2B5DA6FCD0A": "/Game/Blueprints/Gameplay/Tutorials/UI/WBP_TutorialsOk.WBP_TutorialsOk_C",
+      "Position_21_9AC265734241B75DA9D13DB3EA8EF66E": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Tasks_13_15FE15904F430C2A54B39E8DDD5EDEAA": [
+        {
+          "type_7_76232DAD40E8EE0E16976789FE6559ED": "NewEnumerator6",
+          "value_1_C7D03F984D980375875C96912F9E47D3": false,
+          "text_4_10A6A2CC4FA43F6C56669DA1D9676446": "Begin your alchemy journey!",
+          "option_10_FC70DCF149B43E7B2A7B77818E51573B": "None"
+        }
+      ],
+      "HelpText_27_FAC3D7A44678C0A6DBE0EF8D9D7D3E56": ""
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "row_struct": "LicenseConfig",
+  "rows": {
+    "GeneralGoodsLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_GeneralGoodsLicense.T_UI_GeneralGoodsLicense",
+      "LicenseType": "General",
+      "LicenseTier": 1,
+      "UseSpecialText": false,
+      "LicenseText": "Sundries Recognition",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level2",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Mortar",
+          "TargetCount": 6
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 0,
+        "Z": 400
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "GeneralGoodsProfit1"
+    },
+    "GeneralGoodsLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_GeneralGoodsLicense.T_UI_GeneralGoodsLicense",
+      "LicenseType": "General",
+      "LicenseTier": 2,
+      "UseSpecialText": false,
+      "LicenseText": "Sundries Recognition",
+      "PreLicenseName": "GeneralGoodsLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Linen",
+          "TargetCount": 30
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 0,
+        "Z": 1600
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "GeneralGoodsProfit2"
+    },
+    "GeneralGoodsLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_GeneralGoodsLicense.T_UI_GeneralGoodsLicense",
+      "LicenseType": "General",
+      "LicenseTier": 3,
+      "UseSpecialText": false,
+      "LicenseText": "Sundries Recognition",
+      "PreLicenseName": "GeneralGoodsLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "WoodPulley",
+          "TargetCount": 200
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 0,
+        "Z": 3600
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "GeneralGoodsProfit3"
+    },
+    "GeneralGoodsLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_GeneralGoodsLicense.T_UI_GeneralGoodsLicense",
+      "LicenseType": "General",
+      "LicenseTier": 4,
+      "UseSpecialText": false,
+      "LicenseText": "Sundries Recognition",
+      "PreLicenseName": "GeneralGoodsLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Soap",
+          "TargetCount": 200
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 5,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "GeneralGoodsProfit4"
+    },
+    "GeneralGoodsLicense5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_GeneralGoodsLicense.T_UI_GeneralGoodsLicense",
+      "LicenseType": "General",
+      "LicenseTier": 5,
+      "UseSpecialText": false,
+      "LicenseText": "Sundries Recognition",
+      "PreLicenseName": "GeneralGoodsLicense4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Salt",
+          "TargetCount": 600
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 15,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "GeneralGoodsProfit5"
+    },
+    "ApothecaryLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_ApothecaryLicense.T_UI_ApothecaryLicense",
+      "LicenseType": "Potion",
+      "LicenseTier": 1,
+      "UseSpecialText": false,
+      "LicenseText": "Apothecary Recognition",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level3",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "HealingPotion",
+          "TargetCount": 100
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 0,
+        "Z": 2400
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "PotionProfit1"
+    },
+    "ApothecaryLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_ApothecaryLicense.T_UI_ApothecaryLicense",
+      "LicenseType": "Potion",
+      "LicenseTier": 2,
+      "UseSpecialText": false,
+      "LicenseText": "Apothecary Recognition",
+      "PreLicenseName": "ApothecaryLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "VitalityPotion",
+          "TargetCount": 100
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 8,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "PotionProfit2"
+    },
+    "ApothecaryLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_ApothecaryLicense.T_UI_ApothecaryLicense",
+      "LicenseType": "Potion",
+      "LicenseTier": 3,
+      "UseSpecialText": false,
+      "LicenseText": "Apothecary Recognition",
+      "PreLicenseName": "ApothecaryLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "ManaPotion",
+          "TargetCount": 100
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 18,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "PotionProfit3"
+    },
+    "ApothecaryLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_ApothecaryLicense.T_UI_ApothecaryLicense",
+      "LicenseType": "Potion",
+      "LicenseTier": 4,
+      "UseSpecialText": false,
+      "LicenseText": "Apothecary Recognition",
+      "PreLicenseName": "ApothecaryLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "GrowthPotion",
+          "TargetCount": 100
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 40,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "PotionProfit4"
+    },
+    "ApothecaryLicense5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_ApothecaryLicense.T_UI_ApothecaryLicense",
+      "LicenseType": "Potion",
+      "LicenseTier": 5,
+      "UseSpecialText": false,
+      "LicenseText": "Apothecary Recognition",
+      "PreLicenseName": "ApothecaryLicense4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "BlastPotion",
+          "TargetCount": 100
+        }
+      ],
+      "ApplyPrice": {
+        "X": 8,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "PotionProfit5"
+    },
+    "TavernLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_TavernLicense.T_UI_TavernLicense",
+      "LicenseType": "Tavern",
+      "LicenseTier": 1,
+      "UseSpecialText": false,
+      "LicenseText": "Tavern Recognition",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level4",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "WhisperingFields",
+          "TargetCount": 20
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 0,
+        "Z": 4800
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "LiquidProfit1"
+    },
+    "TavernLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_TavernLicense.T_UI_TavernLicense",
+      "LicenseType": "Tavern",
+      "LicenseTier": 2,
+      "UseSpecialText": false,
+      "LicenseText": "Tavern Recognition",
+      "PreLicenseName": "TavernLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "WhisperingFields",
+          "TargetCount": 150
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 12,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "LiquidProfit2"
+    },
+    "TavernLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_TavernLicense.T_UI_TavernLicense",
+      "LicenseType": "Tavern",
+      "LicenseTier": 3,
+      "UseSpecialText": false,
+      "LicenseText": "Tavern Recognition",
+      "PreLicenseName": "TavernLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "StrangeTide",
+          "TargetCount": 60
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 42,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "LiquidProfit3"
+    },
+    "TavernLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_TavernLicense.T_UI_TavernLicense",
+      "LicenseType": "Tavern",
+      "LicenseTier": 4,
+      "UseSpecialText": false,
+      "LicenseText": "Tavern Recognition",
+      "PreLicenseName": "TavernLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "LavenderDream",
+          "TargetCount": 60
+        }
+      ],
+      "ApplyPrice": {
+        "X": 12,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "LiquidProfit4"
+    },
+    "TavernLicense5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_TavernLicense.T_UI_TavernLicense",
+      "LicenseType": "Tavern",
+      "LicenseTier": 5,
+      "UseSpecialText": false,
+      "LicenseText": "Tavern Recognition",
+      "PreLicenseName": "TavernLicense4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "WorldTreeVintage",
+          "TargetCount": 60
+        }
+      ],
+      "ApplyPrice": {
+        "X": 60,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "LiquidProfit5"
+    },
+    "JewelleryLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_JewellerLicense.T_UI_JewellerLicense",
+      "LicenseType": "Jewellery",
+      "LicenseTier": 1,
+      "UseSpecialText": false,
+      "LicenseText": "Jeweller Recognition",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level5",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Turquoise",
+          "TargetCount": 40
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 8,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "JewelProfit1"
+    },
+    "JewelleryLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_JewellerLicense.T_UI_JewellerLicense",
+      "LicenseType": "Jewellery",
+      "LicenseTier": 2,
+      "UseSpecialText": false,
+      "LicenseText": "Jeweller Recognition",
+      "PreLicenseName": "JewelleryLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Malachite",
+          "TargetCount": 40
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 15,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "JewelProfit2"
+    },
+    "JewelleryLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_JewellerLicense.T_UI_JewellerLicense",
+      "LicenseType": "Jewellery",
+      "LicenseTier": 3,
+      "UseSpecialText": false,
+      "LicenseText": "Jeweller Recognition",
+      "PreLicenseName": "JewelleryLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Topaz",
+          "TargetCount": 40
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 60,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "JewelProfit3"
+    },
+    "JewelleryLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_JewellerLicense.T_UI_JewellerLicense",
+      "LicenseType": "Jewellery",
+      "LicenseTier": 4,
+      "UseSpecialText": false,
+      "LicenseText": "Jeweller Recognition",
+      "PreLicenseName": "JewelleryLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Obsidian",
+          "TargetCount": 40
+        }
+      ],
+      "ApplyPrice": {
+        "X": 3,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "JewelProfit4"
+    },
+    "JewelleryLicense5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_JewellerLicense.T_UI_JewellerLicense",
+      "LicenseType": "Jewellery",
+      "LicenseTier": 5,
+      "UseSpecialText": false,
+      "LicenseText": "Jeweller Recognition",
+      "PreLicenseName": "JewelleryLicense4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "LapisLazuli",
+          "TargetCount": 40
+        }
+      ],
+      "ApplyPrice": {
+        "X": 20,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "JewelProfit5"
+    },
+    "RelicTradingWarrant1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RelicTradingWarrant.T_UI_RelicTradingWarrant",
+      "LicenseType": "Relic",
+      "LicenseTier": 1,
+      "UseSpecialText": false,
+      "LicenseText": "Relic Recognition",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level5",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Jupiter",
+          "TargetCount": 5
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 30,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "RelicProfit1"
+    },
+    "RelicTradingWarrant2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RelicTradingWarrant.T_UI_RelicTradingWarrant",
+      "LicenseType": "Relic",
+      "LicenseTier": 2,
+      "UseSpecialText": false,
+      "LicenseText": "Relic Recognition",
+      "PreLicenseName": "RelicTradingWarrant1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Saturn",
+          "TargetCount": 5
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 150,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "RelicProfit2"
+    },
+    "RelicTradingWarrant3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RelicTradingWarrant.T_UI_RelicTradingWarrant",
+      "LicenseType": "Relic",
+      "LicenseTier": 3,
+      "UseSpecialText": false,
+      "LicenseText": "Relic Recognition",
+      "PreLicenseName": "RelicTradingWarrant2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Mars",
+          "TargetCount": 5
+        }
+      ],
+      "ApplyPrice": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "RelicProfit3"
+    },
+    "RelicTradingWarrant4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RelicTradingWarrant.T_UI_RelicTradingWarrant",
+      "LicenseType": "Relic",
+      "LicenseTier": 4,
+      "UseSpecialText": false,
+      "LicenseText": "Relic Recognition",
+      "PreLicenseName": "RelicTradingWarrant3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "Venus",
+          "TargetCount": 5
+        }
+      ],
+      "ApplyPrice": {
+        "X": 20,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "RelicProfit4"
+    },
+    "RelicTradingWarrant5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RelicTradingWarrant.T_UI_RelicTradingWarrant",
+      "LicenseType": "Relic",
+      "LicenseTier": 5,
+      "UseSpecialText": false,
+      "LicenseText": "Relic Recognition",
+      "PreLicenseName": "RelicTradingWarrant4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "SellAll",
+          "TargetName": "MercuryP",
+          "TargetCount": 5
+        }
+      ],
+      "ApplyPrice": {
+        "X": 500,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "RelicProfit5"
+    },
+    "MintingLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_MintingCharter.T_UI_MintingCharter",
+      "LicenseType": "Minting",
+      "LicenseTier": 1,
+      "UseSpecialText": true,
+      "LicenseText": "Copper Coin Mint License",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level6",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "CopperIngot",
+          "TargetCount": 200
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 100,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "CopperCoin",
+          "ConfigType": "CraftingRecipes"
+        },
+        {
+          "ConfigName": "CopperIngot_Alt",
+          "ConfigType": "CraftingRecipes"
+        }
+      ],
+      "UnlockBuff": "None"
+    },
+    "MintingLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_MintingCharter.T_UI_MintingCharter",
+      "LicenseType": "Minting",
+      "LicenseTier": 3,
+      "UseSpecialText": true,
+      "LicenseText": "Silver Coin Mint License",
+      "PreLicenseName": "MintingLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "CopperCoin",
+          "TargetCount": 200000
+        }
+      ],
+      "ApplyPrice": {
+        "X": 10,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "SilverCoin",
+          "ConfigType": "CraftingRecipes"
+        },
+        {
+          "ConfigName": "SilverIngot_Alt",
+          "ConfigType": "CraftingRecipes"
+        }
+      ],
+      "UnlockBuff": "None"
+    },
+    "MintingLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_MintingCharter.T_UI_MintingCharter",
+      "LicenseType": "Minting",
+      "LicenseTier": 5,
+      "UseSpecialText": true,
+      "LicenseText": "Gold Coin Mint License",
+      "PreLicenseName": "MintingLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "SilverCoin",
+          "TargetCount": 1000
+        }
+      ],
+      "ApplyPrice": {
+        "X": 120,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "GoldCoin",
+          "ConfigType": "CraftingRecipes"
+        },
+        {
+          "ConfigName": "GoldIngot_Alt",
+          "ConfigType": "CraftingRecipes"
+        }
+      ],
+      "UnlockBuff": "None"
+    },
+    "SupplierLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RoyalSupplierWarrant.T_UI_RoyalSupplierWarrant",
+      "LicenseType": "Supplier",
+      "LicenseTier": 1,
+      "UseSpecialText": true,
+      "LicenseText": "Licensed Supplier",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level5",
+      "RequestConditions": [
+        {
+          "Type": "ContractAll",
+          "TargetName": "Bandage",
+          "TargetCount": 2000
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 20,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "GloomSpores",
+          "ConfigType": "Contract"
+        }
+      ],
+      "UnlockBuff": "ContractProfit1"
+    },
+    "SupplierLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L2.T_UI_License_L2",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RoyalSupplierWarrant.T_UI_RoyalSupplierWarrant",
+      "LicenseType": "Supplier",
+      "LicenseTier": 2,
+      "UseSpecialText": true,
+      "LicenseText": "Guild Supplier",
+      "PreLicenseName": "SupplierLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ContractAll",
+          "TargetName": "GloomSpores",
+          "TargetCount": 4000
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 80,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "PocketWatch",
+          "ConfigType": "Contract"
+        }
+      ],
+      "UnlockBuff": "ContractProfit2"
+    },
+    "SupplierLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RoyalSupplierWarrant.T_UI_RoyalSupplierWarrant",
+      "LicenseType": "Supplier",
+      "LicenseTier": 3,
+      "UseSpecialText": true,
+      "LicenseText": "Court Supplier",
+      "PreLicenseName": "SupplierLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ContractAll",
+          "TargetName": "PocketWatch",
+          "TargetCount": 2400
+        }
+      ],
+      "ApplyPrice": {
+        "X": 2,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "Catalyst2",
+          "ConfigType": "Contract"
+        }
+      ],
+      "UnlockBuff": "ContractProfit3"
+    },
+    "SupplierLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RoyalSupplierWarrant.T_UI_RoyalSupplierWarrant",
+      "LicenseType": "Supplier",
+      "LicenseTier": 4,
+      "UseSpecialText": true,
+      "LicenseText": "Royal Supplier",
+      "PreLicenseName": "SupplierLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ContractAll",
+          "TargetName": "Catalyst2",
+          "TargetCount": 3200
+        }
+      ],
+      "ApplyPrice": {
+        "X": 16,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "SilverAmulet",
+          "ConfigType": "Contract"
+        }
+      ],
+      "UnlockBuff": "ContractProfit4"
+    },
+    "SupplierLicense5": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_RoyalSupplierWarrant.T_UI_RoyalSupplierWarrant",
+      "LicenseType": "Supplier",
+      "LicenseTier": 5,
+      "UseSpecialText": true,
+      "LicenseText": "Exclusive Royal Supplier",
+      "PreLicenseName": "SupplierLicense4",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ContractAll",
+          "TargetName": "SilverAmulet",
+          "TargetCount": 1200
+        }
+      ],
+      "ApplyPrice": {
+        "X": 120,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [
+        {
+          "ConfigName": "MoonlitSoap",
+          "ConfigType": "Contract"
+        }
+      ],
+      "UnlockBuff": "ContractProfit5"
+    },
+    "AlchemistLicense1": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L1.T_UI_License_L1",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_AlchemistCert.T_UI_AlchemistCert",
+      "LicenseType": "Alchemist",
+      "LicenseTier": 1,
+      "UseSpecialText": true,
+      "LicenseText": "Licensed Alchemist",
+      "PreLicenseName": "None",
+      "PreSkillName": "Level5",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "Soap",
+          "TargetCount": 500
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 5,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "StoreProfit1"
+    },
+    "AlchemistLicense2": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L3.T_UI_License_L3",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_AlchemistCert.T_UI_AlchemistCert",
+      "LicenseType": "Alchemist",
+      "LicenseTier": 3,
+      "UseSpecialText": true,
+      "LicenseText": "Adept Alchemist",
+      "PreLicenseName": "AlchemistLicense1",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "BlackPowder",
+          "TargetCount": 500
+        }
+      ],
+      "ApplyPrice": {
+        "X": 0,
+        "Y": 50,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "StoreProfit2"
+    },
+    "AlchemistLicense3": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L4.T_UI_License_L4",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_AlchemistCert.T_UI_AlchemistCert",
+      "LicenseType": "Alchemist",
+      "LicenseTier": 4,
+      "UseSpecialText": true,
+      "LicenseText": "Grandmaster Alchemist",
+      "PreLicenseName": "AlchemistLicense2",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "SilverPowder3",
+          "TargetCount": 500
+        }
+      ],
+      "ApplyPrice": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "StoreProfit3"
+    },
+    "AlchemistLicense4": {
+      "DisplayBackground": "/Game/Arts/UI/License/T_UI_License_L5.T_UI_License_L5",
+      "DisplayIcon": "/Game/Arts/UI/License/T_UI_AlchemistCert.T_UI_AlchemistCert",
+      "LicenseType": "Alchemist",
+      "LicenseTier": 5,
+      "UseSpecialText": true,
+      "LicenseText": "Legendary Alchemist",
+      "PreLicenseName": "AlchemistLicense3",
+      "PreSkillName": "None",
+      "RequestConditions": [
+        {
+          "Type": "ProduceAll",
+          "TargetName": "PhilosopherStone",
+          "TargetCount": 1
+        }
+      ],
+      "ApplyPrice": {
+        "X": 50,
+        "Y": 0,
+        "Z": 0
+      },
+      "UnlockItems": [],
+      "UnlockBuff": "StoreProfit4"
+    }
+  }
+}

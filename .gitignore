@@ -1,0 +1,3 @@
+# Only the mappings are uploaded; the other dumps (.jmap, UHTHeaderDump, CXXHeaderDump) stay local
+raw/*
+!raw/*.usmap

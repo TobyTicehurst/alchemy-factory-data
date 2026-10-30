@@ -1,0 +1,335 @@
+{
+  "row_struct": "AchievementConfig",
+  "rows": {
+    "Level2": {
+      "Type": "MainQuest",
+      "TargetName": "Main1",
+      "TargetNum": 1,
+      "AchievementStr": "ACH_MAIN_ONE"
+    },
+    "Level3": {
+      "Type": "MainQuest",
+      "TargetName": "Main2",
+      "TargetNum": 2,
+      "AchievementStr": "ACH_MAIN_TWO"
+    },
+    "Level4": {
+      "Type": "MainQuest",
+      "TargetName": "Main3",
+      "TargetNum": 3,
+      "AchievementStr": "ACH_MAIN_THREE"
+    },
+    "Level5": {
+      "Type": "MainQuest",
+      "TargetName": "Main4",
+      "TargetNum": 4,
+      "AchievementStr": "ACH_MAIN_FOUR"
+    },
+    "Level6": {
+      "Type": "MainQuest",
+      "TargetName": "Main5",
+      "TargetNum": 5,
+      "AchievementStr": "ACH_MAIN_FIVE"
+    },
+    "Level7": {
+      "Type": "MainQuest",
+      "TargetName": "Main6",
+      "TargetNum": 6,
+      "AchievementStr": "ACH_MAIN_SIX"
+    },
+    "Level8": {
+      "Type": "MainQuest",
+      "TargetName": "Main7",
+      "TargetNum": 7,
+      "AchievementStr": "ACH_MAIN_SEVEN"
+    },
+    "Level9": {
+      "Type": "MainQuest",
+      "TargetName": "Main8",
+      "TargetNum": 8,
+      "AchievementStr": "ACH_MAIN_EIGHT"
+    },
+    "Finish": {
+      "Type": "MainQuest",
+      "TargetName": "Main9",
+      "TargetNum": 9,
+      "AchievementStr": "ACH_MAIN_FINAL"
+    },
+    "FirstPotion": {
+      "Type": "FirstProduce",
+      "TargetName": "HealingPotion",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_POTION"
+    },
+    "FirstIron": {
+      "Type": "FirstProduce",
+      "TargetName": "IronIngot",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_IRON"
+    },
+    "FirstSteel": {
+      "Type": "FirstProduce",
+      "TargetName": "SteelIngot",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_STEEL"
+    },
+    "FirstCopper": {
+      "Type": "FirstProduce",
+      "TargetName": "CopperIngot",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_COPPER"
+    },
+    "FirstSilver": {
+      "Type": "FirstProduce",
+      "TargetName": "SilverIngot",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_SILVER"
+    },
+    "FirstGold": {
+      "Type": "FirstProduce",
+      "TargetName": "GoldIngot",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_GOLD"
+    },
+    "FirstJupiter": {
+      "Type": "FirstProduce",
+      "TargetName": "Jupiter",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_JUPITER"
+    },
+    "FirstSaturn": {
+      "Type": "FirstProduce",
+      "TargetName": "Saturn",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_SATURN"
+    },
+    "FirstMars": {
+      "Type": "FirstProduce",
+      "TargetName": "Mars",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_MARS"
+    },
+    "FirstVenus": {
+      "Type": "FirstProduce",
+      "TargetName": "Venus",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_VENUS"
+    },
+    "FirstMercury": {
+      "Type": "FirstProduce",
+      "TargetName": "MercuryP",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_MERCURY"
+    },
+    "FirstLuna": {
+      "Type": "FirstProduce",
+      "TargetName": "Luna",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_LUNA"
+    },
+    "FirstSol": {
+      "Type": "FirstProduce",
+      "TargetName": "Sol",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_SOL"
+    },
+    "FirstPhiStone": {
+      "Type": "FirstProduce",
+      "TargetName": "PhilosopherStone",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_PHI_STONE"
+    },
+    "FirstDiamond": {
+      "Type": "FirstProduce",
+      "TargetName": "Diamond3",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_DIAMOND"
+    },
+    "FirstCrown": {
+      "Type": "FirstProduce",
+      "TargetName": "Crown",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_CROWN"
+    },
+    "FirstCashier": {
+      "Type": "FirstBuild",
+      "TargetName": "AutoCheckout",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_CASHIER"
+    },
+    "FirstTree": {
+      "Type": "FirstBuild",
+      "TargetName": "WorldTreeNursery",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_TREE"
+    },
+    "MaxInventory": {
+      "Type": "CraftGear",
+      "TargetName": "Backpack6",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_GEAR_MAX_BAG"
+    },
+    "MaxBelt": {
+      "Type": "CraftGear",
+      "TargetName": "PotionBelt5",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_GEAR_MAX_BELT"
+    },
+    "MaxRep": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_CUSTOM_MAX_REP"
+    },
+    "FirstLand": {
+      "Type": "BuyLand",
+      "TargetName": "None",
+      "TargetNum": 2,
+      "AchievementStr": "ACH_LAND_TWO"
+    },
+    "AllNeighbour": {
+      "Type": "BuyLand",
+      "TargetName": "None",
+      "TargetNum": 6,
+      "AchievementStr": "ACH_LAND_SIX"
+    },
+    "AllLand": {
+      "Type": "BuyLand",
+      "TargetName": "None",
+      "TargetNum": 20,
+      "AchievementStr": "ACH_LAND_ALL"
+    },
+    "FinishNoShop": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FINISH_NO_SHOP"
+    },
+    "FinishNoLand": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FINISH_NO_LAND"
+    },
+    "FinishFast": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FINISH_FAST"
+    },
+    "FullYear": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_TIME_FULL_YEAR"
+    },
+    "ResearchCauldron": {
+      "Type": "FinishResearch",
+      "TargetName": "Cauldron",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_RESEARCH_CAULDRON"
+    },
+    "DailyMillion": {
+      "Type": "DailyIncome",
+      "TargetName": "None",
+      "TargetNum": 1000000,
+      "AchievementStr": "ACH_INCOME_TEN_MILLION"
+    },
+    "WoodProduction": {
+      "Type": "TotalProduce",
+      "TargetName": "WoodBoard",
+      "TargetNum": 1000000,
+      "AchievementStr": "ACH_PRODUCE_WOOD"
+    },
+    "SoapProduce": {
+      "Type": "TotalProduce",
+      "TargetName": "Soap",
+      "TargetNum": 1000000,
+      "AchievementStr": "ACH_PRODUCE_SOAP"
+    },
+    "CoinProduction": {
+      "Type": "TotalProduce",
+      "TargetName": "CopperCoin",
+      "TargetNum": 1000000,
+      "AchievementStr": "ACH_PRODUCE_COPPERCOIN"
+    },
+    "SideQuest": {
+      "Type": "SideQuest",
+      "TargetName": "None",
+      "TargetNum": 30,
+      "AchievementStr": "ACH_SIDE_QUEST_THIRTY"
+    },
+    "MaxHeightThermal": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 263,
+      "AchievementStr": "ACH_MAX_HEIGHT_THERMAL"
+    },
+    "CashierInCauldron": {
+      "Type": "Custom",
+      "TargetName": "CashRegister",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_CASHIER_IN_CAULDRON"
+    },
+    "WoodByCauldron": {
+      "Type": "Custom",
+      "TargetName": "WoodBoard",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_WOOD_BY_CAULDRON"
+    },
+    "WoodToMors": {
+      "Type": "Custom",
+      "TargetName": "WoodBoard",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_WOOD_TO_MORS"
+    },
+    "VitaeToMors": {
+      "Type": "Custom",
+      "TargetName": "Vitae",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_VITAE_TO_MORS"
+    },
+    "Level100": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_LEVEL_HUNDRED"
+    },
+    "AutoRestock": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_CATAPULT_AUTO_RESTOCK"
+    },
+    "FirstCheckout": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_CHECKOUT"
+    },
+    "FirstHarvest": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_HARVEST"
+    },
+    "BuyGridlock": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_BUY_GRIDLOCK"
+    },
+    "FirstFurnace": {
+      "Type": "Custom",
+      "TargetName": "None",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_FIRST_FURNACE"
+    },
+    "ResearchPipe": {
+      "Type": "FinishResearch",
+      "TargetName": "Pipe",
+      "TargetNum": 0,
+      "AchievementStr": "ACH_RESEARCH_PIPE"
+    }
+  }
+}

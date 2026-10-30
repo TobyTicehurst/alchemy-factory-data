@@ -1,0 +1,3525 @@
+{
+  "row_struct": "PipeMeshConfig",
+  "rows": {
+    "0": {
+      "Desc": "000000Invalid",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Straight.SM_Pipe_Straight",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "1": {
+      "Desc": "000001Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "2": {
+      "Desc": "000010Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "4": {
+      "Desc": "000100Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "8": {
+      "Desc": "001000Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "32": {
+      "Desc": "100000Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 270.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "16": {
+      "Desc": "010000Single",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Half.SM_Pipe_Half",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "5": {
+      "Desc": "000101Straight",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Straight.SM_Pipe_Straight",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "10": {
+      "Desc": "001010Straight",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Straight.SM_Pipe_Straight",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "48": {
+      "Desc": "110000Straight",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Vertical.SM_Pipe_Vertical",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "3": {
+      "Desc": "000011Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 270.0
+      }
+    },
+    "9": {
+      "Desc": "001001Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 270.0
+      }
+    },
+    "33": {
+      "Desc": "100001Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 180.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "17": {
+      "Desc": "010001Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "6": {
+      "Desc": "000110Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      }
+    },
+    "12": {
+      "Desc": "001100Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "36": {
+      "Desc": "100100Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    },
+    "20": {
+      "Desc": "010100Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "34": {
+      "Desc": "100010Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": -90.0
+      }
+    },
+    "18": {
+      "Desc": "010010Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "40": {
+      "Desc": "101000Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 180.0
+      }
+    },
+    "24": {
+      "Desc": "011000Turn",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Turn.SM_Pipe_Turn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "7": {
+      "Desc": "000111T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 90.0
+      }
+    },
+    "13": {
+      "Desc": "001101T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 90.0
+      }
+    },
+    "37": {
+      "Desc": "100101T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "21": {
+      "Desc": "010101T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "11": {
+      "Desc": "001011T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "14": {
+      "Desc": "001110T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      }
+    },
+    "42": {
+      "Desc": "101010T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "26": {
+      "Desc": "011010T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "49": {
+      "Desc": "110001T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "52": {
+      "Desc": "110100T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "50": {
+      "Desc": "110010T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "56": {
+      "Desc": "111000T",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_T.SM_Pipe_T",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "35": {
+      "Desc": "100011Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "19": {
+      "Desc": "010011Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": -90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "41": {
+      "Desc": "101001Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    },
+    "25": {
+      "Desc": "011001Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 180.0
+      }
+    },
+    "38": {
+      "Desc": "100110Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "22": {
+      "Desc": "010110Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 180.0
+      }
+    },
+    "44": {
+      "Desc": "101100Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "28": {
+      "Desc": "011100Corner",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Corner.SM_Pipe_Corner",
+      "Rotation": {
+        "Pitch": 270.0,
+        "Yaw": 270.0,
+        "Roll": 270.0
+      }
+    },
+    "15": {
+      "Desc": "001111Cross",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Cross.SM_Pipe_Cross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "53": {
+      "Desc": "110101Cross",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Cross.SM_Pipe_Cross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "58": {
+      "Desc": "111010Cross",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Cross.SM_Pipe_Cross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "39": {
+      "Desc": "100111Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "23": {
+      "Desc": "010111Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 270.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "45": {
+      "Desc": "101101Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 270.0
+      }
+    },
+    "29": {
+      "Desc": "011101Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 90.0
+      }
+    },
+    "43": {
+      "Desc": "101011Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 270.0
+      }
+    },
+    "27": {
+      "Desc": "011011Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "46": {
+      "Desc": "101110Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 90.0,
+        "Yaw": 0.0,
+        "Roll": 270.0
+      }
+    },
+    "30": {
+      "Desc": "011110Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      }
+    },
+    "51": {
+      "Desc": "110011Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "57": {
+      "Desc": "111001Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "54": {
+      "Desc": "110110Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "60": {
+      "Desc": "111100Quad",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quad.SM_Pipe_Quad",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "62": {
+      "Desc": "111110Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "59": {
+      "Desc": "111011Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "61": {
+      "Desc": "111101Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "55": {
+      "Desc": "110111Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": false,
+          "IsOutput": false,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "31": {
+      "Desc": "011111Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": false
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    },
+    "47": {
+      "Desc": "101111Quint",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": false,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Quint.SM_Pipe_Quint",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 270.0
+      }
+    },
+    "63": {
+      "Desc": "111111Sext",
+      "InOut": {
+        "InOutType": "Unknown",
+        "IsPipeGrid": true,
+        "PipeOverrideType": "InputAndOutput",
+        "MaxLiquidValue": 100.0,
+        "Color": {
+          "B": 255,
+          "G": 255,
+          "R": 0,
+          "A": 255
+        },
+        "position": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "OffsetOutput": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "Right": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Bottom": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Left": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Up": {
+          "IsInput": true,
+          "IsOutput": true,
+          "RailroadPortIndex": 0
+        },
+        "Vertical": {
+          "base": true,
+          "Top": true
+        }
+      },
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Pipe_Sext.SM_Pipe_Sext",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  }
+}

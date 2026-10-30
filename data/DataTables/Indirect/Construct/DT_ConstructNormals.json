@@ -1,0 +1,17 @@
+{
+  "row_struct": "ConstructNormalsConfig",
+  "rows": {
+    "0": {
+      "Buildings": [
+        "Floor_Wood"
+      ]
+    },
+    "1": {
+      "Buildings": [
+        "Wall_Wood",
+        "WallWithDoor_Wood",
+        "WallWithWindow_Wood"
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "row_struct": "LoanConfig",
+  "rows": {
+    "NewRow": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 7,
+      "LoanCurrency": {
+        "X": 0,
+        "Y": 0,
+        "Z": 6000
+      },
+      "CostRateRange": {
+        "X": 0.10000000149011612,
+        "Y": 0.10000000149011612
+      },
+      "UnlockLevel": 1
+    },
+    "NewRow_0": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 14,
+      "LoanCurrency": {
+        "X": 0,
+        "Y": 0,
+        "Z": 10000
+      },
+      "CostRateRange": {
+        "X": 0.1599999964237213,
+        "Y": 0.1599999964237213
+      },
+      "UnlockLevel": 2
+    },
+    "NewRow_1": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 20,
+      "LoanCurrency": {
+        "X": 0,
+        "Y": 0,
+        "Z": 25000
+      },
+      "CostRateRange": {
+        "X": 0.20000000298023224,
+        "Y": 0.20000000298023224
+      },
+      "UnlockLevel": 3
+    },
+    "NewRow_2": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 28,
+      "LoanCurrency": {
+        "X": 0,
+        "Y": 40,
+        "Z": 0
+      },
+      "CostRateRange": {
+        "X": 0.30000001192092896,
+        "Y": 0.30000001192092896
+      },
+      "UnlockLevel": 4
+    },
+    "NewRow_3": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 28,
+      "LoanCurrency": {
+        "X": 0,
+        "Y": 100,
+        "Z": 0
+      },
+      "CostRateRange": {
+        "X": 0.30000001192092896,
+        "Y": 0.30000001192092896
+      },
+      "UnlockLevel": 5
+    },
+    "NewRow_4": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 28,
+      "LoanCurrency": {
+        "X": 5,
+        "Y": 0,
+        "Z": 0
+      },
+      "CostRateRange": {
+        "X": 0.30000001192092896,
+        "Y": 0.30000001192092896
+      },
+      "UnlockLevel": 6
+    },
+    "NewRow_5": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 28,
+      "LoanCurrency": {
+        "X": 20,
+        "Y": 0,
+        "Z": 0
+      },
+      "CostRateRange": {
+        "X": 0.30000001192092896,
+        "Y": 0.30000001192092896
+      },
+      "UnlockLevel": 7
+    },
+    "NewRow_6": {
+      "Title": "Loans",
+      "Message": "",
+      "LoanDay": 28,
+      "LoanCurrency": {
+        "X": 100,
+        "Y": 0,
+        "Z": 0
+      },
+      "CostRateRange": {
+        "X": 0.30000001192092896,
+        "Y": 0.30000001192092896
+      },
+      "UnlockLevel": 8
+    }
+  }
+}

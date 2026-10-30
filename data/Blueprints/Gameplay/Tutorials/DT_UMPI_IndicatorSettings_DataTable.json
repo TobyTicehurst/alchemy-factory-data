@@ -1,0 +1,1171 @@
+{
+  "row_struct": "UMPI_IndicatorSettings_Struct",
+  "rows": {
+    "Preset_1": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": null,
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Arrow_11_Texture.UMPI_Arrow_11_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": null,
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Arrow_11_Texture.UMPI_Arrow_11_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 0.6583080291748047,
+          "G": 0.7860519886016846,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_2": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_7.UMPI_Demo_Arrow_MaterialInstance_7",
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Circle_4_Texture.UMPI_Circle_4_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_8.UMPI_Demo_Arrow_MaterialInstance_8",
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Arrow_4_Texture.UMPI_Arrow_4_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 0.879725992679596,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_3": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_2.UMPI_Demo_Arrow_MaterialInstance_2",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_1.UMPI_Demo_Arrow_MaterialInstance_1",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_4": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_3.UMPI_Demo_Arrow_MaterialInstance_3",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_9.UMPI_Demo_Arrow_MaterialInstance_9",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 0.0,
+          "G": 0.212676003575325,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_5": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_4.UMPI_Demo_Arrow_MaterialInstance_4",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_9.UMPI_Demo_Arrow_MaterialInstance_9",
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Circle_3_Texture.UMPI_Circle_3_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 0.013939999975264072,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_6": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_5.UMPI_Demo_Arrow_MaterialInstance_5",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_5.UMPI_Demo_Arrow_MaterialInstance_5",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_7": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_6.UMPI_Demo_Arrow_MaterialInstance_6",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_6.UMPI_Demo_Arrow_MaterialInstance_6",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": true,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_8": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_7.UMPI_Demo_Arrow_MaterialInstance_7",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_7.UMPI_Demo_Arrow_MaterialInstance_7",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_9": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_8.UMPI_Demo_Arrow_MaterialInstance_8",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/UniversalMPIndicator/UniversalMPIndicator/Materials/UMPI_Demo_Arrow_MaterialInstance_8.UMPI_Demo_Arrow_MaterialInstance_8",
+        "Screen_Texture": null,
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Preset_10": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": null,
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Circle_4_Texture.UMPI_Circle_4_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 0.0003800000122282654,
+          "B": 0.558908998966217,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": null,
+        "Screen_Texture": "/UniversalMPIndicator/UniversalMPIndicator/Textures/UMPI_Circle_4_Texture.UMPI_Circle_4_Texture",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 0.03963100165128708,
+          "B": 0.6895009875297546,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Engine/EngineFonts/Roboto.Roboto",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": true,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": true,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    },
+    "Main": {
+      "OnScreen_Texture_Settings": {
+        "Use_Material_Image": false,
+        "Material_Image": "/Game/Blueprints/Gameplay/Tutorials/Materials/MI_Indicator_Target.MI_Indicator_Target",
+        "Screen_Texture": "/Game/Arts/UI/Interaction/T_UI_Indicator_1.T_UI_Indicator_1",
+        "Screen_Indicator_Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "Screen_Indicator_Pivot": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        }
+      },
+      "OffScreen_Texture_Settings": {
+        "Use_Material_Image": true,
+        "Material_Image": "/Game/Blueprints/Gameplay/Tutorials/Materials/MI_Indicator_Arrow.MI_Indicator_Arrow",
+        "Screen_Texture": "/Game/Arts/UI/Interaction/T_UI_Indicator_2.T_UI_Indicator_2",
+        "Screen_Indicator_Size": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "Tint_Color": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0
+        },
+        "Screen_Margin": 0.0
+      },
+      "Arrive_Function": false,
+      "Distance_For_Arrive_Units": 300.0,
+      "Distance_Based_Visibility": 0.0,
+      "Life_Time": 0.0,
+      "Use_Z_Offset": true,
+      "Additional_Z_Offsett": 50.0,
+      "Indicator_Type": {
+        "Indicator_Type": "OP_Classic",
+        "Circle_Radius": 0.0
+      },
+      "EffectSettings": {
+        "Off_Rotation_Rule": "OP_Free",
+        "Distance_Text": {
+          "Show_Distance_Text": true,
+          "Font_Settings": {
+            "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+            "FontMaterial": null,
+            "OutlineSettings": {
+              "OutlineSize": 1,
+              "bMiteredCorners": false,
+              "bSeparateFillAlpha": false,
+              "bApplyOutlineToDropShadows": false,
+              "OutlineMaterial": null,
+              "OutlineColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+              }
+            },
+            "TypefaceFontName": "Regular",
+            "Size": 24.0,
+            "LetterSpacing": 0,
+            "SkewAmount": 0.0,
+            "bForceMonospaced": false,
+            "bMaterialIsStencil": false,
+            "MonospacedWidth": 1.0
+          },
+          "Text_Color": {
+            "R": 0.84375,
+            "G": 0.5971429944038391,
+            "B": 0.38773399591445923,
+            "A": 1.0
+          }
+        },
+        "OnScreenScaleSwift": {
+          "Use": false,
+          "Init_Scale": {
+            "X": 5.0,
+            "Y": 5.0
+          },
+          "Speed": 7.0,
+          "Do_Once": false
+        },
+        "OnScreen_Rotation": {
+          "Use": false,
+          "Rotation_Rate": 0.0
+        },
+        "OnScreenOpacity": {
+          "Use": false,
+          "Speed": 0.0,
+          "Do_Once": false
+        },
+        "OnScreenPulse": {
+          "Use": false,
+          "Speed": 3.0,
+          "Pulse_Scale_Limit": 0.800000011920929
+        }
+      }
+    }
+  }
+}

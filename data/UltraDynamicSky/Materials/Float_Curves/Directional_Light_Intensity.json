@@ -1,0 +1,77 @@
+{
+  "FloatCurve": {
+    "Keys": [
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.6100000143051147,
+        "Value": 1.0,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.4300000071525574,
+        "Value": 0.8999999761581421,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.33351096510887146,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.3335441052913666
+      },
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.2199999988079071,
+        "Value": 0.7000000476837158,
+        "ArriveTangent": -2.0770397186279297,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": -2.0770397186279297,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.10999999940395355,
+        "Value": 0.4361739456653595,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": -0.02199999988079071,
+        "Value": 0.14178870618343353,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.0,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.0
+      },
+      {
+        "InterpMode": "RCIM_Linear",
+        "TangentMode": "RCTM_Auto",
+        "TangentWeightMode": "RCTWM_WeightedNone",
+        "Time": 0.011251073330640793,
+        "Value": 3.4696359563213264e-08,
+        "ArriveTangent": 0.0,
+        "ArriveTangentWeight": 0.3333333432674408,
+        "LeaveTangent": 0.0,
+        "LeaveTangentWeight": 0.0
+      }
+    ],
+    "DefaultValue": null,
+    "PreInfinityExtrap": null,
+    "PostInfinityExtrap": null,
+    "KeyHandlesToIndices": null
+  },
+  "bIsEventCurve": null
+}

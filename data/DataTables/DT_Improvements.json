@@ -1,0 +1,3166 @@
+{
+  "row_struct": "BeltTDImprovementConfig",
+  "rows": {
+    "Bag1": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 4.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Bag2": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 4.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Bag3": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Bag4": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Bag5": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Bag6": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "InventoryCapacity",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer1": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer2": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer3": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer4": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer5": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer6": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer7": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer8": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer9": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer10": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer11": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer12": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics.T_UI_Upgrade_Logistics",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "Conveyer13": {
+      "DisplayName": "Logistics Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Logistics_2.T_UI_Upgrade_Logistics_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "ConveyerSpeed",
+          "ModificationType": "Add",
+          "ModValue": 3.0
+        },
+        {
+          "AttributeName": "ConveyerLiftSpeed",
+          "ModificationType": "Add",
+          "ModValue": 3.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency1": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency2": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency3": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency4": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency5": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency6": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency7": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency8": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency9": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency10": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency11": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency12": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel.T_UI_Upgrade_Fuel",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FuelEfficiency13": {
+      "DisplayName": "Fuel Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Fuel_2.T_UI_Upgrade_Fuel_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "FuelEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ActionSpeed1": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "SprintSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ActionSpeed2": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "SprintSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ActionSpeed3": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "SprintSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ActionSpeed4": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "SprintSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed1": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed2": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed3": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed4": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed5": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed6": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed7": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed8": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed9": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed10": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed11": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed12": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction.T_UI_Upgrade_RawProduction",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FactorySpeed13": {
+      "DisplayName": "Factory Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_RawProduction_2.T_UI_Upgrade_RawProduction_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "FactorySpeed",
+          "ModificationType": "Increase",
+          "ModValue": 5.0
+        },
+        {
+          "AttributeName": "FactoryConsumeSpeed",
+          "ModificationType": "Increase",
+          "ModValue": 5.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LevelReputation1": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation2": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation3": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation4": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation5": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation6": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation7": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation8": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation9": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "LevelReputation10": {
+      "DisplayName": "Inventory Expansion",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Bag.T_UI_Upgrade_Bag",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "FertilizeEfficiency1": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency2": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency3": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency4": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency5": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency6": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency7": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency8": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency9": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency10": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency11": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency12": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack.T_UI_Upgrade_Sack",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "FertilizeEfficiency13": {
+      "DisplayName": "Fertilizer Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sack_2.T_UI_Upgrade_Sack_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "FertilizerEfficiency",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill1": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill2": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill3": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill4": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill5": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill6": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill7": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill8": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill9": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill10": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill11": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill12": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor.T_UI_Upgrade_Athanor",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AlchemySkill13": {
+      "DisplayName": "Alchemy Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Athanor_2.T_UI_Upgrade_Athanor_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "AlembicSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        },
+        {
+          "AttributeName": "ExtractorSkill",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency1": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency2": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency3": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency4": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency5": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency6": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency7": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency8": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency9": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency10": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency11": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency12": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult.T_UI_Upgrade_Catapult",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 15.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 30.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ThrowingEfficiency13": {
+      "DisplayName": "Throwing Efficiency",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Catapult_2.T_UI_Upgrade_Catapult_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "CatapultSpeed",
+          "ModificationType": "Add",
+          "ModValue": 3.0
+        },
+        {
+          "AttributeName": "CannonSpeed",
+          "ModificationType": "Add",
+          "ModValue": 6.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill6": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill7": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill8": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill9": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill10": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill11": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill12": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale.T_UI_Upgrade_Sale",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BargainingSkill13": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Sale_2.T_UI_Upgrade_Sale_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "CustomerBuyNum",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "NegotiationSkill1": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill2": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill3": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill4": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill5": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill6": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill7": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill8": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill9": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill10": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill11": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill12": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations.T_UI_Upgrade_Negotiations",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "NegotiationSkill13": {
+      "DisplayName": "Negotiation Skill",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Negotiations_2.T_UI_Upgrade_Negotiations_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Increase",
+          "ModValue": 25.0
+        }
+      ],
+      "Deprecated": true
+    },
+    "QuestSkill1": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill2": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 6.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill3": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill4": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "ExtraQuest",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill5": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill6": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill7": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 12.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill8": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 12.0
+        },
+        {
+          "AttributeName": "ExtraQuest",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill9": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill10": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill11": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 20.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill12": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate.T_UI_Upgrade_Operate",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 20.0
+        },
+        {
+          "AttributeName": "ExtraQuest",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "QuestSkill13": {
+      "DisplayName": "Customer Management",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Operate_2.T_UI_Upgrade_Operate_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "QuestProfit",
+          "ModificationType": "Increase",
+          "ModValue": 20.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency1": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency2": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency3": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency4": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency5": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency6": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 6,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency7": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 7,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency8": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 8,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency9": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 9,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency10": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 10,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency11": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 11,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency12": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research.T_UI_Upgrade_Research",
+      "AllowRepeat": false,
+      "ImprovementLevel": 12,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "AltarEfficiency13": {
+      "DisplayName": "Relic Knowledge",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_Research_2.T_UI_Upgrade_Research_2",
+      "AllowRepeat": true,
+      "ImprovementLevel": 13,
+      "Effects": [
+        {
+          "AttributeName": "AltarEfficiency",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RestockSpeed1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "RestockSpeed",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RestockSpeed2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "RestockSpeed",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RestockSpeed3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "RestockSpeed",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RestockSpeed4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "RestockSpeed",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "SleepTime1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "SleepTime",
+          "ModificationType": "Add",
+          "ModValue": -2.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "SleepTime2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "SleepTime",
+          "ModificationType": "Add",
+          "ModValue": -2.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "SleepTime3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "SleepTime",
+          "ModificationType": "Add",
+          "ModValue": -2.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "SleepTime4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "SleepTime",
+          "ModificationType": "Add",
+          "ModValue": -2.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "UnlockBlueprintTool0": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 0,
+      "Effects": [
+        {
+          "AttributeName": "UnlockBlueprintTool",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "BlueprintCostMoney0": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 0,
+      "Effects": [
+        {
+          "AttributeName": "BlueprintCostMoney",
+          "ModificationType": "Add",
+          "ModValue": 1.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "GeneralGoodsProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "GeneralGoodsProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "GeneralGoodsProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "GeneralGoodsProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "GeneralGoodsProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "GeneralGoodsProfit",
+          "ModificationType": "Increase",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "GeneralGoodsProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "GeneralGoodsProfit",
+          "ModificationType": "Increase",
+          "ModValue": 18.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "GeneralGoodsProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "GeneralGoodsProfit",
+          "ModificationType": "Increase",
+          "ModValue": 22.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "PotionProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "PotionProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "PotionProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "PotionProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "PotionProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "PotionProfit",
+          "ModificationType": "Increase",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "PotionProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "PotionProfit",
+          "ModificationType": "Increase",
+          "ModValue": 18.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "PotionProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "PotionProfit",
+          "ModificationType": "Increase",
+          "ModValue": 22.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LiquidProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "LiquidProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LiquidProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "LiquidProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LiquidProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "LiquidProfit",
+          "ModificationType": "Increase",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LiquidProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "LiquidProfit",
+          "ModificationType": "Increase",
+          "ModValue": 18.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "LiquidProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "LiquidProfit",
+          "ModificationType": "Increase",
+          "ModValue": 22.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "JewelProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "JewelProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "JewelProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "JewelProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "JewelProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "JewelProfit",
+          "ModificationType": "Increase",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "JewelProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "JewelProfit",
+          "ModificationType": "Increase",
+          "ModValue": 18.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "JewelProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "JewelProfit",
+          "ModificationType": "Increase",
+          "ModValue": 22.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RelicProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "RelicProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RelicProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "RelicProfit",
+          "ModificationType": "Increase",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RelicProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "RelicProfit",
+          "ModificationType": "Increase",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RelicProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "RelicProfit",
+          "ModificationType": "Increase",
+          "ModValue": 18.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "RelicProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "StoreReputation",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        },
+        {
+          "AttributeName": "RelicProfit",
+          "ModificationType": "Increase",
+          "ModValue": 22.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "StoreProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "PortalTrafficRate",
+          "ModificationType": "Increase",
+          "ModValue": 30.0
+        },
+        {
+          "AttributeName": "StoreProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "StoreProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "PortalTrafficRate",
+          "ModificationType": "Increase",
+          "ModValue": 30.0
+        },
+        {
+          "AttributeName": "StoreProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "StoreProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "PortalTrafficRate",
+          "ModificationType": "Increase",
+          "ModValue": 40.0
+        },
+        {
+          "AttributeName": "StoreProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "StoreProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "PortalTrafficRate",
+          "ModificationType": "Increase",
+          "ModValue": 50.0
+        },
+        {
+          "AttributeName": "StoreProfit",
+          "ModificationType": "Increase",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ContractProfit1": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 1,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Add",
+          "ModValue": 60.0
+        },
+        {
+          "AttributeName": "ContractProfit",
+          "ModificationType": "Add",
+          "ModValue": 8.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ContractProfit2": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 2,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Add",
+          "ModValue": 60.0
+        },
+        {
+          "AttributeName": "ContractProfit",
+          "ModificationType": "Add",
+          "ModValue": 10.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ContractProfit3": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 3,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Add",
+          "ModValue": 60.0
+        },
+        {
+          "AttributeName": "ContractProfit",
+          "ModificationType": "Add",
+          "ModValue": 12.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ContractProfit4": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 4,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Add",
+          "ModValue": 60.0
+        },
+        {
+          "AttributeName": "ContractProfit",
+          "ModificationType": "Add",
+          "ModValue": 14.0
+        }
+      ],
+      "Deprecated": false
+    },
+    "ContractProfit5": {
+      "DisplayName": "Sales Ability",
+      "DisplayIcon": "/Game/Arts/UI/Interaction/T_UI_Upgrade_CashRegister.T_UI_Upgrade_CashRegister",
+      "AllowRepeat": false,
+      "ImprovementLevel": 5,
+      "Effects": [
+        {
+          "AttributeName": "ContractNum",
+          "ModificationType": "Add",
+          "ModValue": 60.0
+        },
+        {
+          "AttributeName": "ContractProfit",
+          "ModificationType": "Add",
+          "ModValue": 16.0
+        }
+      ],
+      "Deprecated": false
+    }
+  }
+}

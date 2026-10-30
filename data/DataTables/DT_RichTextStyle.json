@@ -1,0 +1,2969 @@
+{
+  "row_struct": "RichTextStyleRow",
+  "rows": {
+    "Red": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.75,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "White": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.84375,
+            "G": 0.5971429944038391,
+            "B": 0.38773399591445923,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Dark": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 24.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.02217400074005127,
+            "G": 0.03310500085353851,
+            "B": 0.05286100134253502,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Green24": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 24.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.20863699913024902,
+            "G": 0.7011020183563232,
+            "B": 0.08437599986791611,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Red24": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 24.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.5520830154418945,
+            "G": 0.08051200211048126,
+            "B": 0.08051200211048126,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Dark12": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 12.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.02217400074005127,
+            "G": 0.03310500085353851,
+            "B": 0.05286100134253502,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Dark16": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.02217400074005127,
+            "G": 0.03310500085353851,
+            "B": 0.05286100134253502,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Red16": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.75,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Green16": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 1,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.02217400074005127,
+              "G": 0.03310500085353851,
+              "B": 0.05286100134253502,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.20863699913024902,
+            "G": 0.7011020183563232,
+            "B": 0.08437599986791611,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "Yellow16": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 1,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.02217400074005127,
+              "G": 0.03310500085353851,
+              "B": 0.05286100134253502,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.84375,
+            "G": 0.5971429944038391,
+            "B": 0.38773399591445923,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "DarkGreen16": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 1,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.02217400074005127,
+              "G": 0.03310500085353851,
+              "B": 0.05286100134253502,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 16.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.15550699830055237,
+            "G": 0.5225690007209778,
+            "B": 0.06289000064134598,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    },
+    "DarkGreen24": {
+      "TextStyle": {
+        "Font": {
+          "FontObject": "/Game/UI/Fonts/NotoSans.NotoSans",
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 1,
+            "bMiteredCorners": false,
+            "bSeparateFillAlpha": false,
+            "bApplyOutlineToDropShadows": false,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.02217400074005127,
+              "G": 0.03310500085353851,
+              "B": 0.05286100134253502,
+              "A": 1.0
+            }
+          },
+          "TypefaceFontName": "Regular",
+          "Size": 24.0,
+          "LetterSpacing": 0,
+          "SkewAmount": 0.0,
+          "bForceMonospaced": false,
+          "bMaterialIsStencil": false,
+          "MonospacedWidth": 1.0
+        },
+        "ColorAndOpacity": {
+          "SpecifiedColor": {
+            "R": 0.15550699830055237,
+            "G": 0.5225690007209778,
+            "B": 0.06289000064134598,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "ShadowOffset": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "ShadowColorAndOpacity": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0
+        },
+        "SelectedBackgroundColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Foreground"
+        },
+        "HighlightColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0
+          },
+          "ColorUseRule": "UseColor_Specified"
+        },
+        "HighlightShape": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "StrikeBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "UnderlineBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0
+            },
+            "ColorUseRule": "UseColor_Specified"
+          },
+          "DrawAs": "Image",
+          "Tiling": "NoTile",
+          "Mirroring": "NoMirror",
+          "ImageType": "NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0
+              },
+              "ColorUseRule": "UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": false
+          },
+          "bIsDynamicallyLoaded": false,
+          "bHasUObject": null,
+          "ResourceName": "None"
+        },
+        "TransformPolicy": "None",
+        "OverflowPolicy": "Clip"
+      }
+    }
+  }
+}

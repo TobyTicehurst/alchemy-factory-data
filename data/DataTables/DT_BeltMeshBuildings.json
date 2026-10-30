@@ -1,0 +1,4622 @@
+{
+  "row_struct": "BeltMeshConfig",
+  "rows": {
+    "0": {
+      "Desc": "liro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "1": {
+      "Desc": "rilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "2": {
+      "Desc": "biuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "4": {
+      "Desc": "liro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "8": {
+      "Desc": "uibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "3": {
+      "Desc": "rbiluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "5": {
+      "Desc": "rlibuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "9": {
+      "Desc": "ruiblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "6": {
+      "Desc": "bliruo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "10": {
+      "Desc": "buirlo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "12": {
+      "Desc": "luirbo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "7": {
+      "Desc": "rbliuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "11": {
+      "Desc": "rbuilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "13": {
+      "Desc": "rluibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "14": {
+      "Desc": "bluiro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "15": {
+      "Desc": "rbluio",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "16": {
+      "Desc": "liro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "32": {
+      "Desc": "uibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "64": {
+      "Desc": "rilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "128": {
+      "Desc": "biuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "48": {
+      "Desc": "luirbo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "80": {
+      "Desc": "buirlo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "144": {
+      "Desc": "bliruo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "96": {
+      "Desc": "ruiblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "160": {
+      "Desc": "rlibuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "192": {
+      "Desc": "rbiluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "112": {
+      "Desc": "uirblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "176": {
+      "Desc": "lirbuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "208": {
+      "Desc": "birluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "224": {
+      "Desc": "ribluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "240": {
+      "Desc": "irbluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "33": {
+      "Desc": "ribo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn.SM_ConveyerTurn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "65": {
+      "Desc": "rilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "129": {
+      "Desc": "riuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn_Sym.SM_ConveyerTurn_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "18": {
+      "Desc": "biro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn_Sym.SM_ConveyerTurn_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "66": {
+      "Desc": "bilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn.SM_ConveyerTurn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "130": {
+      "Desc": "biuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "20": {
+      "Desc": "liro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "36": {
+      "Desc": "libo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn_Sym.SM_ConveyerTurn_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "132": {
+      "Desc": "liuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn.SM_ConveyerTurn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "24": {
+      "Desc": "uiro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn.SM_ConveyerTurn",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "40": {
+      "Desc": "uibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Conveyer.SM_Conveyer",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "72": {
+      "Desc": "uilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerTurn_Sym.SM_ConveyerTurn_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "97": {
+      "Desc": "riblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT_Sym.SM_ConveyerSplitT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "161": {
+      "Desc": "ribuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitY.SM_ConveyerSplitY",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "193": {
+      "Desc": "riluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT.SM_ConveyerSplitT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "82": {
+      "Desc": "birlo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitY.SM_ConveyerSplitY",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "146": {
+      "Desc": "biruo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT.SM_ConveyerSplitT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "194": {
+      "Desc": "biluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT_Sym.SM_ConveyerSplitT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "52": {
+      "Desc": "lirbo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT.SM_ConveyerSplitT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "148": {
+      "Desc": "liruo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT_Sym.SM_ConveyerSplitT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "164": {
+      "Desc": "libuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitY.SM_ConveyerSplitY",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "56": {
+      "Desc": "uirbo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT_Sym.SM_ConveyerSplitT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "88": {
+      "Desc": "uirlo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitY.SM_ConveyerSplitY",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "104": {
+      "Desc": "uiblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitT.SM_ConveyerSplitT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "225": {
+      "Desc": "ribluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "210": {
+      "Desc": "birluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "180": {
+      "Desc": "lirbuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "120": {
+      "Desc": "uirblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerSplitCross.SM_ConveyerSplitCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "22": {
+      "Desc": "bliro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT.SM_ConveyerT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "26": {
+      "Desc": "buiro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerMergeT.SM_ConveyerMergeT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "28": {
+      "Desc": "luiro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT_Sym.SM_ConveyerT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "37": {
+      "Desc": "rlibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerMergeT.SM_ConveyerMergeT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "41": {
+      "Desc": "ruibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT_Sym.SM_ConveyerT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "44": {
+      "Desc": "luibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT.SM_ConveyerT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "67": {
+      "Desc": "rbilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT_Sym.SM_ConveyerT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "73": {
+      "Desc": "ruilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT.SM_ConveyerT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "74": {
+      "Desc": "builo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerMergeT.SM_ConveyerMergeT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "131": {
+      "Desc": "rbiuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT.SM_ConveyerT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "133": {
+      "Desc": "rliuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerMergeT.SM_ConveyerMergeT",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "134": {
+      "Desc": "bliuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerT_Sym.SM_ConveyerT_Sym",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "30": {
+      "Desc": "bluiro",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "45": {
+      "Desc": "rluibo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "75": {
+      "Desc": "rbuilo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "135": {
+      "Desc": "rbliuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerCross.SM_ConveyerCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "195": {
+      "Desc": "rbiluo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    },
+    "150": {
+      "Desc": "bliruo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "60": {
+      "Desc": "luirbo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 270.0,
+        "Roll": 0.0
+      }
+    },
+    "105": {
+      "Desc": "ruiblo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendX.SM_ConveyerBlendX",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "165": {
+      "Desc": "rlibuo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    },
+    "90": {
+      "Desc": "buirlo",
+      "InOutList": [
+        {
+          "InOutType": "Belt",
+          "IsPipeGrid": false,
+          "PipeOverrideType": "InputAndOutput",
+          "MaxLiquidValue": 100.0,
+          "Color": {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 255
+          },
+          "position": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "OffsetOutput": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+          },
+          "Right": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Bottom": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Left": {
+            "IsInput": false,
+            "IsOutput": true,
+            "RailroadPortIndex": 0
+          },
+          "Up": {
+            "IsInput": true,
+            "IsOutput": false,
+            "RailroadPortIndex": 0
+          },
+          "Vertical": {
+            "base": false,
+            "Top": false
+          }
+        }
+      ],
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_ConveyerBlendCross.SM_ConveyerBlendCross",
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  }
+}

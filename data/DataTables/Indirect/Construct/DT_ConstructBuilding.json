@@ -1,0 +1,89 @@
+{
+  "row_struct": "ConstructBuildingConfig",
+  "rows": {
+    "0": {
+      "Stand": true,
+      "Size": {
+        "X": 11.0,
+        "Y": 11.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.0
+      },
+      "Horizontal": "WallHorizontal_Wood",
+      "Vertical": "WallVertical_Wood",
+      "Corner": "WallCorner_Wood"
+    },
+    "1": {
+      "Stand": false,
+      "Size": {
+        "X": 11.0,
+        "Y": 11.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Horizontal": "FloorEdge_Wood",
+      "Vertical": "FloorEdge_Wood",
+      "Corner": "FloorCorner_Wood"
+    },
+    "2": {
+      "Stand": false,
+      "Size": {
+        "X": 11.0,
+        "Y": 1.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Horizontal": "FloorEdge_Wood",
+      "Vertical": "FloorEdge_Wood",
+      "Corner": "FloorCorner_Wood"
+    },
+    "3": {
+      "Stand": true,
+      "Size": {
+        "X": 1.0,
+        "Y": 11.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.0
+      },
+      "Horizontal": "FloorEdge_Wood",
+      "Vertical": "FloorEdge_Wood",
+      "Corner": "FloorCorner_Wood"
+    },
+    "4": {
+      "Stand": false,
+      "Size": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Horizontal": "FloorEdge_Wood",
+      "Vertical": "FloorEdge_Wood",
+      "Corner": "FloorCorner_Wood"
+    },
+    "5": {
+      "Stand": false,
+      "Size": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "Anchor": {
+        "X": 0.5,
+        "Y": 0.5
+      },
+      "Horizontal": "FloorEdge_Wood",
+      "Vertical": "FloorEdge_Wood",
+      "Corner": "FloorCorner_Wood"
+    }
+  }
+}

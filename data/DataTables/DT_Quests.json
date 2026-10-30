@@ -1,0 +1,1195 @@
+{
+  "row_struct": "QuestConfig",
+  "rows": {
+    "Main1": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "LargeWoodGear"
+        ],
+        "Nums": [
+          20
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 400
+        },
+        "GoldFactor": 0.0,
+        "Products": [
+          {
+            "IngredientName": "Flax",
+            "Count": 200
+          }
+        ],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main2": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main1"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "LinenRope"
+        ],
+        "Nums": [
+          50
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 4500
+        },
+        "GoldFactor": 0.0,
+        "Products": [
+          {
+            "IngredientName": "IronOre",
+            "Count": 100
+          }
+        ],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main3": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main2"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "HealingPotion"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 18000
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main4": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main3"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "VitalityPotion"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 60,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main5": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main4"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "ManaPotion"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 120,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main6": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main5"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "GrowthPotion"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 200,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main7": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main6"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "BlastPotion"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 6,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main8": {
+      "Title": "Main Quest",
+      "Message": "An alchemist assessment issued by the Alchemy Association. Complete to increase your alchemy level.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main7"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "PanaceaElixir"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 80,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Main9": {
+      "Title": "Main Quest",
+      "Message": "The ultimate test of alchemy skill. Complete it to be promoted to Alchemy Master.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main8"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "Sol"
+        ],
+        "Nums": [
+          1
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 1000,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": true
+      },
+      "IsMain": true,
+      "Deprecated": false
+    },
+    "Carpenter1": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main1"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "WoodBoard"
+        ],
+        "Nums": [
+          200
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 600
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "WoodCrate"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Carpenter2": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Carpenter1"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "LargeWoodGear",
+          "WoodGear"
+        ],
+        "Nums": [
+          20,
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 1200
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "JunkBarrel"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Carpenter3": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Carpenter2",
+          "Main2"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "IronIngot",
+          "Nails"
+        ],
+        "Nums": [
+          20,
+          60
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 2200
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "Beam3"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Carpenter4": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Carpenter3",
+          "Main2"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "LinenRope",
+          "Linen"
+        ],
+        "Nums": [
+          30,
+          10
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 8500
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "WoodBed"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Carpenter5": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Carpenter4",
+          "Main3"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "WoodPulley"
+        ],
+        "Nums": [
+          100
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 16,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "WallShelf"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Carpenter6": {
+      "Title": "Carpenter Request",
+      "Message": "Materials request from the carpenter next door. Complete to unlock new building options.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Carpenter5",
+          "Main3"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "Brick",
+          "Glass"
+        ],
+        "Nums": [
+          60,
+          60
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 28,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "WoodRailing"
+        ],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "RandomUrgent": {
+      "Title": "Urgent Request",
+      "Message": "Urgent supply request from the lord with a generous reward. Must be completed before midnight.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main2"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 1.0,
+      "DateRange": {
+        "X": -1,
+        "Y": 0
+      },
+      "RequireProducts": {
+        "Items": [
+          "None"
+        ],
+        "Nums": [
+          0
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 2.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "RandomNormal": {
+      "Title": "Random Quest",
+      "Message": "Daily requests from merchants across the land.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main1"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 3.0,
+      "DateRange": {
+        "X": -1,
+        "Y": 2
+      },
+      "RequireProducts": {
+        "Items": [
+          "None",
+          "None"
+        ],
+        "Nums": [
+          0,
+          0,
+          0
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 1.2999999523162842,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "RandomBulk": {
+      "Title": "Bulk Order",
+      "Message": "A merchant vessel from a neighboring land lies in port, eager to fill its hold with goods.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": 3,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main2"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 1.0,
+      "DateRange": {
+        "X": -1,
+        "Y": 4
+      },
+      "RequireProducts": {
+        "Items": [
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Nums": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 1.600000023841858,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Contract1": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main3"
+        ],
+        "RequireContracts": []
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "Bandage"
+        ],
+        "Nums": [
+          50
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 12,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [
+          "Portal_Wholesaling"
+        ],
+        "Contracts": [
+          "Bandage"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": false
+    },
+    "Contract2": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main4",
+          "Contract3"
+        ],
+        "RequireContracts": [
+          {
+            "IngredientName": "Bandage",
+            "Count": 2000
+          }
+        ]
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "GloomSpores"
+        ],
+        "Nums": [
+          50
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 18,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [
+          "GloomSpores"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": true
+    },
+    "Contract3": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main5",
+          "Contract2"
+        ],
+        "RequireContracts": [
+          {
+            "IngredientName": "GloomSpores",
+            "Count": 5000
+          }
+        ]
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "PocketWatch"
+        ],
+        "Nums": [
+          20
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 26,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [
+          "PocketWatch"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": true
+    },
+    "Contract4": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main6",
+          "Contract3"
+        ],
+        "RequireContracts": [
+          {
+            "IngredientName": "PocketWatch",
+            "Count": 3000
+          }
+        ]
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "Catalyst2"
+        ],
+        "Nums": [
+          20
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 60,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [
+          "Catalyst2"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": true
+    },
+    "Contract5": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main7",
+          "Contract4"
+        ],
+        "RequireContracts": [
+          {
+            "IngredientName": "Catalyst2",
+            "Count": 4000
+          }
+        ]
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "SilverAmulet"
+        ],
+        "Nums": [
+          10
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 0,
+          "Y": 340,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [
+          "SilverAmulet"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": true
+    },
+    "Contract6": {
+      "Title": "Sample Request",
+      "Message": "In order to find a stable, long-term supplier of alchemy materials, the Trade Guild is gathering samples from various alchemy shops.",
+      "AutoAccept": true,
+      "Conditions": {
+        "DateRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "GameLevelRange": {
+          "X": -1,
+          "Y": -1
+        },
+        "RequireQuests": [
+          "Main8",
+          "Contract5"
+        ],
+        "RequireContracts": [
+          {
+            "IngredientName": "SilverAmulet",
+            "Count": 2000
+          }
+        ]
+      },
+      "RandomWeight": 0.0,
+      "DateRange": {
+        "X": -1,
+        "Y": -1
+      },
+      "RequireProducts": {
+        "Items": [
+          "MoonlitSoap"
+        ],
+        "Nums": [
+          10
+        ]
+      },
+      "Awards": {
+        "Gold": {
+          "X": 60,
+          "Y": 0,
+          "Z": 0
+        },
+        "GoldFactor": 0.0,
+        "Products": [],
+        "Buildings": [],
+        "Contracts": [
+          "MoonlitSoap"
+        ],
+        "LevelUp": false
+      },
+      "IsMain": false,
+      "Deprecated": true
+    }
+  }
+}

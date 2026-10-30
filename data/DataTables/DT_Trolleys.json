@@ -1,0 +1,33 @@
+{
+  "row_struct": "RailroadTrolleyConfig",
+  "rows": {
+    "Cart": {
+      "Name": "Wagon",
+      "Message": "Wagon",
+      "mesh": "/Game/Arts/Mesh/Facilities/SM_Trolley_2.SM_Trolley_2",
+      "Speed": 120.0,
+      "MinSpeed": 120.0,
+      "MaxSpeed": 120.0,
+      "CargoMesh": "/Game/Arts/Mesh/Ingredients/SM_Cargo.SM_Cargo",
+      "LiquidCargoMesh": "/Game/Arts/Mesh/Ingredients/SM_LiquidCargo.SM_LiquidCargo",
+      "CargoLocalTransform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "Translation": {
+          "X": 1.0,
+          "Y": 0.0,
+          "Z": 6.5
+        },
+        "Scale3D": {
+          "X": 0.7,
+          "Y": 0.7,
+          "Z": 0.7
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "row_struct": "BeltTDAttributeConfig",
+  "rows": {
+    "InventoryCapacity": {
+      "DisplayName": "Inventory Capacity",
+      "AttributeDesc": "",
+      "AttributeUnit": "",
+      "BaseValue": 24.0,
+      "UnlockAttribute": false
+    },
+    "SprintSpeed": {
+      "DisplayName": "Sprinting Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 700.0,
+      "UnlockAttribute": false
+    },
+    "StoreReputation": {
+      "DisplayName": "Shop Reputation",
+      "AttributeDesc": "",
+      "AttributeUnit": "",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "ConveyerSpeed": {
+      "DisplayName": "Conveyor Belt Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "/min",
+      "BaseValue": 60.0,
+      "UnlockAttribute": false
+    },
+    "FuelEfficiency": {
+      "DisplayName": "Fuel Heat Value",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "ResearchPoints": {
+      "DisplayName": "Research Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "FactorySpeed": {
+      "DisplayName": "Device Production Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "RestockSpeed": {
+      "DisplayName": "Restocking Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "/s",
+      "BaseValue": 5.0,
+      "UnlockAttribute": false
+    },
+    "ConveyerLiftSpeed": {
+      "DisplayName": "Conveyor Lifter Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "/min",
+      "BaseValue": 60.0,
+      "UnlockAttribute": false
+    },
+    "CheckoutSpeed": {
+      "DisplayName": "Checkout Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "/s",
+      "BaseValue": 1.0,
+      "UnlockAttribute": false
+    },
+    "SleepTime": {
+      "DisplayName": "Sleep Time",
+      "AttributeDesc": "",
+      "AttributeUnit": "hr",
+      "BaseValue": 8.0,
+      "UnlockAttribute": false
+    },
+    "FertilizerEfficiency": {
+      "DisplayName": "Fertilizer Nutrient Value",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "GarbageSellPrice": {
+      "DisplayName": "Trash Recycling Price",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "AthanorSkill": {
+      "DisplayName": "Athanor Failure Rate",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "UnlockBlueprintTool": {
+      "DisplayName": "Save Blueprint",
+      "AttributeDesc": "",
+      "AttributeUnit": "",
+      "BaseValue": 0.0,
+      "UnlockAttribute": true
+    },
+    "BlueprintCostMoney": {
+      "DisplayName": "Blueprints for Money",
+      "AttributeDesc": "",
+      "AttributeUnit": "",
+      "BaseValue": 0.0,
+      "UnlockAttribute": true
+    },
+    "ExtractorSkill": {
+      "DisplayName": "Extractor Output",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "AlembicSkill": {
+      "DisplayName": "Alembic Output",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "StoreProfit": {
+      "DisplayName": "Shop Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "CatapultSpeed": {
+      "DisplayName": "Catapult Fire Rate",
+      "AttributeDesc": "",
+      "AttributeUnit": "/min",
+      "BaseValue": 60.0,
+      "UnlockAttribute": false
+    },
+    "CannonSpeed": {
+      "DisplayName": "Cannon Fire Rate",
+      "AttributeDesc": "",
+      "AttributeUnit": "/min",
+      "BaseValue": 120.0,
+      "UnlockAttribute": false
+    },
+    "QuestProfit": {
+      "DisplayName": "Quest Rewards",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "AltarEfficiency": {
+      "DisplayName": "Relic Withdrawal Bonus",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "ContractNum": {
+      "DisplayName": "Purchase Contract Amount Bonus",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "ExtraQuest": {
+      "DisplayName": "Daily Random Quest",
+      "AttributeDesc": "",
+      "AttributeUnit": "",
+      "BaseValue": 1.0,
+      "UnlockAttribute": false
+    },
+    "CustomerBuyNum": {
+      "DisplayName": "Customer Purchase Increase",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "FactoryConsumeSpeed": {
+      "DisplayName": "Heat Consuming Speed",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "GeneralGoodsProfit": {
+      "DisplayName": "Sundries Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "PotionProfit": {
+      "DisplayName": "Potion Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "LiquidProfit": {
+      "DisplayName": "Beverage Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "JewelProfit": {
+      "DisplayName": "Jewelry Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "RelicProfit": {
+      "DisplayName": "Relic Profit",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    },
+    "ContractProfit": {
+      "DisplayName": "Purchase Contract Reward Bonus",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 0.0,
+      "UnlockAttribute": false
+    },
+    "PortalTrafficRate": {
+      "DisplayName": "Grand Portal Traffic Rate",
+      "AttributeDesc": "",
+      "AttributeUnit": "%",
+      "BaseValue": 100.0,
+      "UnlockAttribute": false
+    }
+  }
+}

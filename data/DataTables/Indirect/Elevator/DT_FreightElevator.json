@@ -1,0 +1,11 @@
+{
+  "row_struct": "FreightElevatorConfig",
+  "rows": {
+    "0": {
+      "BottomName": "FreightElevatorFrame_Bottom",
+      "MiddleName": "FreightElevatorFrame_Middle",
+      "TopName": "FreightElevatorFrame_Top",
+      "ElevatorName": "FreightElevator"
+    }
+  }
+}

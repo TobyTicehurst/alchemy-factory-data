@@ -1,0 +1,589 @@
+{
+  "row_struct": "WorkbenchConfig",
+  "rows": {
+    "WoodBlock": {
+      "UnlockSkillName": "TableSaw",
+      "UnlockCost": [],
+      "UnlockBuilding": "WoodBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TriangularWoodBlock": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "TriangularWoodBlock",
+      "PrerequisiteBuilding": "WoodBlock",
+      "ExtraUnlockBuildings": []
+    },
+    "WorkBench": {
+      "UnlockSkillName": "TableSaw",
+      "UnlockCost": [],
+      "UnlockBuilding": "WorkBench",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "CheckoutTable": {
+      "UnlockSkillName": "TableSaw",
+      "UnlockCost": [],
+      "UnlockBuilding": "CheckoutTable",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "BeltSlopeUp": {
+      "UnlockSkillName": "Belt",
+      "UnlockCost": [],
+      "UnlockBuilding": "BeltSlopeUp",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "BeltInclinedUp": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "BeltInclinedUp",
+      "PrerequisiteBuilding": "BeltSlopeUp",
+      "ExtraUnlockBuildings": []
+    },
+    "MediumStand": {
+      "UnlockSkillName": "TableSaw",
+      "UnlockCost": [],
+      "UnlockBuilding": "MediumStand",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "LargeStand": {
+      "UnlockSkillName": "TableSaw",
+      "UnlockCost": [],
+      "UnlockBuilding": "LargeStand",
+      "PrerequisiteBuilding": "MediumStand",
+      "ExtraUnlockBuildings": []
+    },
+    "Candle": {
+      "UnlockSkillName": "Grinder",
+      "UnlockCost": [],
+      "UnlockBuilding": "Candle",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "StoneBlock": {
+      "UnlockSkillName": "StoneCrusher",
+      "UnlockCost": [],
+      "UnlockBuilding": "StoneBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "WoodContainer": {
+      "UnlockSkillName": "WoodGear",
+      "UnlockCost": [],
+      "UnlockBuilding": "WoodContainer",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Catapult": {
+      "UnlockSkillName": "LinenRope",
+      "UnlockCost": [],
+      "UnlockBuilding": "Catapult",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Hopper": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "Hopper",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "IronBlock": {
+      "UnlockSkillName": "IronSmelter",
+      "UnlockCost": [],
+      "UnlockBuilding": "IronBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "FrameSingle": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "FrameSingle",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "IronStand": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "IronStand",
+      "PrerequisiteBuilding": "FrameSingle",
+      "ExtraUnlockBuildings": []
+    },
+    "PotionStand": {
+      "UnlockSkillName": "HealingPotion",
+      "UnlockCost": [],
+      "UnlockBuilding": "PotionStand",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "MetalContainer": {
+      "UnlockSkillName": "IronSmelter",
+      "UnlockCost": [],
+      "UnlockBuilding": "MetalContainer",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ConveyorTunnel": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "ConveyorTunnel",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Chandelier": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "Chandelier",
+      "PrerequisiteBuilding": "Candle",
+      "ExtraUnlockBuildings": []
+    },
+    "NoticeBoard": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "NoticeBoard",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Platform_Wood": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "Platform_Wood",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Stairs_Wood": {
+      "UnlockSkillName": "Nails",
+      "UnlockCost": [],
+      "UnlockBuilding": "Stairs_Wood",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "CrossTunnel": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "CrossTunnel",
+      "PrerequisiteBuilding": "ConveyorTunnel",
+      "ExtraUnlockBuildings": []
+    },
+    "Portal_AlchGuild": {
+      "UnlockSkillName": "Level4",
+      "UnlockCost": [],
+      "UnlockBuilding": "Portal_AlchGuild",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "JunkBarrel": {
+      "UnlockSkillName": "Level4",
+      "UnlockCost": [],
+      "UnlockBuilding": "JunkBarrel",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Portal_Bank": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "Portal_Bank",
+      "PrerequisiteBuilding": "Portal_AlchGuild",
+      "ExtraUnlockBuildings": []
+    },
+    "CharcoalBlock": {
+      "UnlockSkillName": "Crucible",
+      "UnlockCost": [],
+      "UnlockBuilding": "CharcoalBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Railroad": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "Railroad",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": [
+        "RailroadTurn",
+        "RailroadTwist"
+      ]
+    },
+    "RailroadRamp": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "RailroadRamp",
+      "PrerequisiteBuilding": "Railroad",
+      "ExtraUnlockBuildings": [
+        "RailroadInclientUp",
+        "RailroadInclientDown"
+      ]
+    },
+    "TrackMerger": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackMerger",
+      "PrerequisiteBuilding": "Railroad",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackFilter": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackFilter",
+      "PrerequisiteBuilding": "Railroad",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackStart": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackStart",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackEnd": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackEnd",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackUploader": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackUploader",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackDownloader": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackDownloader",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TrackTransfer": {
+      "UnlockSkillName": "Cart",
+      "UnlockCost": [],
+      "UnlockBuilding": "TrackTransfer",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "DrawBridge": {
+      "UnlockSkillName": "WoodPulley",
+      "UnlockCost": [],
+      "UnlockBuilding": "DrawBridge",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ExpandableDrawBridge": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "ExpandableDrawBridge",
+      "PrerequisiteBuilding": "DrawBridge",
+      "ExtraUnlockBuildings": []
+    },
+    "BrickBlock": {
+      "UnlockSkillName": "Brick",
+      "UnlockCost": [],
+      "UnlockBuilding": "BrickBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ConicalFlask": {
+      "UnlockSkillName": "Glass",
+      "UnlockCost": [],
+      "UnlockBuilding": "ConicalFlask",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "SphereFlask": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "SphereFlask",
+      "PrerequisiteBuilding": "ConicalFlask",
+      "ExtraUnlockBuildings": []
+    },
+    "GrandPortal": {
+      "UnlockSkillName": "Level5",
+      "UnlockCost": [],
+      "UnlockBuilding": "GrandPortal",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "BounceShroom": {
+      "UnlockSkillName": "Level5",
+      "UnlockCost": [],
+      "UnlockBuilding": "BounceShroom",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Filter_Vert": {
+      "UnlockSkillName": "Level5",
+      "UnlockCost": [],
+      "UnlockBuilding": "Filter_Vert",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Merger_Vert": {
+      "UnlockSkillName": "Level5",
+      "UnlockCost": [],
+      "UnlockBuilding": "Merger_Vert",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "Splitter_Vert": {
+      "UnlockSkillName": "Level5",
+      "UnlockCost": [],
+      "UnlockBuilding": "Splitter_Vert",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "JewelryStand": {
+      "UnlockSkillName": "Turquoise",
+      "UnlockCost": [],
+      "UnlockBuilding": "JewelryStand",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "RelicStandSmall": {
+      "UnlockSkillName": "Jupiter",
+      "UnlockCost": [],
+      "UnlockBuilding": "RelicStandSmall",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "KnowledgeAltar": {
+      "UnlockSkillName": "Jupiter",
+      "UnlockCost": [],
+      "UnlockBuilding": "KnowledgeAltar",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "MetalStand": {
+      "UnlockSkillName": "SteelIngot",
+      "UnlockCost": [],
+      "UnlockBuilding": "MetalStand",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ExpandableBeam": {
+      "UnlockSkillName": "SteelIngot",
+      "UnlockCost": [],
+      "UnlockBuilding": "ExpandableBeam",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "FreightElevatorFrame_Bottom": {
+      "UnlockSkillName": "SteelIngot",
+      "UnlockCost": [],
+      "UnlockBuilding": "FreightElevatorFrame_Bottom",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "LiftUploader": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "LiftUploader",
+      "PrerequisiteBuilding": "FreightElevatorFrame_Bottom",
+      "ExtraUnlockBuildings": [
+        "LiftWagonUploader"
+      ]
+    },
+    "LiftDownloader": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "LiftDownloader",
+      "PrerequisiteBuilding": "FreightElevatorFrame_Bottom",
+      "ExtraUnlockBuildings": [
+        "LiftWagonDownloader"
+      ]
+    },
+    "Cannon": {
+      "UnlockSkillName": "SteelGear",
+      "UnlockCost": [],
+      "UnlockBuilding": "Cannon",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ExpandableConveyorTunnel": {
+      "UnlockSkillName": "SteelGear",
+      "UnlockCost": [],
+      "UnlockBuilding": "ExpandableConveyorTunnel",
+      "PrerequisiteBuilding": "ExpandableBeam",
+      "ExtraUnlockBuildings": []
+    },
+    "EnhancedGrinder": {
+      "UnlockSkillName": "SteelGear",
+      "UnlockCost": [],
+      "UnlockBuilding": "EnhancedGrinder",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "ShrinkMachine": {
+      "UnlockSkillName": "ManaPotion",
+      "UnlockCost": [],
+      "UnlockBuilding": "ShrinkMachine",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniRailing": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniRailing",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniShroom": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniShroom",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniShop": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniShop",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniHouse": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniHouse",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniCityWall": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniCityWall",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "MiniWorldTree": {
+      "UnlockSkillName": "Level9",
+      "UnlockCost": [],
+      "UnlockBuilding": "MiniWorldTree",
+      "PrerequisiteBuilding": "ShrinkMachine",
+      "ExtraUnlockBuildings": []
+    },
+    "SmartCannon": {
+      "UnlockSkillName": "CopperBearing",
+      "UnlockCost": [],
+      "UnlockBuilding": "SmartCannon",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "SmartHopper": {
+      "UnlockSkillName": "CopperBearing",
+      "UnlockCost": [],
+      "UnlockBuilding": "SmartHopper",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "BronzeBlock": {
+      "UnlockSkillName": "CopperPowder2",
+      "UnlockCost": [],
+      "UnlockBuilding": "BronzeBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "CopperBlock": {
+      "UnlockSkillName": "CopperPowder2",
+      "UnlockCost": [],
+      "UnlockBuilding": "CopperBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "StackableCrucible": {
+      "UnlockSkillName": "BronzeRivet",
+      "UnlockCost": [],
+      "UnlockBuilding": "StackableCrucible",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "SmallPlatform": {
+      "UnlockSkillName": "BronzeRivet",
+      "UnlockCost": [],
+      "UnlockBuilding": "SmallPlatform",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "FlowerVase1": {
+      "UnlockSkillName": "Level7",
+      "UnlockCost": [],
+      "UnlockBuilding": "FlowerVase1",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "FlowerPot1": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "FlowerPot1",
+      "PrerequisiteBuilding": "FlowerVase1",
+      "ExtraUnlockBuildings": []
+    },
+    "FlowerBed1": {
+      "UnlockSkillName": "None",
+      "UnlockCost": [],
+      "UnlockBuilding": "FlowerBed1",
+      "PrerequisiteBuilding": "FlowerPot1",
+      "ExtraUnlockBuildings": []
+    },
+    "ThermalExtractor": {
+      "UnlockSkillName": "Alembic",
+      "UnlockCost": [],
+      "UnlockBuilding": "ThermalExtractor",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "MarbleBlock": {
+      "UnlockSkillName": "Obsidian",
+      "UnlockCost": [],
+      "UnlockBuilding": "MarbleBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "LicenseShowcase": {
+      "UnlockSkillName": "Obsidian",
+      "UnlockCost": [],
+      "UnlockBuilding": "LicenseShowcase",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "SilverBlock": {
+      "UnlockSkillName": "SilverPowder3",
+      "UnlockCost": [],
+      "UnlockBuilding": "SilverBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "LeafBlock": {
+      "UnlockSkillName": "WorldTreeNursery",
+      "UnlockCost": [
+        {
+          "IngredientName": "WorldTreeCore",
+          "Count": 1
+        }
+      ],
+      "UnlockBuilding": "LeafBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": [
+        "CoreBlock"
+      ]
+    },
+    "GoldBlock": {
+      "UnlockSkillName": "GoldDust3",
+      "UnlockCost": [],
+      "UnlockBuilding": "GoldBlock",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    },
+    "TreasureChest": {
+      "UnlockSkillName": "Crown",
+      "UnlockCost": [],
+      "UnlockBuilding": "TreasureChest",
+      "PrerequisiteBuilding": "None",
+      "ExtraUnlockBuildings": []
+    }
+  }
+}

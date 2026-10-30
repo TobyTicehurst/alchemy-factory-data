@@ -1,0 +1,720 @@
+{
+  "row_struct": "BeltTDInteractionInfo",
+  "rows": {
+    "Rotate": {
+      "DisplayName": "Rotate",
+      "Key": {
+        "KeyName": "R"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_RotateBuilding.IA_RotateBuilding",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "Cancel": {
+      "DisplayName": "Cancel",
+      "Key": {
+        "KeyName": "RightMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Cancel.IA_Cancel",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "Inspect": {
+      "DisplayName": "View {0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "Sleep": {
+      "DisplayName": "End Today",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "ConfirmDelete": {
+      "DisplayName": "Confirm",
+      "Key": {
+        "KeyName": "F"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ToggleConfirmDelete.IA_ToggleConfirmDelete",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "SwitchForm": {
+      "DisplayName": "Switch Form",
+      "Key": {
+        "KeyName": "T"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_AlterBuildOption.IA_AlterBuildOption",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "SplitStack": {
+      "DisplayName": "Split",
+      "Key": {
+        "KeyName": "RightMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Cancel.IA_Cancel",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "MoveStack": {
+      "DisplayName": "Move Stack",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_SelectBuilding.IA_SelectBuilding",
+      "Ctrl": false,
+      "Shift": true,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "MoveAll": {
+      "DisplayName": "Move All",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_SelectBuilding.IA_SelectBuilding",
+      "Ctrl": true,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "Grab": {
+      "DisplayName": "Get {0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "PickUp": {
+      "DisplayName": "Select",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_SelectBuilding.IA_SelectBuilding",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "SleepInBed": {
+      "DisplayName": "End Today",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "CheckOut": {
+      "DisplayName": "{0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Checkout.IA_Checkout",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "TakeBill": {
+      "DisplayName": "Get {0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Checkout.IA_Checkout",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "OpenStore": {
+      "DisplayName": "Open Shop",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "CloseStore": {
+      "DisplayName": "Close Shop",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "SetTarget": {
+      "DisplayName": "Set Target",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ChooseGoods": {
+      "DisplayName": "Choose Goods to Sell",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "Restock": {
+      "DisplayName": "Add {0}",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_RestockGoods.IA_RestockGoods",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "Buy": {
+      "DisplayName": "{0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "SetSeed": {
+      "DisplayName": "Use Seeds",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "Harvest": {
+      "DisplayName": "Harvest {0}",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "Growing": {
+      "DisplayName": "{0}",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null,
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": true
+    },
+    "AddMaterial": {
+      "DisplayName": "Add {0}",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "PickTarget": {
+      "DisplayName": "Confirm Target",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_SelectBuilding.IA_SelectBuilding",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "InspectPipe": {
+      "DisplayName": "Inspect Pipelines",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ReplaceGoods": {
+      "DisplayName": "Change Goods",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "UnlockHint": {
+      "DisplayName": "Unlocks at level {0}",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null,
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": true
+    },
+    "ShiftUp": {
+      "DisplayName": "Z Axis Up",
+      "Key": {
+        "KeyName": "Period"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ShiftUp.IA_ShiftUp",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "ShiftDown": {
+      "DisplayName": "Z Axis Down",
+      "Key": {
+        "KeyName": "Comma"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ShiftDown.IA_ShiftDown",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "PackBlueprint": {
+      "DisplayName": "Save as Blueprint",
+      "Key": {
+        "KeyName": "H"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_PackBlueprint.IA_PackBlueprint",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "CopyRecipe": {
+      "DisplayName": "Copy Recipe",
+      "Key": {
+        "KeyName": "Comma"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_CopyRecipe.IA_CopyRecipe",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "PasteRecipe": {
+      "DisplayName": "Paste Recipe",
+      "Key": {
+        "KeyName": "Period"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_PasteRecipe.IA_PasteRecipe",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "FastPlant": {
+      "DisplayName": "Quick Plant: {0}",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "CapsLock": {
+      "DisplayName": "Lock Z Axis",
+      "Key": {
+        "KeyName": "CapsLock"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_CapsLock.IA_CapsLock",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "UnlockZ": {
+      "DisplayName": "Unlock Z Axis",
+      "Key": {
+        "KeyName": "CapsLock"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_CapsLock.IA_CapsLock",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "BoxSelect": {
+      "DisplayName": "Area Select",
+      "Key": {
+        "KeyName": "LeftMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_BoxSelection.IA_BoxSelection",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "QuickDelete": {
+      "DisplayName": "Quick Delete",
+      "Key": {
+        "KeyName": "RightMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_IdelQuickDelete.IA_IdelQuickDelete",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": true,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "Duplicate": {
+      "DisplayName": "Quick Clone",
+      "Key": {
+        "KeyName": "MiddleMouseButton"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_IdelQuickClone.IA_IdelQuickClone",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "TakeAll": {
+      "DisplayName": "Take All",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "TakeProduct": {
+      "DisplayName": "Get {0}",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": true,
+      "HintText": false
+    },
+    "RestoreLastBlueprint": {
+      "DisplayName": "Restore Last Blueprint",
+      "Key": {
+        "KeyName": "R"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_CloneReuse.IA_CloneReuse",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "CutBuilding": {
+      "DisplayName": "Cut",
+      "Key": {
+        "KeyName": "T"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_CutConfirm.IA_CutConfirm",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "ConfirmClone": {
+      "DisplayName": "Confirm",
+      "Key": {
+        "KeyName": "F"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_ConfirmClone.IA_ConfirmClone",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "InspectRent": {
+      "DisplayName": "Inspect",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "SetColor": {
+      "DisplayName": "Set Color",
+      "Key": {
+        "KeyName": "R"
+      },
+      "InputAction": null,
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": false,
+      "RichText": false,
+      "HintText": false
+    },
+    "ClearCatapultTarget": {
+      "DisplayName": "Clear Target",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ShrinkMachine": {
+      "DisplayName": "Revert",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ElevatorOperator": {
+      "DisplayName": "Inspect",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ElevatorStationLever": {
+      "DisplayName": "Call Lift",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "DelElevatorStationLever": {
+      "DisplayName": "Remove Landing",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "StartTrolleyRide": {
+      "DisplayName": "Enter Track",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "ExitTrolleyRide": {
+      "DisplayName": "Leave Track",
+      "Key": {
+        "KeyName": "E"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Interaction.IA_Interaction",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    },
+    "WagonTag": {
+      "DisplayName": "{0}",
+      "Key": {
+        "KeyName": "None"
+      },
+      "InputAction": null,
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": true
+    },
+    "DeleteFreightStation": {
+      "DisplayName": "Remove Landing",
+      "Key": {
+        "KeyName": "G"
+      },
+      "InputAction": "/Game/Input/EnhancedInput/Actions_General/IA_Sleep.IA_Sleep",
+      "Ctrl": false,
+      "Shift": false,
+      "Hold": false,
+      "Center": true,
+      "RichText": false,
+      "HintText": false
+    }
+  }
+}
